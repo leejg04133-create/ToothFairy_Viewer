@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.00",
-  "file": "1.00/SkpViewportViewer.exe",
-  "sha256": "c6ca0250b3f520e47c5a3dcf6d53921e7c32363efe7b87856f86f5630676f924",
+  "version": "1.01",
+  "file": "1.01/SkpViewportViewer.exe",
+  "sha256": "33fa234b28c48b2a4e3194d67da4895f6a7501f218f81d7170a80a3ce68c9683",
   "size": 13061120,
-  "notes": "첫 배포 버전. 설치된 SketchUp 자동 연결, SDK UV·투명도 수정, GitHub 업데이트 연결."
+  "notes": "1.00 → 1.01 업데이트 동작 시험용 버전. 버전 표시 1.01 반영. 코드 서명 미적용: Windows 스마트 앱 컨트롤 차단 해결 버전이 아닙니다."
 }
