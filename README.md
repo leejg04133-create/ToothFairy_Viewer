@@ -1,6 +1,7 @@
-# ToothFairy_Viewer 1.00 — GitHub 연결 전 준비본
+# ToothFairy_Viewer 1.00 — GitHub 연결본
 
-현재는 로컬 배포 폴더만 준비되어 있습니다. 원격 GitHub 저장소 생성, Push, 자동 업데이트 서버 연결은 하지 않았습니다.
+업데이트 주소를 실행 파일에 내장했습니다: https://raw.githubusercontent.com/leejg04133-create/ToothFairy_Viewer/main/latest.json
+실제 서버의 1.00 정보 확인을 검증했습니다. 이번에 변경된 EXE와 latest.json은 GitHub Desktop에서 Commit → Push origin해야 온라인에도 반영됩니다.
 
 ## 현재 파일
 
@@ -10,16 +11,14 @@
 
 실행 파일은 기존 R6처럼 설치된 호환 SketchUp을 자동으로 찾습니다. SDK DLL을 AppData에 추출하지 않습니다. 업데이트 기능 자체도 서버 주소가 비어 있을 때는 인터넷 요청을 하지 않습니다.
 
-## 나중에 GitHub Desktop에서 할 순서
+## 최초 연결본 게시
 
-1. File → New repository에서 이름을 `ToothFairy_Viewer`, Local path를 `C:\Users\leejg\Documents\GitHub`로 지정합니다. 준비된 같은 이름의 폴더를 사용하고, 한 단계 안쪽에 같은 이름의 폴더를 다시 만들지 않습니다.
-2. Changes에서 배포 파일과 설명만 포함됐는지 확인하고 Commit합니다. GitHub Desktop이 이미 첫 커밋을 만든 경우에는 남은 변경만 Commit하면 됩니다.
-3. Publish repository를 누릅니다. 토큰 없는 다운로드를 사용할 계획이면 `Keep this code private`를 해제하고 배포 파일 전용 공개 저장소로 게시합니다. 소스 코드 저장소를 공개할 필요는 없습니다.
-4. 실제 저장소 주소와 기본 브랜치를 확인합니다. GitHub Pages 설정은 필요하지 않습니다.
-5. 개발 쪽에서 `src/ViewerUpdate.hpp`의 빈 `manifestEndpoint`에 `https://raw.githubusercontent.com/계정/ToothFairy_Viewer/main/latest.json` 형태의 실제 주소를 넣고 다시 빌드합니다. 연결 후에는 1.00 파일과 manifest 해시도 함께 다시 생성합니다. 준비본을 최종 연결본으로 착각해 먼저 배포하지 마세요.
-6. 연결된 첫 EXE를 사용자에게 전달합니다. 연결 전 EXE는 스스로 원격 주소를 알 수 없으므로 한 번 교체해야 합니다.
+1. GitHub Desktop에서 `ToothFairy_Viewer` 저장소를 선택합니다.
+2. 변경된 파일들을 `1.00 업데이트 서버 연결`이라는 메시지로 Commit to main합니다.
+3. 상단 Push origin을 누릅니다. GitHub Pages 설정은 필요하지 않습니다.
+4. `1.00/SkpViewportViewer.exe`를 사용자에게 전달합니다. 연결 전 EXE는 스스로 원격 주소를 알 수 없으므로 이번 한 번은 교체해야 합니다.
 
-최종 URL은 게시 후 확인합니다. 사용자에게 GitHub 로그인이나 토큰을 요구하지 않습니다. 공개 파일 다운로드와 유료 제품 인증은 별도입니다.
+사용자에게 GitHub 로그인이나 토큰을 요구하지 않습니다. 공개 파일 다운로드와 유료 제품 인증은 별도입니다.
 
 ## 이후 1.01 배포
 
@@ -38,4 +37,4 @@
 
 ## 확인한 범위
 
-로컬 테스트에서 버전 비교, 같은/낮은 버전 차단, 잘못된 상대 경로 차단, 손상된 다운로드 거부, 정상 다운로드 검증, 실행 중인 테스트 EXE 종료 후 교체와 재실행을 검사합니다. 실제 GitHub 서버 다운로드는 연결 이후 별도로 검증합니다.
+로컬 테스트에서 버전 비교, 같은/낮은 버전 차단, 잘못된 상대 경로 차단, 손상된 다운로드 거부, 정상 다운로드 검증, 실행 중인 테스트 EXE 종료 후 교체와 재실행을 검사했습니다. 실제 GitHub 서버의 버전 정보도 뷰어와 동일한 WinHTTP 코드로 확인했습니다. 온라인에서 더 높은 버전으로 전체 교체하는 과정은 향후 버전 게시 후 검증 대상입니다.
