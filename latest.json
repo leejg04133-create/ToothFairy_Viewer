@@ -1,0 +1,8 @@
+{
+  "product": "ToothFairy_Viewer",
+  "version": "1.00",
+  "file": "1.00/SkpViewportViewer.exe",
+  "sha256": "083fb8fdd2bc113f5aabef1c756add20ae1e36c8ecba846e1abf9f27ce0d59cd",
+  "size": 13059584,
+  "notes": "첫 배포 버전. 설치된 SketchUp 자동 연결, SDK UV·투명도 수정, 업데이트 인터페이스 준비."
+}
