@@ -1,0 +1,163 @@
+{
+  "version": "1.05",
+  "buildMarker": "20261024-cpu-preparation-1",
+  "builtAtKST": "2026-10-24T04:33:54.408228+09:00",
+  "size": 13118976,
+  "sha256": "4aae2a2bfd8a5c2b874006bbbc78ff5685dfbfbb89782f3f532adc6aa7d4489d",
+  "reproducedCause": "Full graph snapshots and instance culling ran with all display passes disabled. Shadow snapshots also ran in texture/line-only views.",
+  "method": "Actual city SKP, 604554 nodes / 15387 parts, saved camera, 2560x1340 MSAA8. Same camera sequence, 24 warmup + 16 measured frames. submitMs measures Renderer::draw CPU-side submission; glFinish and whole-app work excluded. Eager test restores previous preparation and disables new prefetch. Production contains no audit override.",
+  "renderCPUResults": [
+    {
+      "mask": 38,
+      "eager": 0,
+      "hierarchy": 0,
+      "prefetch": 8,
+      "merged": 1,
+      "frames": 16,
+      "submitMs": 45.68,
+      "finishWaitMs": 158.586,
+      "threadMs": 203.125
+    },
+    {
+      "mask": 6,
+      "eager": 1,
+      "hierarchy": 0,
+      "prefetch": 0,
+      "merged": 1,
+      "frames": 16,
+      "submitMs": 32.5447,
+      "finishWaitMs": 38.2464,
+      "threadMs": 71.2891
+    },
+    {
+      "mask": 6,
+      "eager": 0,
+      "hierarchy": 0,
+      "prefetch": 8,
+      "merged": 1,
+      "frames": 16,
+      "submitMs": 27.8789,
+      "finishWaitMs": 35.3189,
+      "threadMs": 63.4766
+    },
+    {
+      "mask": 0,
+      "eager": 1,
+      "hierarchy": 0,
+      "prefetch": 0,
+      "merged": 0,
+      "frames": 16,
+      "submitMs": 32.85,
+      "finishWaitMs": 0.5731,
+      "threadMs": 32.2266
+    },
+    {
+      "mask": 0,
+      "eager": 0,
+      "hierarchy": 0,
+      "prefetch": 8,
+      "merged": 0,
+      "frames": 16,
+      "submitMs": 0.218919,
+      "finishWaitMs": 0.711975,
+      "threadMs": 0.976562
+    },
+    {
+      "mask": 0,
+      "eager": 1,
+      "hierarchy": 0,
+      "prefetch": 0,
+      "merged": 0,
+      "frames": 16,
+      "submitMs": 23.2588,
+      "finishWaitMs": 0.737569,
+      "threadMs": 23.4375
+    },
+    {
+      "mask": 0,
+      "eager": 0,
+      "hierarchy": 0,
+      "prefetch": 8,
+      "merged": 0,
+      "frames": 16,
+      "submitMs": 0.158675,
+      "finishWaitMs": 0.771075,
+      "threadMs": 0.976562
+    },
+    {
+      "mask": 6,
+      "eager": 1,
+      "hierarchy": 0,
+      "prefetch": 0,
+      "merged": 1,
+      "frames": 16,
+      "submitMs": 31.686,
+      "finishWaitMs": 35.9197,
+      "threadMs": 65.4297
+    },
+    {
+      "mask": 6,
+      "eager": 0,
+      "hierarchy": 0,
+      "prefetch": 8,
+      "merged": 1,
+      "frames": 16,
+      "submitMs": 28.7349,
+      "finishWaitMs": 27.3424,
+      "threadMs": 56.6406
+    },
+    {
+      "mask": 38,
+      "eager": 0,
+      "hierarchy": 0,
+      "prefetch": 8,
+      "merged": 1,
+      "frames": 16,
+      "submitMs": 46.096,
+      "finishWaitMs": 163.714,
+      "threadMs": 207.031
+    }
+  ],
+  "verified": {
+    "pixelRegressionCases": 36,
+    "cityPixelComparisons": 4,
+    "additionalRepeatedComparisons": 15,
+    "ownedMultisampleFramebufferComparisons": 4,
+    "differingBytes": 0,
+    "productionLights": "sun, hard/soft/many lamps, Original and Shadow exports",
+    "shippedExeCompiler": "GL 4.6 source compiled, invalid source rejected, parent log preserved",
+    "updater": "orphan nested helper recovery, Unicode arguments, download/replacement/restart, renamed main preservation",
+    "diagnostics": "all-off draw records zero visibility/shadow snapshots, zero frame culling and zero CPU/GPU cull inputs"
+  },
+  "rejectedExperiments": {
+    "hierarchyWithoutShadows": "slower; not enabled",
+    "lowerGpuCullThreshold": "8192 to 256 increased CPU submission time; production remains 8192"
+  },
+  "limits": {
+    "friend105Measured": false,
+    "allPerformanceProblemsResolved": false,
+    "friend104Log": "RX 9070 XT OpenGL 4.6; batch shaders ready; unsupported, allocation and budget fallbacks zero",
+    "remaining": "Visible scene CPU preparation and App-side camera depth scans remain. Same FPS across different PCs is not established.",
+    "validationAnomaly": "One earlier hidden-window readback comparison failed. It did not reproduce in the subsequent 4 comparisons or 15 repeated comparisons. Pixel ownership of an invisible default window is not a reliable assertion target; additional owned MSAA8 framebuffer comparisons passed. The first mismatch's exact source is not established."
+  },
+  "sourceSHA256": {
+    "src/Renderer.cpp": "4633f5ce5e58f9e693f435337a56627ea732be9f2691f6b43d93d4b6f77145cd",
+    "src/EntityVisibilityCache.hpp": "10761ff4b22b8d1ebb60d0dc75b535042b7f908e2f844451f35a86e56302c158",
+    "src/PerfDiagnostics.hpp": "5ed063a22f81728ba910c02a2323432e30718dbde436091508e96f0d5a63242d",
+    "src/ViewerUpdate.hpp": "edf7201efe35653a6765450b870f7166d3893407506f30cdf3b5daacecb4eb19",
+    "src/app.rc": "b3c9cffe51e7794a96095e3da28f64396dad159b3daca0726b104beff1f70cb7",
+    "tests/city_pass_audit.inc": "4bc7a4915c4a6f77b04127dd1336f610bc391499504de213fee095a1b261c961",
+    "tests/empty_pass_regression.inc": "cc2969472150ea4a9ae893fd1e9018b1ce898d75402eea420a4441f6973a2a13"
+  },
+  "localEvidenceSHA256": {
+    "city-pass-105-final.log": "6bb07687c697bbe01cbc84ffc5777ec585b039fe608735b269ef0e08600e6ae8",
+    "city-pass-105-diagnostics.log": "8238e4c716cf4104db0b7d571b983e03bd1fa026bfb3b04634be714adeb97099",
+    "city-pass-105-stability.log": "c0d576f99f2f8fa60cc4881130078b42b7d0bea8ddc2024c26e31a8b5b03b1c0",
+    "city-pass-105-owned-target.log": "4cf4c42d817f211de09fe99859733e12d42d5dd3902083a600d87589ea212e1b",
+    "city-pass-105-mismatch-original.log": "835e781f4c18753db706b6565d63aa14b4314e7337cfe33fed90ae0994ac9f3c",
+    "empty-pass-105.log": "61b130a16964d58198e4fa3f7ec80766015c79db1be5a8357929634ce9c6a4f6",
+    "production-lights-105.log": "278ade9ab30a741477a19d9e57f540eff2f44fee8b907e4413cfad7f5a276ff9",
+    "city-cull-threshold-ab.log": "765d8373a3e92bf0aa0abcd25a2058dd52189c2dde6681eed379769415fe2637",
+    "city-semantic-prefetch-ab.log": "ae431f44e75fe084f7298775b468de34afbcba117906aa2f6f39de00b130a5ae"
+  }
+}
