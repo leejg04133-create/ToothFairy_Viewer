@@ -1,0 +1,37 @@
+{
+  "version": "1.03",
+  "sha256": "12573054a2f2d500d056fc9c0abca92f9eb7837c6d1ba213c6218ba8e84345fe",
+  "buildId": "20261024-common-workload-1",
+  "buildTimeKst": "2026-10-24 02:25:24",
+  "checks": {
+    "nativeMsaaComparisons": 81,
+    "modelNodes": 604554,
+    "navigationInstances": 1022251,
+    "updaterReplacementAndRecovery": "passed",
+    "semanticAfterMs": [
+      7.59285,
+      7.88222
+    ],
+    "semanticBeforeMs": [
+      10.747,
+      10.7404
+    ],
+    "navigationBeforeMs": [
+      5.81167,
+      6.04087
+    ],
+    "productionSunLampAndExport": "passed",
+    "changedPixels": 0,
+    "navigationParity": "passed",
+    "navigationAfterMs": [
+      3.7201,
+      3.7527
+    ]
+  },
+  "limitations": [
+    "CPU stage timings measured locally, not a claim of identical FPS on all PCs.",
+    "Existing common GPU pipeline and original texture/shadow quality retained.",
+    "GPU shadow bottleneck remains.",
+    "Early depth coverage experiment showed no consistent benefit and was excluded."
+  ]
+}
