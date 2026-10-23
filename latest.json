@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.08",
-  "file": "1.08/SkpViewportViewer.exe",
-  "sha256": "3d00108ec240ca0af106c666c984d6ef650f8914b06716a38b9a3d98695cc779",
-  "size": 13198848,
-  "notes": "선택 표시 깊이 생성의 전체 객체 재처리 감소, 이동·회전 시 숨겨진 부품 분류와 임시 메모리 할당 감소, 화면 깊이 버퍼 중복 제거. MSAA 8배 픽셀 비교와 실제 SKP 비교 검증. 그림자를 켠 상태의 GPU 비용은 별도 과제로 남아 있습니다."
+  "version": "1.09",
+  "file": "1.09/SkpViewportViewer.exe",
+  "sha256": "e9a37544b3dfce48a0e7c2dc7327b7dce0dc3ae5ef046b07a44cb50fc7a4486f",
+  "size": 13206528,
+  "notes": "회전 시 변경된 그림자 객체만 갱신, 동일 조건의 반복 선택 재사용, 중복 GPU 상태 전달 감소. 실제 대형 SKP·MSAA 8배 화면 비교와 CPU 처리 개선 검증. 그림자 GPU 계산과 첫 선택 대기 비용은 남아 있습니다."
 }
