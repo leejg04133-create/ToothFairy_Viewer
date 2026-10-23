@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.06",
-  "file": "1.06/SkpViewportViewer.exe",
-  "sha256": "e0f7ebc384fbdcf1c6e37c28dd729307daeadbb6b1337ceeb136ed0bb915800b",
-  "size": 13134336,
-  "notes": "대형 모델의 반복 객체 검사·카메라 깊이 계산·GPU 설정·화면 갱신 준비를 줄였습니다. SDK 텍스처 읽기는 로컬 비교에서 평균 약 18% 단축했습니다. 텍스처·알파·그림자 품질과 Live2D 유지, 업데이트 복구 포함. 친구 PC 성능은 실측 전입니다."
+  "version": "1.07",
+  "file": "1.07/SkpViewportViewer.exe",
+  "sha256": "a6a179d9ba837604ebbb85ef3c6d33e0857285d758de7caf7557aedbcef5a8c0",
+  "size": 13197824,
+  "notes": "불필요한 재계산 15개 항목 개선: 선택 후보·면 색인, 변환 비교, 화면·깊이·그리기 대상·조명 재사용, 내보내기·텍스처·HUD 중복 작업 감소. 기존 품질과 Live2D 유지. 로컬 픽셀·선택·SDK 회귀 검사 통과. 친구 PC 성능은 실측 전입니다."
 }
