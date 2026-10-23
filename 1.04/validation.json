@@ -1,0 +1,42 @@
+{
+  "version": "1.04",
+  "buildMarker": "20261024-shader-recovery-1",
+  "builtAtKST": "2026-10-24T03:21:18+09:00",
+  "size": 13116416,
+  "sha256": "fc7d9174e09e763922537ed6565be2ebe430573e9de15f4059a3d178a003eced",
+  "verified": {
+    "realFirstCompilationFailure": {
+      "recoveredSameBatchPipeline": true,
+      "directShadowDraws": 0,
+      "batchedShadowLists": 256,
+      "pixelIdenticalToNormal": true
+    },
+    "permanentShaderError": "reported after two attempts; no infinite retry",
+    "shaderAllocationFailure": "reported before invalid GL calls",
+    "workerBinaryRejection": "same ticket rebuilt on owning context; GPU compute output 1234567",
+    "shippedExeCompiler": "GL 4.6 source compiles; invalid source rejected; parent diagnostic file preserved",
+    "renderComparisons": {
+      "cases": 81,
+      "differingBytes": 0
+    },
+    "productionRendering": "sun, hard/soft/many lamps, original and shadow exports",
+    "updater": "orphan helper recovery, download/replacement/restart and existing main preservation passed"
+  },
+  "limits": {
+    "friendFailureConfirmed": false,
+    "friendLogVersion": "1.02.1",
+    "friendGPU": "AMD Radeon RX 9070 XT",
+    "friendOpenGL": "4.6.0",
+    "allPerformanceProblemsResolved": false,
+    "unsupportedHardwareNotMadeSupportedByRetry": true
+  },
+  "sourceSHA256": {
+    "src/Gl.cpp": "a0ef7f23457f5fa2ad170b89e56ab440df7a704478880a9441d3ad70cb4c80b1",
+    "src/Gl.hpp": "11dcf0ff18fbf4686cec536e609057e539fe2f8a5e1cedb646133a6138728bd8",
+    "src/ShaderCompilerProcess.hpp": "58d8c2cd6c2e875315ae7e600f33bc79274cb92db16c2b8d069deb799798d5a8",
+    "src/Renderer.cpp": "eff87c339fa8de7cf0297659d5f8b37c883afe7e5a99948feba7a9cdd62863f5",
+    "src/PerfDiagnostics.hpp": "88e63ef5afd218dfdc952b6c358aaa30db0ae0e9f608b3bc546fb6b43e861ac1",
+    "src/ViewerUpdate.hpp": "29a2a96ea869c0af9c45d39997657fa3e3f3616cb3f12d689d5f2d3466c42554",
+    "src/app.rc": "74f9a68e1a9b2a8cce73df09a0fb11ab33253791f264a3a1a95b37168adc56e5"
+  }
+}
