@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.05",
-  "file": "1.05/SkpViewportViewer.exe",
-  "sha256": "4aae2a2bfd8a5c2b874006bbbc78ff5685dfbfbb89782f3f532adc6aa7d4489d",
-  "size": 13118976,
-  "notes": "대형 모델에서 꺼진 표시·그림자 패스의 불필요한 CPU 검사를 제거하고, 필요한 객체 검사의 메모리 대기를 줄였습니다. CPU 모델명·CPU/GPU 판별 입력량과 실제 검사 실행 여부를 로그에 기록합니다. 텍스처·그림자 품질 유지, 이전 업데이트 복구 포함."
+  "version": "1.06",
+  "file": "1.06/SkpViewportViewer.exe",
+  "sha256": "e0f7ebc384fbdcf1c6e37c28dd729307daeadbb6b1337ceeb136ed0bb915800b",
+  "size": 13134336,
+  "notes": "대형 모델의 반복 객체 검사·카메라 깊이 계산·GPU 설정·화면 갱신 준비를 줄였습니다. SDK 텍스처 읽기는 로컬 비교에서 평균 약 18% 단축했습니다. 텍스처·알파·그림자 품질과 Live2D 유지, 업데이트 복구 포함. 친구 PC 성능은 실측 전입니다."
 }
