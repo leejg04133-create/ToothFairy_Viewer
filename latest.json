@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.07",
-  "file": "1.07/SkpViewportViewer.exe",
-  "sha256": "a6a179d9ba837604ebbb85ef3c6d33e0857285d758de7caf7557aedbcef5a8c0",
-  "size": 13197824,
-  "notes": "불필요한 재계산 15개 항목 개선: 선택 후보·면 색인, 변환 비교, 화면·깊이·그리기 대상·조명 재사용, 내보내기·텍스처·HUD 중복 작업 감소. 기존 품질과 Live2D 유지. 로컬 픽셀·선택·SDK 회귀 검사 통과. 친구 PC 성능은 실측 전입니다."
+  "version": "1.08",
+  "file": "1.08/SkpViewportViewer.exe",
+  "sha256": "3d00108ec240ca0af106c666c984d6ef650f8914b06716a38b9a3d98695cc779",
+  "size": 13198848,
+  "notes": "선택 표시 깊이 생성의 전체 객체 재처리 감소, 이동·회전 시 숨겨진 부품 분류와 임시 메모리 할당 감소, 화면 깊이 버퍼 중복 제거. MSAA 8배 픽셀 비교와 실제 SKP 비교 검증. 그림자를 켠 상태의 GPU 비용은 별도 과제로 남아 있습니다."
 }

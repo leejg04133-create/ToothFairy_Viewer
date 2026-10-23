@@ -1,25 +1,25 @@
 # ToothFairy Viewer
 
-현재 배포 버전: **1.07**
+현재 배포 버전: **1.08**
 
-- 실행 파일: [1.07/SkpViewportViewer.exe](1.07/SkpViewportViewer.exe)
-- 변경 내역: [1.07/notes.txt](1.07/notes.txt)
-- 검증 기록: [1.07/validation.json](1.07/validation.json)
+- 실행 파일: [1.08/SkpViewportViewer.exe](1.08/SkpViewportViewer.exe)
+- 변경 내역: [1.08/notes.txt](1.08/notes.txt)
+- 검증 기록: [1.08/validation.json](1.08/validation.json)
 - 자동 업데이트 정보: [latest.json](latest.json)
 
 기존 뷰어의 설정에서 업데이트 확인 → 다운로드 → 다시 시작을 진행합니다.
-직접 전달할 때는 `1.07/SkpViewportViewer.exe`를 사용합니다.
+직접 전달할 때는 `1.08/SkpViewportViewer.exe`를 사용합니다.
 `.update-helper.exe`는 업데이트 보조 파일입니다.
 
-## 1.07 변경
+## 1.08 변경
 
-선택 후보와 선택 면 검색, 변환 비교, 장면·깊이·그리기 대상·조명 재사용,
-내보내기 준비·텍스처 메모리 계산·HUD 그리기 등 15개 중복 작업을 개선했습니다.
-상세 항목은 변경 내역에, 검증 결과와 빌드 해시는 검증 기록에 들어 있습니다.
+선택 표시의 깊이 생성에 표시 대상 목록을 재사용하고, 이동·회전 중 숨겨진
+부품 분류와 임시 메모리 할당, 화면 깊이 버퍼 중복 작업을 줄였습니다.
+MSAA 8배 픽셀 비교와 실제 대형 SKP 동일 조건 비교를 통과했습니다.
+상세 측정 조건·결과·빌드 해시는 검증 기록에 있습니다.
 
-텍스처 해상도·알파·그림자 품질과 Live2D 로딩을 유지합니다.
-기존 DPI별 MSAA 선택 정책은 유지합니다. 로컬 회귀 검사는 통과했으며
-친구 PC에서의 FPS 개선은 아직 실측하지 않았습니다. 기존 업데이트 복구도 포함합니다.
+텍스처·그림자 품질과 Live2D를 유지합니다. 그림자를 켠 상태의 GPU 비용은
+남아 있으며, 친구 PC의 성능 개선은 아직 실측하지 않았습니다.
 
 ## 이후 배포
 
