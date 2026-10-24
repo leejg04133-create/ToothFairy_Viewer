@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.09",
-  "file": "1.09/SkpViewportViewer.exe",
-  "sha256": "e9a37544b3dfce48a0e7c2dc7327b7dce0dc3ae5ef046b07a44cb50fc7a4486f",
-  "size": 13206528,
-  "notes": "회전 시 변경된 그림자 객체만 갱신, 동일 조건의 반복 선택 재사용, 중복 GPU 상태 전달 감소. 실제 대형 SKP·MSAA 8배 화면 비교와 CPU 처리 개선 검증. 그림자 GPU 계산과 첫 선택 대기 비용은 남아 있습니다."
+  "version": "1.13",
+  "file": "1.13/SkpViewportViewer.exe",
+  "sha256": "2f0d1ebdad46d80fc35f64c4eafc96a7c4a341f8050269cb6b96e753e14ce26f",
+  "size": 13216256,
+  "notes": "그림자 방향 조작 최적화 및 Done 이후 방향 복귀 수정. 화면 뒤 가려진 면의 불필요한 GPU 그림자 검사를 줄였습니다. 실제 Koki 모델·MSAA 8배 검사에서 화면 일치를 확인했으며, 1920×1000 렌더링 검사 기준 약 189ms → 135ms로 개선됐습니다. 본 장면 렌더링 비용은 남아 있습니다."
 }
