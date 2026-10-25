@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.21",
-  "file": "1.21/SkpViewportViewer.exe",
-  "sha256": "abbffd263ecb35915c10705ee38d57cf84a3dabd69ea4ea7341337e5ea8ccfec",
-  "size": 13393920,
-  "notes": "로딩 개선: 자동 조명 사전 계산 제거, 변경 없는 SKP의 상속 UV 재사용으로 중복 읽기 절감. 원본 텍스처·그림자·내보내기 품질 유지. 비정상 종료 진단 강화. 검정 화면 수정 포함."
+  "version": "1.22",
+  "file": "1.22/SkpViewportViewer.exe",
+  "sha256": "c5a29cff00b5ff8f6a88b68abb25bc3c6ce852c646dbe8ce763c82d22e83884a",
+  "size": 13372416,
+  "notes": "최초 로딩의 중복 SKP 해석 제거: 첫 열기·재열기 모두 SDK 1회. 텍스처 무손실 압축 비용 절감. 원본 UV·색상·그림자·내보내기 품질 유지. 기존 검정 화면 수정 포함."
 }
