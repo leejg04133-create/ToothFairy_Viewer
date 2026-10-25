@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.22",
-  "file": "1.22/SkpViewportViewer.exe",
-  "sha256": "c5a29cff00b5ff8f6a88b68abb25bc3c6ce852c646dbe8ce763c82d22e83884a",
-  "size": 13372416,
-  "notes": "최초 로딩의 중복 SKP 해석 제거: 첫 열기·재열기 모두 SDK 1회. 텍스처 무손실 압축 비용 절감. 원본 UV·색상·그림자·내보내기 품질 유지. 기존 검정 화면 수정 포함."
+  "version": "1.23",
+  "file": "1.23/SkpViewportViewer.exe",
+  "sha256": "1997c91576a902476290afd155b95c08f22c59860783e94fd933f03cfb6a85a6",
+  "size": 13402624,
+  "notes": "SketchUp 네이티브 복사·붙여넣기 복구: 플러그인 의존성 제거. 동적구성요소 회전·이동·숨김과 복수 선택·우클릭 초기화 복구. 일반 숨김과 동적 숨김 분리 유지."
 }
