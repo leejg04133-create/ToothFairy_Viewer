@@ -1,10 +1,10 @@
 {
   "version": "1.19",
   "file": "1.19/SkpViewportViewer.exe",
-  "sha256": "2a63a30b371b0506cdb9966ad377101c846a192a4ce6d2d7ce93f22239559315",
-  "size": 13366272,
-  "builtAtKST": "2026-10-26T03:27:47.525602+09:00",
-  "validatedAtKST": "2026-10-26T03:28:21.656804+09:00",
+  "sha256": "b4da4cdab344e90e22e6d0f981f0e327b6954c8231f452f712cbf739d345c171",
+  "size": 13367808,
+  "builtAtKST": "2026-10-26T03:42:33.409900+09:00",
+  "validatedAtKST": "2026-10-26T03:46:37.842279+09:00",
   "nativeUiScales": [
     1,
     1.25,
@@ -92,6 +92,7 @@
     "src/Hotkeys.cpp",
     "src/Hotkeys.hpp",
     "src/InteractionProxy.hpp",
+    "src/InteractionProxyDraw.inc",
     "src/LightUi.inc",
     "src/LoadOverlay.cpp",
     "src/MainMenuDock.inc",
@@ -241,7 +242,7 @@
     "src/InputFrameWait.hpp": "b3621d6658b66899b901686a19207ebb7432c3137cd00eb2eea49290461af347",
     "src/InputKeyLatch.hpp": "1d56fa1c63fa4d5103a0b2ebc77e8fb8b189462c4502fc487f900e781a48faa8",
     "src/InteractionProxy.hpp": "7c3b386991e0d7eb370d92ff704b7445bb84755992c2eed6ec4450bf4eb8e6f3",
-    "src/InteractionProxyDraw.inc": "1ce7f60f9b5889a5f97050901150c99d00c7f9efd84f957196f30036f309c5e0",
+    "src/InteractionProxyDraw.inc": "0c635b8aba22d5a8de57b2a5bdb08dc2ec2c73d1a04f4a9bd8902b84dc5bd04f",
     "src/LayerColors.hpp": "07fdcd964044ecb6ae61fc9411d4e5d61a0a010a16cbce1cf07bcd65814605e6",
     "src/LayerRules.hpp": "0b33c397dc35823ce74201b9ade5a8c660ae1838a253671c85410415e4ace3a6",
     "src/LibraryPollCadence.hpp": "f3313013287f279b90b9291683a38db3b5df7ba305b622376b60e817870c57f3",
@@ -285,7 +286,7 @@
     "src/PencilEdgeSpread.hpp": "23feda2cb943d708a58f36c4e3efb4fe62fe04dfe97d9a232541d90e73f97267",
     "src/PencilTonalAsset.hpp": "1d78088d78b23f127e03af64ad50a8356b61090c2d224e0999e809d9e4a52bfa",
     "src/PencilTonalTexture.hpp": "d8ad5e58da6ccebc88899e40b8ddfe1bf415a7c0afa6b34dfa9a53496d2661b6",
-    "src/PerfDiagnostics.hpp": "0336b013d719f6ce651d8ec19eb3832d94fc36f043bd2fe83734e86a97d6f7d2",
+    "src/PerfDiagnostics.hpp": "7b2110bc88b56a885da0d91eade06f9d914e7421ac45305a99ff861dad45a835",
     "src/Placement.hpp": "84b5ec2e2ae9980a6bdbc7ba4d434728b018f25a71b734271c39653309fbaf4e",
     "src/Platform.cpp": "638e95b5fbec94c97ec883cead8ea831fc7206f81f68f2a9accaf8bdd5120b3d",
     "src/Platform.hpp": "333f750abef9cddbd125f56753037e154dc0b3f4a8c5fb39c3bad46651d5361a",
@@ -295,7 +296,7 @@
     "src/RayShadow.hpp": "4e0e745b2b9d4c05cd61d84d6c9f753b172ae87f897795082defc0aca2c04aaf",
     "src/RenderBusyIndicator.hpp": "6ad5afb8d9a397f7b39221a5132e9a85424700997bcb36354e484e5802024d35",
     "src/RenderBusyTiming.hpp": "50a2b53fc097bab6b74377d2ca170213e42c661cd81a0ac0c09149ffc9e7175a",
-    "src/Renderer.cpp": "0ff8e8551c2c9deace6b7690c95cf9178a49e881cd80c228ad6e8b4e47c7f2dc",
+    "src/Renderer.cpp": "2604b7582c2c212c161c60f0cfa989a7bba5021c5226cd5a405fd4ae0850c07b",
     "src/Renderer.hpp": "671bb614c2b1eb6c28af456351fa2420c97f23166f3fad690e2e96affcc70ab8",
     "src/Renderer_uniLoc_fix.patch": "2d0335b1620bf93d8b430778246458fe6a385646f0048831a2849fd813c9b5bb",
     "src/RenderWakeState.hpp": "d59741cdcd8132c31f721721fa7ffd3417621d76ac23b96b268468e8c5d18f8b",
@@ -391,7 +392,13 @@
     "light-ui-paint119-1.log": "be3d3d66f81949b8386b7cf7f325f86d2fe5b78e39420329572d644b55fdda9f",
     "light-ui-paint119-1.25.log": "4a86f52f311a061ec26bf82b80d94816205526bc1623aa436ab4a0867a3b4b9d",
     "light-ui-paint119-1.5.log": "a0721d7abbe1e1aa53b975c5fb36d7471da14b39ee13efddc97667c0dfb5be0a",
-    "light-ui-paint119-2.log": "6dd5dd0f6a55ad43c22e8c937e5ceb56a8a81dcd5214913ad51a8a115e62ffef"
+    "light-ui-paint119-2.log": "6dd5dd0f6a55ad43c22e8c937e5ceb56a8a81dcd5214913ad51a8a115e62ffef",
+    "black119-after-cube1.log": "497119a1db075ad6fa1e169d6dbc35e32cc51b64f970a159ec589d4ddcb12b12",
+    "black119-after-cube2.log": "245776c745581f8e46a6293a7151528dec583d551b190ebff967c8a3e0b234b8",
+    "black119-after-cube4.log": "7aac20940ea4ca7cf7fd38ae9025f660762dc41183652a37914cf5242dccaf97",
+    "black119-after-cube8.log": "4a7b74684281d1b46fc190c88bd1a08b3cdea226d5e47764928713142d64f59e",
+    "black119-after-cube2-4k.log": "ef9f7500b84f64b3df09b57de843c04e8a343f40a1e972e010e88fb84f63bf06",
+    "black119-proxy-export.log": "65ce12c9cf2e88898a28b8b4e102800640adcc7ae0016c15b494e668b2324c81"
   },
   "scope": "Native input and raster tests on this PC; no physical low-end PC measurement",
   "lightOptimization": {
@@ -413,5 +420,58 @@
     "loading": "Actual AppState preparePointLight under existing loader; no authored lamp inserted; hard/soft programs ready; repeated preparation no-op. Broad stage strings forwarded to existing Live2D state protocol.",
     "export": "Proxy/export regression confirms original full-detail RGBA and PSD rendering ignores viewport proxy settings",
     "limits": "Steady light edits after preparation, not universal frame-time or all-PC guarantee; native 8x coverage cache needs extra GPU storage, original calculations retained when unsupported"
+  },
+  "blackScreenFix": {
+    "build": "20261026-msaa-presentation-1.19",
+    "reportedBuild": "20261026-menu-fold-receiver-tree-1.19",
+    "reportedGpu": "NVIDIA GeForce RTX 4090",
+    "reportedDriver": "610.88",
+    "reportedDpiScale": 2,
+    "reportedWindowSamples": 2,
+    "reportedViewport": [
+      3840,
+      2096
+    ],
+    "cause": "Internal 8x MSAA colour was directly blitted into the 2x or 4x native window: invalid operation, no pixels copied",
+    "reproduction": {
+      "sourceSamples": 8,
+      "targetSamples": [
+        2,
+        4
+      ],
+      "glError": 1282,
+      "nonBlackPixels": 0
+    },
+    "fix": "Resolve to single-sample RGBA8 only for unequal multisample counts, then replicate into destination samples; equal or non-multisample targets retain original direct copy",
+    "coveredPaths": [
+      "normal viewport",
+      "retained editor background",
+      "interaction proxy"
+    ],
+    "tests": {
+      "nativeSamples": [
+        0,
+        2,
+        4,
+        8
+      ],
+      "viewports": [
+        [
+          640,
+          480
+        ],
+        [
+          3840,
+          2096
+        ]
+      ],
+      "statesPerCase": 11,
+      "differentRgbBytes": 0,
+      "glErrors": 0,
+      "dxgiCopyChecksPerCase": 3,
+      "export": "RGBA/PSD full-detail proxy regression passed"
+    },
+    "reference": "https://registry.khronos.org/OpenGL/extensions/EXT/EXT_framebuffer_multisample.txt",
+    "limits": "Reproduced and verified locally on RTX 4070 Ti SUPER; affected user PC has not rerun the corrected EXE yet. Native-window alpha is not compared to offscreen RGBA; output alpha remains separately tested."
   }
 }
