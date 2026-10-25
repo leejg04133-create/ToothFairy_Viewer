@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.19",
   "file": "1.19/SkpViewportViewer.exe",
-  "sha256": "6236552b460e28e6ce3a483e96bc419a36f9bc4e82c4230cd3ad17d271c2e110",
-  "size": 13343744,
-  "notes": "카메라 스프링 슬라이더·조이스틱 추가. 휠/클릭으로 회전·롤/화각·이동 전환. Ctrl 두 축 입력 차단 및 흔들림 표시. E/R/T 아이콘 재사용, T 흰색 수정. 배경 박스 없는 원형 핸들."
+  "sha256": "fcb13eeb2b28a3392008d37e4cbcae0f3fef201ef6d469d446c999b0210cdf01",
+  "size": 13352960,
+  "notes": "Shift+Tab 중복 인식과 왼쪽 메뉴의 오른쪽 화면 잔상 수정. 메뉴 화면과 창 위치 동시 갱신. 그림자 고정 상태의 원본 복원 병목 개선 포함. 1.19 수정본."
 }
