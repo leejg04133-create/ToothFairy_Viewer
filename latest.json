@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.18",
-  "file": "1.18/SkpViewportViewer.exe",
-  "sha256": "cd4f9b235f9ac77ab648fd122de431c75a928f74b1da791937b9061169790259",
-  "size": 13325312,
-  "notes": "1.18 유지. 25/75 화면 조작 중 전체 텍스처 RGB 대신 재질 단색을 사용하고 종료 후 원본 복원. 앞뒷면·거울 복사·깊이/MSAA·반투명 합성 수정. 패스 ON/OFF와 내보내기는 원본 유지."
+  "version": "1.19",
+  "file": "1.19/SkpViewportViewer.exe",
+  "sha256": "6236552b460e28e6ce3a483e96bc419a36f9bc4e82c4230cd3ad17d271c2e110",
+  "size": 13343744,
+  "notes": "카메라 스프링 슬라이더·조이스틱 추가. 휠/클릭으로 회전·롤/화각·이동 전환. Ctrl 두 축 입력 차단 및 흔들림 표시. E/R/T 아이콘 재사용, T 흰색 수정. 배경 박스 없는 원형 핸들."
 }
