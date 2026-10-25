@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.15",
-  "file": "1.15/SkpViewportViewer.exe",
-  "sha256": "5c65c0d1bf596d38c3fd04638edcb30cb70daea79c0d07c41a3c1ed3567328c6",
-  "size": 13241856,
-  "notes": "그림자 수신 면 계산 분리 및 무손실 텍스처 저장 최적화. 로컬 Koki 검사에서 그림자 GPU 78.7→53.3ms, 텍스처 GPU 1004→567MiB. 색감·농도·선 두께·투명도 설정 유지. 64비트 ID 상속 UV 오류 수정. 다른 PC의 FPS 보장 수치는 아닙니다."
+  "version": "1.16",
+  "file": "1.16/SkpViewportViewer.exe",
+  "sha256": "e754e347288b9d542a26659e797045b5628258f05ff8510cdc29774ca64d6107",
+  "size": 13284352,
+  "notes": "선·그림자·음영 등 단독 패스에 깊이가 남는 버그 수정. 무거운 장면 조작 중 구성요소 상자 프록시, 정지·내보내기 원본 품질. 그림자 핸들 표시·방향 조작 계산 및 업데이트 교체/복구 개선. 미서명: Smart App Control 차단 해결 빌드는 아닙니다."
 }
