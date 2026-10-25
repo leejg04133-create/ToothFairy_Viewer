@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.20",
-  "file": "1.20/SkpViewportViewer.exe",
-  "sha256": "bd2efe1a0f57777820ef3acccfc259cc4f0e9d0a0109e7bcdbfa032337f7024a",
-  "size": 13367808,
-  "notes": "검정 화면 수정: MSAA 8배→2/4배 창의 복사 오류 해결. 시작 큐브·SKP·화면 재사용·프록시 표시 복구. 내부 렌더 품질 유지. 조명 최적화·큰 항목별 로딩 표시 포함."
+  "version": "1.21",
+  "file": "1.21/SkpViewportViewer.exe",
+  "sha256": "abbffd263ecb35915c10705ee38d57cf84a3dabd69ea4ea7341337e5ea8ccfec",
+  "size": 13393920,
+  "notes": "로딩 개선: 자동 조명 사전 계산 제거, 변경 없는 SKP의 상속 UV 재사용으로 중복 읽기 절감. 원본 텍스처·그림자·내보내기 품질 유지. 비정상 종료 진단 강화. 검정 화면 수정 포함."
 }
