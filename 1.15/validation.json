@@ -1,0 +1,102 @@
+{
+  "version": "1.15",
+  "builtAtKST": "2026-10-25T16:03:14.247981+09:00",
+  "validatedAtKST": "2026-10-25T16:06:21.374259+09:00",
+  "sha256": "5c65c0d1bf596d38c3fd04638edcb30cb70daea79c0d07c41a3c1ed3567328c6",
+  "size": 13241856,
+  "build": "20261025-pass-cost-and-inherited-uv-1.15",
+  "configuration": "MSVC x64 Release, CMake build_crack",
+  "model": {
+    "name": "Koki 판타지 눈의 도시_006화(할리아스용 수정본).skp",
+    "sha256": "544b5c708df0926aef0d280079059a6ee27e4e41b4721d8ac3d7b903283421d1",
+    "parts": 15387,
+    "nodes": 604554
+  },
+  "measurement": {
+    "gpu": "RTX 4070 Ti SUPER",
+    "OpenGL": "4.6.0 NVIDIA 610.74",
+    "width": 1920,
+    "height": 1000,
+    "MSAA": 8,
+    "passes": [
+      "Line",
+      "Texture",
+      "Shade",
+      "Shadow"
+    ],
+    "warmCameraFramesPerMode": 36,
+    "rendererFrameMsBefore": 142.20211111111112,
+    "rendererFrameMsAfter": 113.40911111111112,
+    "shadowGpuMsBefore": 78.68135000000001,
+    "shadowGpuMsAfter": 53.31165,
+    "scope": "hidden-window render-completion measurement, not application input latency or a minimum-spec FPS guarantee",
+    "comparison": "1.14 receiver / CPU hierarchy behavior versus 1.15 common receivers; textures use identical final layout in both timing modes"
+  },
+  "textures": {
+    "gpuResidentBytesRgba": 1052464964,
+    "gpuResidentBytesLosslessChannels": 594626684,
+    "cityTexturePassDifferentBytes": 0,
+    "sdkReadsBefore": 115,
+    "sdkReadsAfter": 59,
+    "sdkRgbaMiBBefore": 1453.54,
+    "sdkRgbaMiBAfter": 778.84,
+    "decodedImageIdentity": {
+      "unique": "59",
+      "parts": "3520",
+      "bytes": "816668516",
+      "fnv64": "8049854190115189563"
+    },
+    "sdkLoadMsBefore": 26356.1,
+    "sdkLoadMsAfter": 28572.4,
+    "note": "Cumulative SDK image reads and GPU residency savings are not peak host RAM savings."
+  },
+  "tests": {
+    "exactShadowAndForcedGpuOverflow": 120,
+    "exactTextureLayoutExports": 72,
+    "exactSoloPassExports": 60,
+    "exactSharedTextureAndMaterialEdits": 28,
+    "realCitySoloPasses": 9,
+    "realCityShadowMaximum8BitChannelDifference": 1,
+    "previewComparisons": 20,
+    "committedDirectionCameraFrames": 24,
+    "cityCharacterParityComparisons": 12,
+    "gpuOverflowObserved": 0,
+    "gpuOverflowCheckedFrames": 177,
+    "UV": "64-bit IDs, inherited authored UV, colorized alpha, untouched source, save/reopen PASS"
+  },
+  "quality": "Shadow density, color, opacity, line width, resolution, sample count and distant-detail settings unchanged; no LOD or downsampling added.",
+  "limitations": [
+    "No benchmark on the friend RX 9070 XT or a physical low-end GPU in this run.",
+    "칼_집무실.skp was unavailable; its screenshot cannot be claimed directly reproduced.",
+    "Real-city curved receiver arithmetic can differ by at most 1/255 in an 8-bit channel; fixture exports are byte-identical.",
+    "Not a code-signed build and no Smart App Control exemption claim."
+  ],
+  "sourceSha256": {
+    "DeferredSunReceivers.hpp": "49cf46607cbde00bb33fc902bcabd87c547e725844d8cfb8de46d33dbfd12cc7",
+    "FaceDrawBatch.hpp": "abbd81dd7d7fd27333591d7b81f42c05514ced7d0741310357da53715a35a892",
+    "GpuTextureResidency.hpp": "201a90f1f7200f9d1f19132d10a6de5dc9dc6cbecd8714712b7fba17c30f69ff",
+    "InheritedSdkUv.inc": "b26e945c532f92c78ac4528eafae11c3aea91675855ce0499704f4fb4fc2a406",
+    "NavigationIndex.hpp": "6d97c3b6e85c3a72d54994bf6cb0074391e44d169651ceefd2e7ab91c0ab508c",
+    "PerfDiagnostics.hpp": "9a923b8ebe4ebd2d0bb52cfeb5ccc1fef576b8824ddf6d15b6dc6aebb39a9630",
+    "Renderer.cpp": "123462b693648eeaede0beb8201652958b832bf2cf217b73f8033ceb16391660",
+    "Renderer.hpp": "63bd41d5bf132b49c032cc9ea68cb972ad76b14c75172ed8a8f8564c0cdefb70",
+    "SkpLoader.cpp": "d5953fbedc118d757a468936db8d9b8815097a8f558bbe5b73632cceaa90c492",
+    "ViewerUpdate.hpp": "3674f9c29215ff3fb87e31fc04c67cf8494644edcd111b8f859081450b2bb19b",
+    "app.rc": "62588a3c9ff8a3c39f0a332742b504f34e06ef143335b4430c337eff71394cac"
+  },
+  "evidence": {
+    "uv115-release-final.log": "f46f301b7942777dcce8cf301868db2253bd84d6b30e0adcaaf053fe26281556",
+    "sun115-final-fixtures.log": "54f547357090992571f797c4b5671ff4811645e07cb3d0cb75c2656f309b09ea",
+    "pass115-texture-layout115.log": "dcd32b84c42187cf2645920c8efd9e2cc0140e62d664089eb9983073f3345247",
+    "pass115-solo-pass115.log": "042c39f663df4e737f2445828693771193b90760bf0f296c8b25a4ed8eec8f74",
+    "pass115-texture-share115.log": "25b283fbcf8f0c9af99b73e18e50d2a2a4cb6c79d1dc4e37a621075f6875535a",
+    "pass115-shadow-preview-regression.log": "2af25cc3cd09c13ac33cc160eedb91f5c9ed4510725c9570d1420627efea172b",
+    "pass115-large-surface-depth-regression.log": "00330d5655196fe3f57c6894dfd7c9c8f7c902c5761967f4840edb55c61aa066",
+    "pass115-shadow-direction-persistence.log": "8ec74d1a47af1651e9c04d1393f5e96afa16f014d191a421acbb02fdb715325f",
+    "pass115-ray-validation-regression.log": "88bbd75bbcb4219c8265fd4a04abd7aef230ccbb5ac11d341f30ce3f8233b759",
+    "pass115-selection-index-regression.log": "a506bfc589fa61f31f7e88265ce9916ec0aafcaca840cf2ecd9ffc6f1900a143",
+    "pass115-common-policy.log": "90e55c4c4f4c5fe7cde93c0f290fe39ae7e0ad90cc53ae4bc8e4f827bb60817a",
+    "pass115-character-final.log": "89772aa3b0c49e32c8d4f2c432512a5927b6c8012adcc612a2b2d68666255b76",
+    "pass115-city-final.log": "f330fd9a53289c55ef24d3d3eecab90c612d9eb978dfa126478ed3092aa33670"
+  }
+}
