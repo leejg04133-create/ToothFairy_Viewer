@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.28",
   "file": "1.28/SkpViewportViewer.exe",
-  "sha256": "fe69c9a23bc587f66a73be6fd0cca3da70525ec5e6a71d3035f765359fbde433",
-  "size": 13843968,
-  "notes": "새 재질 버튼 추가, UV Alt·Shift 조작과 이미지 교체 후 갱신 비용 개선, 동적 구성요소의 다중 선택 방향·숨김 연결 수정."
+  "sha256": "953e5a0dd0ed9cafceeeef3b1b10d6d9b3f95a75de3631c19a8072a5504ab753",
+  "size": 13850624,
+  "notes": "메뉴 정리, 설정의 단축키 HUD, 재질 추가 아이콘 간격 통일, 중앙 단축키·Z 화각 안내가 가려지는 문제 수정."
 }
