@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.29",
   "file": "1.29/SkpViewportViewer.exe",
-  "sha256": "ce2ced5f13a6d5a2571bcf6c456b773a5e439c390860e9918faeea0ce072fe8c",
-  "size": 13926400,
-  "notes": "메뉴·미니 HUD 정리, X/Y/Z 수치·단축키 연결, 밝은 테마·도움말 복구, 원본 Soft 선 외곽선 판정 수정, 점 세 개 준비 안내."
+  "sha256": "13898960ae715daa76b88bc01b6835e0206427ac9c64e0b363c77bc9ec2730d5",
+  "size": 13927424,
+  "notes": "1.29 수정본: 수치 Enter 후 이동·회전 유지, Esc로 선택 HUD 복귀, 무입력 미니 HUD 실제 종료."
 }
