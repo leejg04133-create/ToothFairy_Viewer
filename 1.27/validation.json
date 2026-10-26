@@ -1,11 +1,11 @@
 {
   "version": "1.27",
   "file": "1.27/SkpViewportViewer.exe",
-  "sha256": "683544bef1b29b52375234c4abe1d594f006db1a72a0148b119f5c9593a9d3e4",
-  "size": 13459456,
-  "buildIdentifier": "20261026-volume-proxy-child-hud-1.27",
-  "builtAtKST": "2026-10-26T17:37:50.492392+09:00",
-  "validatedAtKST": "2026-10-26T17:42:07.384040+09:00",
+  "sha256": "2cba38e0f5aa7218c6314123f99471448dad1a73347af5a286d46a679b7c44e1",
+  "size": 13466624,
+  "buildIdentifier": "20261026-style-gpu-specialized-1.27",
+  "builtAtKST": "2026-10-26T18:07:13.826924+09:00",
+  "validatedAtKST": "2026-10-26T18:10:47.482684+09:00",
   "sourceSha256": {
     "src/ActionIcons.inc": "2bfc4abd48303b01f0736062b4fd3c45c527202289d89683166661c74792a06b",
     "src/App.cpp": "1190f57edb3f38f1ad24faf606b279d6afbf31b1c514746b719ca9229cf70990",
@@ -182,10 +182,10 @@
     "src/PaletteUi.hpp": "7689d39487f1b0e2e84fddd43bef65ac3ec587489241f8ceb269977795e5e362",
     "src/PaneScrollbar.inc": "707d5cb5bc1c16e2b7ce06464569504107299d4fc01628cbc81e25265aa67c79",
     "src/PassExport.hpp": "cfee84546286c2fccafc427ec50a351d65e2a6b3c255003b12859dc4b8cc96c5",
-    "src/PencilEdgeSpread.hpp": "23feda2cb943d708a58f36c4e3efb4fe62fe04dfe97d9a232541d90e73f97267",
+    "src/PencilEdgeSpread.hpp": "f0174d3e3bb5b3f676d7d434788fe751bfb89dd4a8e35e53e809cc4aceb60de5",
     "src/PencilTonalAsset.hpp": "1d78088d78b23f127e03af64ad50a8356b61090c2d224e0999e809d9e4a52bfa",
     "src/PencilTonalTexture.hpp": "d8ad5e58da6ccebc88899e40b8ddfe1bf415a7c0afa6b34dfa9a53496d2661b6",
-    "src/PerfDiagnostics.hpp": "d60ace1f856092da9e079ec6311a13ac8e74f271e5173ee03bc25d920f94dbe9",
+    "src/PerfDiagnostics.hpp": "77d61c62abc395cf051a0ddb59373e5a15a77d01d5c89266ec7113664c2014e3",
     "src/Placement.hpp": "ef142c1da3d092e805d45c33e76d5984801e195fcdb4c86427a43c90fa2fee09",
     "src/Platform.cpp": "e079447676ab4a3acfc2fe6edfcc0f26545ffa03eea58d77cd6ad4833a9929d4",
     "src/Platform.hpp": "333f750abef9cddbd125f56753037e154dc0b3f4a8c5fb39c3bad46651d5361a",
@@ -239,7 +239,7 @@
     "src/StyleEditorWidgets.inc": "18b6354f5b4b2b4e9a065b051ad27031e604e3b773a248107c737dfdece21ebd",
     "src/StyleGraph.hpp": "c19934ed230abf640154f1e913c7d9cc7bd416829644cd255f872bdb5241805b",
     "src/StyleMaterial.hpp": "2a24a47ec8b1045e85aa56d00ce365b2af78889015a6206554b80168a79c885e",
-    "src/StylePostProcess.hpp": "ee9b069bec10a2b7198c4ab397253a2039289159b5592d805e9efb577aec1130",
+    "src/StylePostProcess.hpp": "6a558b93305462b2af21a4562a9bf860f5814c6869f699c6c0c24848b7d250e6",
     "src/StyleStorage.hpp": "5a0376d83a3815e22cac93b83d2d57e4167b81d0121e913890736eb30601e89f",
     "src/SuApi.cpp": "026c74e87ccf8c96abdd27f12feef41095bb477514b329fe91939aceb2938eed",
     "src/SuApi.hpp": "56794e818ea11916c18fa531a362fee3982b209297489c44e8c44bcf683d5ed8",
@@ -266,10 +266,9 @@
     "CMakeLists.txt": "734d228bf55c0c4be92431ce78a59f7877ac4df5054ea48ebf5a38e64487c227"
   },
   "changedSource": [
-    "src/HudCustomization.inc",
-    "src/MainMenuDock.inc",
-    "src/StylePostProcess.hpp",
-    "src/UiPanel.cpp"
+    "src/PencilEdgeSpread.hpp",
+    "src/PerfDiagnostics.hpp",
+    "src/StylePostProcess.hpp"
   ],
   "removedSource": [],
   "evidenceSha256": {
@@ -286,7 +285,7 @@
     "proxy127-koki-75.png": "d31f090ac6b92904da1835d2655db27a74b0773e87469a5f1ad4c766349d0c03",
     "proxy127-koki-100.png": "b8d252259d9641b7b90159c09267cc7f54a0d30dd72f2452597c83ae7701dbd3"
   },
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_overlay_shader_20261026_174206\\source-and-tests.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_style_final_20261026_181046\\source-and-tests.zip",
   "beforeSourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\before_proxy_hud127_20261026_163040\\source-and-tests.zip",
   "proxy": {
     "relativeBoundingVolume": true,
@@ -319,7 +318,7 @@
     "parentOpacityAppliedOnce": true
   },
   "preservedPriorVersion": "1.26",
-  "buildRevision": "overlay-z-order-and-style-cache",
+  "buildRevision": "style-gpu-specialized-final",
   "leftMenuRegression": {
     "change": "UiPanelPlaceHuds now converts screen placement to viewer-client coordinates",
     "beforeReproduced": true,
@@ -341,12 +340,7 @@
     "previousExeSha256": "155372126204f3693b58b1cab09057894e612857d695400830ed90461142b9a1"
   },
   "revisionEvidenceSha256": {
-    "left-menu127-final-1.log": "44784ee5e66247563a6cd74c3ca7b5d7f869ce7750a59e9f4a4de956c803fab3",
-    "left-menu127-final-1.25.log": "8f31319f94fe9a1c33a20fa65a97398100a49a2b7e217b48a80ac7c26dc38e7c",
-    "left-menu127-final-1.5.log": "96ad738319884dcc2c7fcea7db4df0b49ace0ca45b2034ce33866fddb6c2a400",
-    "left-menu127-final-2.log": "b25aedf13c9fae0bc29dc758d404dc76f45b1c729b3cddad0feca39aa66d4631",
-    "style-cache127.log": "53dee4acf4a9ed14b20f5861efa1bd0459c0d9b7c313b750be9466891b8f8fe8",
-    "menu-transfer127-final.log": "be893e4f774c810c3ae51c9896da419fcc87438508e6a50445aeae4749ffb631"
+    "style-final127.log": "6c61d522586a8e2682e00384c036d159ff50455fa69b01c312231a05c2fb8848"
   },
   "overlayFix": {
     "viewportOcclusionReproducedBeforeFix": true,
@@ -371,6 +365,65 @@
     "warmUniformLookupsBefore": 1198,
     "warmUniformLookupsAfter": 0,
     "glErrors": 0,
-    "shaderSourceUnchanged": true
+    "shaderSourceUnchanged": false
+  },
+  "styleOptimization": {
+    "specializedPostEffectPrograms": true,
+    "specializedOilTensorStages": true,
+    "specializedPencilSearch": true,
+    "pencilTransferKernelPreserved": true,
+    "artisticParametersAndMathUnchanged": true,
+    "resolutionAndSamplesUnchanged": true,
+    "exactRgbaComparisons": 234,
+    "actualKokiExactComparisons": 28,
+    "parameterAndResizeExactComparisons": 30,
+    "warmUniformLookups": 0,
+    "glErrors": 0,
+    "postTimings": [
+      {
+        "mode": 1,
+        "width": 1920,
+        "height": 1080,
+        "beforeMs": 0.071296,
+        "afterMs": 0.049408,
+        "reductionPct": 30.7002
+      },
+      {
+        "mode": 2,
+        "width": 1920,
+        "height": 1080,
+        "beforeMs": 9.31277,
+        "afterMs": 8.30259,
+        "reductionPct": 10.8472
+      },
+      {
+        "mode": 3,
+        "width": 1920,
+        "height": 1080,
+        "beforeMs": 0.174592,
+        "afterMs": 0.08192,
+        "reductionPct": 53.0792
+      }
+    ],
+    "pencilTimings": [
+      {
+        "reuse": false,
+        "width": 640,
+        "height": 400,
+        "beforeMs": 0.667776,
+        "afterMs": 0.594688,
+        "reductionPct": 10.945
+      },
+      {
+        "reuse": true,
+        "width": 640,
+        "height": 400,
+        "beforeMs": 0.29952,
+        "afterMs": 0.294272,
+        "reductionPct": 1.75214
+      }
+    ],
+    "timingMethod": "GPU elapsed query, six alternating trials of four warmed iterations; median of trial means. Timings isolate effect processing, not end-to-end frame FPS.",
+    "priorSourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_overlay_shader_20261026_174206\\source-and-tests.zip"
   }
 }
