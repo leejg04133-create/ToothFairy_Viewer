@@ -1,11 +1,11 @@
 {
   "version": "1.27",
   "file": "1.27/SkpViewportViewer.exe",
-  "sha256": "155372126204f3693b58b1cab09057894e612857d695400830ed90461142b9a1",
+  "sha256": "32816213d622053528ef62290b59b5dfff11d7920a3222a0df03550b34d642aa",
   "size": 13458432,
   "buildIdentifier": "20261026-volume-proxy-child-hud-1.27",
-  "builtAtKST": "2026-10-26T17:00:57.272743+09:00",
-  "validatedAtKST": "2026-10-26T17:09:40.693754+09:00",
+  "builtAtKST": "2026-10-26T17:17:53.595046+09:00",
+  "validatedAtKST": "2026-10-26T17:19:13.606730+09:00",
   "sourceSha256": {
     "CMakeLists.txt": "734d228bf55c0c4be92431ce78a59f7877ac4df5054ea48ebf5a38e64487c227",
     "src/ActionIcons.inc": "2bfc4abd48303b01f0736062b4fd3c45c527202289d89683166661c74792a06b",
@@ -256,7 +256,7 @@
     "src/TfPopup.cpp": "0221143635d6a53c1b8a800f2c34bc5038dd79e34d5f7403ac2cce7ef814b522",
     "src/TfPopup.hpp": "e2f2aecf375d912c4f5764a9c1a35b17a834850f1f9537a7375c120b1d54225d",
     "src/Theme.hpp": "fece00b1c1996de22903602573b429e9fb8c81f7607784f4d02daf61e5a35e50",
-    "src/UiPanel.cpp": "f3460419edccc822a789f2f85b225b7b315b21e317a1e391df417de5cfbaf40e",
+    "src/UiPanel.cpp": "8c0ceef64c0af612c9ba6903a7262802a7fb0b9907fd593597e087fce0aded70",
     "src/UiPanel.hpp": "8227c0531170268d1916269563123038f8d4035dad7741be72537d6720f8a39e",
     "src/UpdateUiSmoke.inc": "c60c54bc6979634e356ae2da995ce81c0cd9aeb091a5820fd64a482001a0b2cf",
     "src/ViewerChildOverlay.hpp": "8c931818474a389980ffac397b1d9bf9fe1b8d6153b61f69432a71a4ea328a70",
@@ -293,7 +293,7 @@
     "proxy127-koki-75.png": "d31f090ac6b92904da1835d2655db27a74b0773e87469a5f1ad4c766349d0c03",
     "proxy127-koki-100.png": "b8d252259d9641b7b90159c09267cc7f54a0d30dd72f2452597c83ae7701dbd3"
   },
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_20261026_170939\\source-and-tests.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_left_menu_20261026_171912\\source-and-tests.zip",
   "beforeSourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\before_proxy_hud127_20261026_163040\\source-and-tests.zip",
   "proxy": {
     "relativeBoundingVolume": true,
@@ -325,5 +325,26 @@
     "idleCameraPadRedrawsIn240Frames": 0,
     "parentOpacityAppliedOnce": true
   },
-  "preservedPriorVersion": "1.26"
+  "preservedPriorVersion": "1.26",
+  "buildRevision": "left-menu-follow-fix",
+  "leftMenuRegression": {
+    "change": "UiPanelPlaceHuds now converts screen placement to viewer-client coordinates",
+    "beforeReproduced": true,
+    "dpiScales": [
+      1,
+      1.25,
+      1.5,
+      2
+    ],
+    "changedSinceOriginal127": [
+      "src/UiPanel.cpp"
+    ],
+    "evidenceSha256": {
+      "left-menu127-fixed-100.log": "cd3e16b67fe3409832b123d425e796005e48d2f3dc1ec36f15ee7fe9a15bacb8",
+      "left-menu127-fixed-125.log": "ef0399cb45617fa0ccfb2f3d05b629d67a933e30dc613ff0613b5f03823881bd",
+      "left-menu127-fixed-150.log": "7b7cefb1932515580a5c3bc95b6b8e03bf2dd63f4a9cc31b3331fea714b97034",
+      "left-menu127-fixed-200.log": "06547c700a741fb2b313039fce7c1dee0372489a2ec407b1243c472f5c1a5899"
+    },
+    "previousExeSha256": "155372126204f3693b58b1cab09057894e612857d695400830ed90461142b9a1"
+  }
 }
