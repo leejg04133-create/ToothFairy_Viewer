@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.28",
-  "file": "1.28/SkpViewportViewer.exe",
-  "sha256": "0e9e99e1e2635a7a93cadff32cf4215643d19298b881c8ebdee805a74edbd839",
-  "size": 13896704,
-  "notes": "선택 객체 하단 HUD, 아이콘 위 팝업과 세로 편집 메뉴, 이동·회전 조작 바, 기존 오른쪽 사용자 HUD 표시 복구."
+  "version": "1.29",
+  "file": "1.29/SkpViewportViewer.exe",
+  "sha256": "ce2ced5f13a6d5a2571bcf6c456b773a5e439c390860e9918faeea0ce072fe8c",
+  "size": 13926400,
+  "notes": "메뉴·미니 HUD 정리, X/Y/Z 수치·단축키 연결, 밝은 테마·도움말 복구, 원본 Soft 선 외곽선 판정 수정, 점 세 개 준비 안내."
 }
