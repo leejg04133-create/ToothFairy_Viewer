@@ -1,13 +1,13 @@
 {
   "version": "1.29",
-  "buildIdentifier": "20261027-direct-transform-input-cold-loading-1.29",
-  "sha256": "6066705c86f0eb5fd40486c6197c44cabb6d72a967393245eabd5174ca6b1f0a",
+  "buildIdentifier": "20261027-transform-axis-priority-1.29",
+  "sha256": "4ace192c5bf93891b81dae8f92cd7386df4bed142dcf9da3bdaafd191ce68770",
   "size": 13928960,
-  "builtAtKST": "2026-10-27T07:46:29.900206+09:00",
-  "validatedAtKST": "2026-10-27T07:50:23.696164+09:00",
+  "builtAtKST": "2026-10-27T08:07:22.946084+09:00",
+  "validatedAtKST": "2026-10-27T08:09:56.789112+09:00",
   "sourceSha256": {
     "src/ActionIcons.inc": "2bfc4abd48303b01f0736062b4fd3c45c527202289d89683166661c74792a06b",
-    "src/App.cpp": "af30a43a6eecfd803d3e4920890c92c06cca79a002a98c6fbe8423b8895ab7f4",
+    "src/App.cpp": "12f3e01cd9a456113013f1f79bf08e33e28c10fb46341264388dba6039f148b2",
     "src/App.hpp": "d6ed34c68ad53a6075c76165d59094b0defc28427e5393f88392e86e7594f108",
     "src/app.manifest": "3c041c4f9dca9fdac90e402a1afa36f36c2c3ae8998bb321c01f690a98abd906",
     "src/app.rc": "160e657e86d8dd1c8fb14774e42db8451bf845f0c7ba38dc147c0879c166709d",
@@ -196,7 +196,7 @@
     "src/PencilEdgeSpread.hpp": "f0174d3e3bb5b3f676d7d434788fe751bfb89dd4a8e35e53e809cc4aceb60de5",
     "src/PencilTonalAsset.hpp": "1d78088d78b23f127e03af64ad50a8356b61090c2d224e0999e809d9e4a52bfa",
     "src/PencilTonalTexture.hpp": "d8ad5e58da6ccebc88899e40b8ddfe1bf415a7c0afa6b34dfa9a53496d2661b6",
-    "src/PerfDiagnostics.hpp": "c0e229b056509cde942a7e329c562986dcecae3dcfccf45d42e17d0c691dcc0d",
+    "src/PerfDiagnostics.hpp": "db2f95aa19e41fda600ded4a8fca3f89efb6cd174e0bdcc3689c9e0874d00648",
     "src/Placement.hpp": "ef142c1da3d092e805d45c33e76d5984801e195fcdb4c86427a43c90fa2fee09",
     "src/Platform.cpp": "7aa6e37234c8b44700a30692c98167ff2928709a7c86ec289cc2c6a7ee06c2e0",
     "src/Platform.hpp": "23f5aee40068bb7f7db5d5c95de64ca358535fa7a21e6cd8d5ddafdd9021f041",
@@ -267,7 +267,7 @@
     "src/TfPopup.cpp": "0221143635d6a53c1b8a800f2c34bc5038dd79e34d5f7403ac2cce7ef814b522",
     "src/TfPopup.hpp": "e2f2aecf375d912c4f5764a9c1a35b17a834850f1f9537a7375c120b1d54225d",
     "src/Theme.hpp": "fece00b1c1996de22903602573b429e9fb8c81f7607784f4d02daf61e5a35e50",
-    "src/UiPanel.cpp": "7b2efe61112994e2f1b4903d76d0ef0d9affeffade50ff418b369139de270a2d",
+    "src/UiPanel.cpp": "f0c602a26f07b7b3c92c9a5d6e804be754216f5766bbbde9c5909fbe7a13f7f3",
     "src/UiPanel.hpp": "72c6250090dff34b271cdd652a6ee16c8a2414b51fa2966ef36a6c9415287465",
     "src/UpdateUiSmoke.inc": "c60c54bc6979634e356ae2da995ce81c0cd9aeb091a5820fd64a482001a0b2cf",
     "src/ViewerChildOverlay.hpp": "8c931818474a389980ffac397b1d9bf9fe1b8d6153b61f69432a71a4ea328a70",
@@ -280,19 +280,14 @@
   },
   "changedSource": [
     "src/App.cpp",
-    "src/CharacterApp.inc",
     "src/PerfDiagnostics.hpp",
-    "src/UiPanel.cpp",
-    "src/UiPanel.hpp"
+    "src/UiPanel.cpp"
   ],
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.29_direct_number_loading_20261027_075022\\source-and-tests.zip",
-  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.29_direct_number_before_20261027_074458\\source-and-tests.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.29_axis_priority_20261027_080955\\source-and-tests.zip",
+  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.29_axis_priority_before_20261027_080533\\source-and-tests.zip",
   "testEvidenceSha256": {
-    "input140-input.log": "8fc6afac4551990170fc3c4662d113ed61aa8291c2e13a7c8bc2f487a6b0fba9",
-    "input140-ui.log": "5a1e47e861a7bad5b28e1b68305f07e96d62667d9a4940e03b44a8ce0f463bc1",
-    "input140-ui-dpi150.log": "d25491e6598d475e92bb7ebffbe94e6bd77759cb86afb1407b60388a5a00fd94",
-    "input140-busy.log": "48f1fd2f821fdccfc7ea6be0bb4257d4cc82d13b987806ff22a52f6cfbcd2b5c",
-    "input140-shortcuts.log": "7a7179ca05a0d2126a8eba47e8b35f21b307e5bcf663f0575d2121cce7b56961"
+    "axis141-input.log": "ce50c6669a131ccf7a97b249c9d1558993d2c95297c38b23748f7a2be9be99bf",
+    "axis141-transform-regression.log": "c523caa10100bcb40f4d004b389bc8ba5d39d35d7d64a2b294a7c8cf1d07a963"
   },
   "measurements": [
     "INPUT140 character_cold_ready_ms=16.9026 loading_presentations=0",
@@ -333,11 +328,12 @@
   "busyScope": "Existing delay/coalescing and GPU fence lifetime retained. Compact wave-dot UI uses independent GDI+ worker; model loader suppression retained; character creation and crack initialization/submission covered; asynchronous crack/alpha job lifetime tracked.",
   "renderingScope": "No changes to renderer shaders, material color/opacity, line width, shadow intensity or export quality. Loader corrects only adjacent edge normal orientation for Soft silhouette classification.",
   "limits": "No whole-scene speed or cross-PC frame-rate guarantee. Native input fixture suppresses OS clipboard publishing. Busy test blocks its main thread deliberately; it does not synthesize expensive real crack geometry.",
-  "inheritedValidationSha256": "86854dc567281dce4f6cc8658ad30a2c6e3e15b6eb0602fc0a82dec97eb4d155",
+  "inheritedValidationSha256": "d7831f35b078c911a25ffdeaa22bcc0d223782a362201a87ca1bdbd1aff2f17e",
   "transformContinuation": "Numeric Enter commits one history step without leaving Move/Rotate. Esc cancels only unfinished preview and returns to selection mini HUD. Explicit check button still completes the tool. Axis and manual copy mode persist between numeric steps.",
   "idleTermination": "Three idle seconds start smooth fade. Input during fade reverses it; after fade completion the logical HUD closes, pending previews/UV are cancelled, Paint/sampler modes stop and ordinary pointer motion cannot resurrect the HUD. Explicit tool/selection action opens a fresh HUD.",
-  "regressionScope": "Version, renderer shaders, loader, shadow appearance, material opacity/colors, line width and export algorithms unchanged from published 1.29.",
+  "regressionScope": "Version, renderer shaders, loader, shadow appearance, material opacity/colors, line width, export and busy-indicator presentation algorithms unchanged from published 1.29. UI visuals inherited from preceding validation; current changes only route contextual axis input.",
   "directInputFinding": "Only axis/value clicks opened the numeric editor. Bare digit key-down instead reached pass shortcuts, while char input was ignored without field focus. Start numeric capture before global pass dispatch, route keypad characters before focus, retain live grab across mouse release during text entry.",
   "loadingFinding": "Existing busy indicator uses a real 200 ms threshold. Character initial characterReady resource parsing ran outside creation scope; creation was covered, but initial Add/Scatter readiness and rebuild preparation were not. These now use the same busy lifetime.",
-  "testScope": "Current App key/char/mouse handlers in real OpenGL context; resources linked from production app.rc.res. Cold embedded male/female resource parsing and actual first character creation/GPU append measured in a small fixture. Slow busy-worker test deliberately blocks its main thread and confirms animation/completion; no whole-scene speed guarantee."
+  "testScope": "Current App event handlers and dispatcher; controlled held-key state exercises production frame polling. Both Move and Rotate, default Z, F6 rebinding, shared remapped chord, stale FOV numeric editor, unrelated numeric input and shortcut capture. Existing input140 native OpenGL regression also passed.",
+  "axisPriorityFinding": "WM_KEYDOWN had transform axis routing, but asynchronous frame polling could invoke FovZoom first. The FOV numeric editor then blocked the axis handler. Both input paths now share assigned-axis routing; conflicting action latches prevent duplicate polling; only the conflicting FOV numeric editor yields to a matched transform axis chord."
 }

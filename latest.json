@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.29",
   "file": "1.29/SkpViewportViewer.exe",
-  "sha256": "6066705c86f0eb5fd40486c6197c44cabb6d72a967393245eabd5174ca6b1f0a",
+  "sha256": "4ace192c5bf93891b81dae8f92cd7386df4bed142dcf9da3bdaafd191ce68770",
   "size": 13928960,
-  "notes": "1.29 수정본: 이동·회전 중 숫자 바로 입력, 마우스 해제 시 수치 확정 보호, 최초 캐릭터 준비 안내 연결."
+  "notes": "1.29 수정본: 이동·회전 미니 HUD의 Z/사용자 지정 축 키를 화각보다 우선 처리. 키 메시지·프레임 검사 양쪽 적용."
 }
