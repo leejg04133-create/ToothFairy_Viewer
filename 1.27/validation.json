@@ -1,11 +1,11 @@
 {
   "version": "1.27",
   "file": "1.27/SkpViewportViewer.exe",
-  "sha256": "2cba38e0f5aa7218c6314123f99471448dad1a73347af5a286d46a679b7c44e1",
-  "size": 13466624,
-  "buildIdentifier": "20261026-style-gpu-specialized-1.27",
-  "builtAtKST": "2026-10-26T18:07:13.826924+09:00",
-  "validatedAtKST": "2026-10-26T18:10:47.482684+09:00",
+  "sha256": "60021065870016b00053361498e12022eadda20a707bc9b4f64b005f46cb65e5",
+  "size": 13467136,
+  "buildIdentifier": "20261026-pencil-visibility-reuse-1.27",
+  "builtAtKST": "2026-10-26T18:29:48.263841+09:00",
+  "validatedAtKST": "2026-10-26T18:34:36.104089+09:00",
   "sourceSha256": {
     "src/ActionIcons.inc": "2bfc4abd48303b01f0736062b4fd3c45c527202289d89683166661c74792a06b",
     "src/App.cpp": "1190f57edb3f38f1ad24faf606b279d6afbf31b1c514746b719ca9229cf70990",
@@ -113,7 +113,7 @@
     "src/EntityBounds.hpp": "9a585f621257b3428c0d24dbd65c6de6afa02314528ecaba868244470f6124b9",
     "src/EntityGraph.cpp": "82ee96fbf4aa045628e0fed18b27b2bda0d49b2c843487559975fcf0412625e3",
     "src/EntityGraph.hpp": "c360f09537d429ab4d8968dee05820cfeed34d75274c2cf2be3f27ab30203e6d",
-    "src/EntityVisibilityCache.hpp": "907789efe1ad71c06bf2c44c30a567764d1a3d40ffd438f49607fb5c32368f87",
+    "src/EntityVisibilityCache.hpp": "fe8ccaa9d948a967d7f5adee94a3f1f4509947d72a226e498319bef7208a2f6a",
     "src/ExportSceneSync.hpp": "31399e19bd1d16f66dcb0037851e2b874eab9122f21b2ff8c3b14173955cfd48",
     "src/FaceDrawBatch.hpp": "19398455402ad722223058009d623d50a0458818f1242a3086c926c64acf104e",
     "src/FailureDiagnostics.hpp": "55cdc0d153cd8ef16a996852f9b0e6a5947c2dd56dc9b05374621676fd9469d1",
@@ -185,7 +185,7 @@
     "src/PencilEdgeSpread.hpp": "f0174d3e3bb5b3f676d7d434788fe751bfb89dd4a8e35e53e809cc4aceb60de5",
     "src/PencilTonalAsset.hpp": "1d78088d78b23f127e03af64ad50a8356b61090c2d224e0999e809d9e4a52bfa",
     "src/PencilTonalTexture.hpp": "d8ad5e58da6ccebc88899e40b8ddfe1bf415a7c0afa6b34dfa9a53496d2661b6",
-    "src/PerfDiagnostics.hpp": "77d61c62abc395cf051a0ddb59373e5a15a77d01d5c89266ec7113664c2014e3",
+    "src/PerfDiagnostics.hpp": "1972916b64d31be26d329ec7407dae627b25e46f014d2f8a64231aacc49f7b2b",
     "src/Placement.hpp": "ef142c1da3d092e805d45c33e76d5984801e195fcdb4c86427a43c90fa2fee09",
     "src/Platform.cpp": "e079447676ab4a3acfc2fe6edfcc0f26545ffa03eea58d77cd6ad4833a9929d4",
     "src/Platform.hpp": "333f750abef9cddbd125f56753037e154dc0b3f4a8c5fb39c3bad46651d5361a",
@@ -195,7 +195,7 @@
     "src/RayShadow.hpp": "4e0e745b2b9d4c05cd61d84d6c9f753b172ae87f897795082defc0aca2c04aaf",
     "src/RenderBusyIndicator.hpp": "6ad5afb8d9a397f7b39221a5132e9a85424700997bcb36354e484e5802024d35",
     "src/RenderBusyTiming.hpp": "50a2b53fc097bab6b74377d2ca170213e42c661cd81a0ac0c09149ffc9e7175a",
-    "src/Renderer.cpp": "4257bd19099b8881c0310e1a3393bc535dbf0ab459e9c759aa3be16277d89691",
+    "src/Renderer.cpp": "32e37f891fec44cc64a3442a45539b0dee8e947e27cdef71190462cfe1242169",
     "src/Renderer.hpp": "671bb614c2b1eb6c28af456351fa2420c97f23166f3fad690e2e96affcc70ab8",
     "src/Renderer_uniLoc_fix.patch": "2d0335b1620bf93d8b430778246458fe6a385646f0048831a2849fd813c9b5bb",
     "src/RenderWakeState.hpp": "d59741cdcd8132c31f721721fa7ffd3417621d76ac23b96b268468e8c5d18f8b",
@@ -266,9 +266,9 @@
     "CMakeLists.txt": "734d228bf55c0c4be92431ce78a59f7877ac4df5054ea48ebf5a38e64487c227"
   },
   "changedSource": [
-    "src/PencilEdgeSpread.hpp",
+    "src/EntityVisibilityCache.hpp",
     "src/PerfDiagnostics.hpp",
-    "src/StylePostProcess.hpp"
+    "src/Renderer.cpp"
   ],
   "removedSource": [],
   "evidenceSha256": {
@@ -285,7 +285,7 @@
     "proxy127-koki-75.png": "d31f090ac6b92904da1835d2655db27a74b0773e87469a5f1ad4c766349d0c03",
     "proxy127-koki-100.png": "b8d252259d9641b7b90159c09267cc7f54a0d30dd72f2452597c83ae7701dbd3"
   },
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_style_final_20261026_181046\\source-and-tests.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_pencil_visibility_20261026_183435\\source-and-tests.zip",
   "beforeSourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\before_proxy_hud127_20261026_163040\\source-and-tests.zip",
   "proxy": {
     "relativeBoundingVolume": true,
@@ -318,7 +318,7 @@
     "parentOpacityAppliedOnce": true
   },
   "preservedPriorVersion": "1.26",
-  "buildRevision": "style-gpu-specialized-final",
+  "buildRevision": "pencil-effective-capture-visibility",
   "leftMenuRegression": {
     "change": "UiPanelPlaceHuds now converts screen placement to viewer-client coordinates",
     "beforeReproduced": true,
@@ -340,7 +340,7 @@
     "previousExeSha256": "155372126204f3693b58b1cab09057894e612857d695400830ed90461142b9a1"
   },
   "revisionEvidenceSha256": {
-    "style-final127.log": "6c61d522586a8e2682e00384c036d159ff50455fa69b01c312231a05c2fb8848"
+    "pencil-release127.log": "febe08fc47d0a34647d9999f08476bc43cd9b92cf5809c3d1e289f68f18d607e"
   },
   "overlayFix": {
     "viewportOcclusionReproducedBeforeFix": true,
@@ -425,5 +425,45 @@
     ],
     "timingMethod": "GPU elapsed query, six alternating trials of four warmed iterations; median of trial means. Timings isolate effect processing, not end-to-end frame FPS.",
     "priorSourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_overlay_shader_20261026_174206\\source-and-tests.zip"
+  },
+  "pencilVisibilityOptimization": {
+    "captureKeyReflectsActualVisibility": true,
+    "exportOptOutsPreserved": true,
+    "editContextPreserved": true,
+    "hiddenPreviewCharacterPreserved": true,
+    "legacyClassificationComparisons": 180,
+    "stationary": [
+      {
+        "reference": true,
+        "visibilityRebuilds": 12,
+        "meanMs": 358.273,
+        "nodes": 604554
+      },
+      {
+        "reference": false,
+        "visibilityRebuilds": 0,
+        "meanMs": 176.454,
+        "nodes": 604554
+      }
+    ],
+    "movingProjections": [
+      {
+        "reference": true,
+        "visibilityRebuilds": 12,
+        "instanceRuleRebuilds": 183408,
+        "meanMs": 339.177
+      },
+      {
+        "reference": false,
+        "visibilityRebuilds": 0,
+        "instanceRuleRebuilds": 0,
+        "meanMs": 179.452
+      }
+    ],
+    "movingRgbaComparisons": 6,
+    "unusedCoordinatePassesExactComparisons": 4,
+    "previous234RgbaComparisonsRerun": true,
+    "glErrors": 0,
+    "priorSourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_style_final_20261026_181046\\source-and-tests.zip"
   }
 }
