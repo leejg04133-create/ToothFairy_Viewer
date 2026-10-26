@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.28",
   "file": "1.28/SkpViewportViewer.exe",
-  "sha256": "953e5a0dd0ed9cafceeeef3b1b10d6d9b3f95a75de3631c19a8072a5504ab753",
-  "size": 13850624,
-  "notes": "메뉴 정리, 설정의 단축키 HUD, 재질 추가 아이콘 간격 통일, 중앙 단축키·Z 화각 안내가 가려지는 문제 수정."
+  "sha256": "0e9e99e1e2635a7a93cadff32cf4215643d19298b881c8ebdee805a74edbd839",
+  "size": 13896704,
+  "notes": "선택 객체 하단 HUD, 아이콘 위 팝업과 세로 편집 메뉴, 이동·회전 조작 바, 기존 오른쪽 사용자 HUD 표시 복구."
 }
