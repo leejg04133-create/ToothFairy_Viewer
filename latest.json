@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.27",
-  "file": "1.27/SkpViewportViewer.exe",
-  "sha256": "3d058e748b6bd142d85e35198bf5a915b937a82f437cd47ec16c9a4b43cd6b82",
-  "size": 13467648,
-  "notes": "조이스틱이 다른 창 클릭·단축키 입력 때 사라지는 조건을 제거했습니다. 조이스틱/HUD는 메뉴처럼 뷰어에 종속되어 표시되고, 메뉴 뒤에 가려지지 않습니다. 기존 색연필 최적화를 유지합니다."
+  "version": "1.28",
+  "file": "1.28/SkpViewportViewer.exe",
+  "sha256": "501f1a9e531d48bfbfb3f1c488c5527ec444a91f0f732418c3bc0ce93e23506e",
+  "size": 13519872,
+  "notes": "재질 스포이드를 캡슐 HUD로 간소화했습니다. 위로 열리는 색상·표면 팝업, 색상만 가져오기, 원래 색상 복원, 텍스처 이미지 불러오기를 지원하고 재질 편집의 중복 계산을 줄였습니다."
 }
