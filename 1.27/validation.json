@@ -1,14 +1,14 @@
 {
   "version": "1.27",
   "file": "1.27/SkpViewportViewer.exe",
-  "sha256": "60021065870016b00053361498e12022eadda20a707bc9b4f64b005f46cb65e5",
-  "size": 13467136,
-  "buildIdentifier": "20261026-pencil-visibility-reuse-1.27",
-  "builtAtKST": "2026-10-26T18:29:48.263841+09:00",
-  "validatedAtKST": "2026-10-26T18:34:36.104089+09:00",
+  "sha256": "3d058e748b6bd142d85e35198bf5a915b937a82f437cd47ec16c9a4b43cd6b82",
+  "size": 13467648,
+  "buildIdentifier": "20261026-overlay-focus-stacking-1.27",
+  "builtAtKST": "2026-10-26T22:12:19.590824+09:00",
+  "validatedAtKST": "2026-10-26T22:15:11.208618+09:00",
   "sourceSha256": {
     "src/ActionIcons.inc": "2bfc4abd48303b01f0736062b4fd3c45c527202289d89683166661c74792a06b",
-    "src/App.cpp": "1190f57edb3f38f1ad24faf606b279d6afbf31b1c514746b719ca9229cf70990",
+    "src/App.cpp": "bc91b9e614107c50e838affe5a0a3838e15fbc69483cd05a0dcef0ab1a9cd843",
     "src/App.hpp": "d6ed34c68ad53a6075c76165d59094b0defc28427e5393f88392e86e7594f108",
     "src/app.manifest": "3c041c4f9dca9fdac90e402a1afa36f36c2c3ae8998bb321c01f690a98abd906",
     "src/app.rc": "b87654c6c0e4688418ba36f7a25500096b7998c587648d97da040f71a5f335f3",
@@ -18,7 +18,7 @@
     "src/CameraComp.hpp": "4e8fd881c6a97d5fd2b34d00db6d29ea0cf180a90a5cf1159207feb45bb00fef",
     "src/CameraFocal.hpp": "70fa42e20c009370f876612243c757b9359dbdc1304920df29c85bf54bfc5f24",
     "src/CameraKeyTimeline.hpp": "5b49cc445ad72943d613fbf3b4387343868ee86993fc9fe13d9a29028f20e393",
-    "src/CameraNavigationPad.hpp": "b911c2e9f679e1fb98960ee9f340463d77e56514ab2d53235e2cc34e322d0c97",
+    "src/CameraNavigationPad.hpp": "555ea5cc494f3b85b857c7097853e49fe1490d310bd8739512f4b977c57e414d",
     "src/CameraNavigationPadState.hpp": "a022089fee29765bb7033f74a7771611703aefd7f31429b2839eb1896c39837b",
     "src/CameraSettings.hpp": "cd58fc2de78a45fa3c6a76f81e2c205a81621e99c605f7bf108023446ded9ae9",
     "src/Character.cpp": "b912b2480c81f830b9cafc24f528840a06686fefd9be0c22db81c85be45b137d",
@@ -185,7 +185,7 @@
     "src/PencilEdgeSpread.hpp": "f0174d3e3bb5b3f676d7d434788fe751bfb89dd4a8e35e53e809cc4aceb60de5",
     "src/PencilTonalAsset.hpp": "1d78088d78b23f127e03af64ad50a8356b61090c2d224e0999e809d9e4a52bfa",
     "src/PencilTonalTexture.hpp": "d8ad5e58da6ccebc88899e40b8ddfe1bf415a7c0afa6b34dfa9a53496d2661b6",
-    "src/PerfDiagnostics.hpp": "1972916b64d31be26d329ec7407dae627b25e46f014d2f8a64231aacc49f7b2b",
+    "src/PerfDiagnostics.hpp": "6e49f2f3cfd81ae6589343a0c870525475572114186d7ee477ad3bdf7ee97de2",
     "src/Placement.hpp": "ef142c1da3d092e805d45c33e76d5984801e195fcdb4c86427a43c90fa2fee09",
     "src/Platform.cpp": "e079447676ab4a3acfc2fe6edfcc0f26545ffa03eea58d77cd6ad4833a9929d4",
     "src/Platform.hpp": "333f750abef9cddbd125f56753037e154dc0b3f4a8c5fb39c3bad46651d5361a",
@@ -255,7 +255,7 @@
     "src/TfPopup.cpp": "0221143635d6a53c1b8a800f2c34bc5038dd79e34d5f7403ac2cce7ef814b522",
     "src/TfPopup.hpp": "e2f2aecf375d912c4f5764a9c1a35b17a834850f1f9537a7375c120b1d54225d",
     "src/Theme.hpp": "fece00b1c1996de22903602573b429e9fb8c81f7607784f4d02daf61e5a35e50",
-    "src/UiPanel.cpp": "11076726de3cafd27780ac5337cd89cacfc52f7ee312d9afc7b157037df7f2d9",
+    "src/UiPanel.cpp": "80394c35be9d3767f5587fc84003175d51cb76b73d9c11187910e800edb37b0b",
     "src/UiPanel.hpp": "8227c0531170268d1916269563123038f8d4035dad7741be72537d6720f8a39e",
     "src/UpdateUiSmoke.inc": "c60c54bc6979634e356ae2da995ce81c0cd9aeb091a5820fd64a482001a0b2cf",
     "src/ViewerChildOverlay.hpp": "8c931818474a389980ffac397b1d9bf9fe1b8d6153b61f69432a71a4ea328a70",
@@ -266,9 +266,10 @@
     "CMakeLists.txt": "734d228bf55c0c4be92431ce78a59f7877ac4df5054ea48ebf5a38e64487c227"
   },
   "changedSource": [
-    "src/EntityVisibilityCache.hpp",
+    "src/App.cpp",
+    "src/CameraNavigationPad.hpp",
     "src/PerfDiagnostics.hpp",
-    "src/Renderer.cpp"
+    "src/UiPanel.cpp"
   ],
   "removedSource": [],
   "evidenceSha256": {
@@ -285,7 +286,7 @@
     "proxy127-koki-75.png": "d31f090ac6b92904da1835d2655db27a74b0773e87469a5f1ad4c766349d0c03",
     "proxy127-koki-100.png": "b8d252259d9641b7b90159c09267cc7f54a0d30dd72f2452597c83ae7701dbd3"
   },
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_pencil_visibility_20261026_183435\\source-and-tests.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_overlay_focus_20261026_221509\\source-and-tests.zip",
   "beforeSourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\before_proxy_hud127_20261026_163040\\source-and-tests.zip",
   "proxy": {
     "relativeBoundingVolume": true,
@@ -318,7 +319,7 @@
     "parentOpacityAppliedOnce": true
   },
   "preservedPriorVersion": "1.26",
-  "buildRevision": "pencil-effective-capture-visibility",
+  "buildRevision": "overlay-focus-and-stack",
   "leftMenuRegression": {
     "change": "UiPanelPlaceHuds now converts screen placement to viewer-client coordinates",
     "beforeReproduced": true,
@@ -340,7 +341,14 @@
     "previousExeSha256": "155372126204f3693b58b1cab09057894e612857d695400830ed90461142b9a1"
   },
   "revisionEvidenceSha256": {
-    "pencil-release127.log": "febe08fc47d0a34647d9999f08476bc43cd9b92cf5809c3d1e289f68f18d607e"
+    "overlay-focus127-1.log": "43979458f1905c5fb48c3d1db15b6044a540010f6b22c18453ae9c722c45cb96",
+    "overlay-stack127-1.log": "b52abdadbe1984c93cedb876e880f278cd30d749af2422e70628ef719d89663b",
+    "overlay-focus127-1.25.log": "2815c317571f37ea90507d1a61969178964be293df0c584996fc63f99dc78c91",
+    "overlay-stack127-1.25.log": "3f87e8868c6d3b7fbbe1469c6b797c2ac78af59b092e8cfb6f4879c898249951",
+    "overlay-focus127-1.5.log": "5f5f8327645d0c0acdd555139ddb5c96ca773f31b2c207edd135839436b6d28b",
+    "overlay-stack127-1.5.log": "faaaf9bf85d9b6cf3a5930173cbf056a599453f847758d6b458576c9b92da469",
+    "overlay-focus127-2.log": "a9e77dfaa9cae76fa508ca4778995cee9d8016f2989a43664b26532887f18d31",
+    "overlay-stack127-2.log": "426d7beb00310d06087f9582a5196d33b68c95cb7e6eca541a341f60c276531f"
   },
   "overlayFix": {
     "viewportOcclusionReproducedBeforeFix": true,
@@ -465,5 +473,21 @@
     "previous234RgbaComparisonsRerun": true,
     "glErrors": 0,
     "priorSourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_style_final_20261026_181046\\source-and-tests.zip"
+  },
+  "overlayFocusFix": {
+    "visibilityIndependentOfCameraKeyboardEligibility": true,
+    "inactiveCameraInputStillBlocked": true,
+    "padAndHudAboveMenu": true,
+    "clickActivationMatchesMenu": true,
+    "loadingHidePreserved": true,
+    "nativeChildParentagePreserved": true,
+    "dpiScales": [
+      1,
+      1.25,
+      1.5,
+      2
+    ],
+    "failureReproducedBeforeFix": true,
+    "rendererSourcesUnchanged": true
   }
 }
