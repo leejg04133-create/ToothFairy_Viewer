@@ -1,13 +1,12 @@
 {
   "version": "1.27",
   "file": "1.27/SkpViewportViewer.exe",
-  "sha256": "32816213d622053528ef62290b59b5dfff11d7920a3222a0df03550b34d642aa",
-  "size": 13458432,
+  "sha256": "683544bef1b29b52375234c4abe1d594f006db1a72a0148b119f5c9593a9d3e4",
+  "size": 13459456,
   "buildIdentifier": "20261026-volume-proxy-child-hud-1.27",
-  "builtAtKST": "2026-10-26T17:17:53.595046+09:00",
-  "validatedAtKST": "2026-10-26T17:19:13.606730+09:00",
+  "builtAtKST": "2026-10-26T17:37:50.492392+09:00",
+  "validatedAtKST": "2026-10-26T17:42:07.384040+09:00",
   "sourceSha256": {
-    "CMakeLists.txt": "734d228bf55c0c4be92431ce78a59f7877ac4df5054ea48ebf5a38e64487c227",
     "src/ActionIcons.inc": "2bfc4abd48303b01f0736062b4fd3c45c527202289d89683166661c74792a06b",
     "src/App.cpp": "1190f57edb3f38f1ad24faf606b279d6afbf31b1c514746b719ca9229cf70990",
     "src/App.hpp": "d6ed34c68ad53a6075c76165d59094b0defc28427e5393f88392e86e7594f108",
@@ -134,7 +133,7 @@
     "src/GpuTextureResidency.hpp": "eb3238abd4e5814456b6e5103ce4c4deff631306395211e9d963ee4e6f3b657c",
     "src/Hotkeys.cpp": "373528aaf7dd8f78fd8b15fa8cabef63e33b38dcaf520e9990d6d8fc33e572e8",
     "src/Hotkeys.hpp": "e04c61d249f2c9a836e8b08d813a4b4cd2ed45357562589147f5e6076bca34d1",
-    "src/HudCustomization.inc": "839c7095cf2249b6d6250140fbbe44a6b5245c763014dc7dd82aa9cc5bcc49ed",
+    "src/HudCustomization.inc": "22e98dfce40ce69488cb90661a9e2e1e5889c18fd0e67bf32f6ebd52c0d6106b",
     "src/HudShortcutBubble.inc": "3a2153584b6f447eb6d71dbd7a40bb3c1c94094e0ed70df23c812bedd639c0aa",
     "src/IndexedFaceMesh.hpp": "dd24b7d9adb092664cfce4dd9677a9bc3266497b28a296444a062835bc22fab7",
     "src/InheritedSdkUv.inc": "3c108fd6c4f45112b473e4afcf9d0136dbc25f2a35e011feacff0fe702e86cd9",
@@ -161,7 +160,7 @@
     "src/LocalRayCones.hpp": "fe783aaedc23aafdbd18bc574eb843defac6e275e6175c8489a1b449086f63fc",
     "src/main.cpp": "fd2e5abb8ba6fee1aef3660ad176c823e51274391a1d03ee41ab3dca13f22c35",
     "src/MainMenuDock.hpp": "307ad3eb8d04686f2727bfcacc4e95c7a5457b0f5119a8948e4d4ef150829185",
-    "src/MainMenuDock.inc": "e474db958a9eb080a2cb42ebd31f070fad0965cc8b42cb053b15b57a2ec124c7",
+    "src/MainMenuDock.inc": "083ed89c0abf7d216b559a6f7c5ba5f0459716f02c712df4c983ee1b6aa9e882",
     "src/MainMenuDrag.inc": "d37d8c994f6565f6d540970a9d470845be1459e8fc25ed33f06c18ff7b3a7b70",
     "src/MainMenuOrder.hpp": "a6a869ace9c7ea69df9a82df63cd57656a01c6562eec7b1488099d46eddb7e6b",
     "src/MaterialSpecular.hpp": "0171cc11e915be42373a0cd41456438a9a752fe5e2601cff9c26f7a799ddb4cf",
@@ -240,7 +239,7 @@
     "src/StyleEditorWidgets.inc": "18b6354f5b4b2b4e9a065b051ad27031e604e3b773a248107c737dfdece21ebd",
     "src/StyleGraph.hpp": "c19934ed230abf640154f1e913c7d9cc7bd416829644cd255f872bdb5241805b",
     "src/StyleMaterial.hpp": "2a24a47ec8b1045e85aa56d00ce365b2af78889015a6206554b80168a79c885e",
-    "src/StylePostProcess.hpp": "eb52b25d7c49af91f028b006a5322e2846552025199e4b648cf3b65c5c6ceff0",
+    "src/StylePostProcess.hpp": "ee9b069bec10a2b7198c4ab397253a2039289159b5592d805e9efb577aec1130",
     "src/StyleStorage.hpp": "5a0376d83a3815e22cac93b83d2d57e4167b81d0121e913890736eb30601e89f",
     "src/SuApi.cpp": "026c74e87ccf8c96abdd27f12feef41095bb477514b329fe91939aceb2938eed",
     "src/SuApi.hpp": "56794e818ea11916c18fa531a362fee3982b209297489c44e8c44bcf683d5ed8",
@@ -256,27 +255,21 @@
     "src/TfPopup.cpp": "0221143635d6a53c1b8a800f2c34bc5038dd79e34d5f7403ac2cce7ef814b522",
     "src/TfPopup.hpp": "e2f2aecf375d912c4f5764a9c1a35b17a834850f1f9537a7375c120b1d54225d",
     "src/Theme.hpp": "fece00b1c1996de22903602573b429e9fb8c81f7607784f4d02daf61e5a35e50",
-    "src/UiPanel.cpp": "8c0ceef64c0af612c9ba6903a7262802a7fb0b9907fd593597e087fce0aded70",
+    "src/UiPanel.cpp": "11076726de3cafd27780ac5337cd89cacfc52f7ee312d9afc7b157037df7f2d9",
     "src/UiPanel.hpp": "8227c0531170268d1916269563123038f8d4035dad7741be72537d6720f8a39e",
     "src/UpdateUiSmoke.inc": "c60c54bc6979634e356ae2da995ce81c0cd9aeb091a5820fd64a482001a0b2cf",
     "src/ViewerChildOverlay.hpp": "8c931818474a389980ffac397b1d9bf9fe1b8d6153b61f69432a71a4ea328a70",
     "src/ViewerStorage.hpp": "cc1cbfeb1efdcdbfcbb3ea99f743b2c2bc73a959c2f7eca41224af04dc6a83a6",
     "src/ViewerUpdate.cpp": "c83ee3be7ea9d3f26f0445bd31ce1a82e6332bdd19f3cecf7c7b121f1105f1b9",
     "src/ViewerUpdate.hpp": "016fa54db038e91929fd027e44c96f2fcf9bfdba77d7e39c38a965e9e4e50412",
-    "src/ViewSettings.hpp": "a351f0f4a853e66788410ddf2b5912c342b79b906fd7c860ee1ee7d464c5db75"
+    "src/ViewSettings.hpp": "a351f0f4a853e66788410ddf2b5912c342b79b906fd7c860ee1ee7d464c5db75",
+    "CMakeLists.txt": "734d228bf55c0c4be92431ce78a59f7877ac4df5054ea48ebf5a38e64487c227"
   },
   "changedSource": [
-    "src/app.rc",
-    "src/CameraNavigationPad.hpp",
-    "src/FovHud.inc",
     "src/HudCustomization.inc",
-    "src/HudShortcutBubble.inc",
-    "src/InteractionProxy.hpp",
     "src/MainMenuDock.inc",
-    "src/PerfDiagnostics.hpp",
-    "src/UiPanel.cpp",
-    "src/ViewerChildOverlay.hpp",
-    "src/ViewerUpdate.hpp"
+    "src/StylePostProcess.hpp",
+    "src/UiPanel.cpp"
   ],
   "removedSource": [],
   "evidenceSha256": {
@@ -293,7 +286,7 @@
     "proxy127-koki-75.png": "d31f090ac6b92904da1835d2655db27a74b0773e87469a5f1ad4c766349d0c03",
     "proxy127-koki-100.png": "b8d252259d9641b7b90159c09267cc7f54a0d30dd72f2452597c83ae7701dbd3"
   },
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_left_menu_20261026_171912\\source-and-tests.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.27_overlay_shader_20261026_174206\\source-and-tests.zip",
   "beforeSourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\before_proxy_hud127_20261026_163040\\source-and-tests.zip",
   "proxy": {
     "relativeBoundingVolume": true,
@@ -326,7 +319,7 @@
     "parentOpacityAppliedOnce": true
   },
   "preservedPriorVersion": "1.26",
-  "buildRevision": "left-menu-follow-fix",
+  "buildRevision": "overlay-z-order-and-style-cache",
   "leftMenuRegression": {
     "change": "UiPanelPlaceHuds now converts screen placement to viewer-client coordinates",
     "beforeReproduced": true,
@@ -346,5 +339,38 @@
       "left-menu127-fixed-200.log": "06547c700a741fb2b313039fce7c1dee0372489a2ec407b1243c472f5c1a5899"
     },
     "previousExeSha256": "155372126204f3693b58b1cab09057894e612857d695400830ed90461142b9a1"
+  },
+  "revisionEvidenceSha256": {
+    "left-menu127-final-1.log": "44784ee5e66247563a6cd74c3ca7b5d7f869ce7750a59e9f4a4de956c803fab3",
+    "left-menu127-final-1.25.log": "8f31319f94fe9a1c33a20fa65a97398100a49a2b7e217b48a80ac7c26dc38e7c",
+    "left-menu127-final-1.5.log": "96ad738319884dcc2c7fcea7db4df0b49ace0ca45b2034ce33866fddb6c2a400",
+    "left-menu127-final-2.log": "b25aedf13c9fae0bc29dc758d404dc76f45b1c729b3cddad0feca39aa66d4631",
+    "style-cache127.log": "53dee4acf4a9ed14b20f5861efa1bd0459c0d9b7c313b750be9466891b8f8fe8",
+    "menu-transfer127-final.log": "be893e4f774c810c3ae51c9896da419fcc87438508e6a50445aeae4749ffb631"
+  },
+  "overlayFix": {
+    "viewportOcclusionReproducedBeforeFix": true,
+    "railAboveFullWidthViewport": true,
+    "dpiScales": [
+      1,
+      1.25,
+      1.5,
+      2
+    ],
+    "finalLiveScreenshotCompleted": false,
+    "liveInspectionStoppedByUserEsc": true
+  },
+  "styleFix": {
+    "reclickReturnsToDefault": true,
+    "presetModes": [
+      2,
+      3,
+      4
+    ],
+    "exactRgbaComparisons": 80,
+    "warmUniformLookupsBefore": 1198,
+    "warmUniformLookupsAfter": 0,
+    "glErrors": 0,
+    "shaderSourceUnchanged": true
   }
 }
