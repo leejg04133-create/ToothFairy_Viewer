@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.28",
   "file": "1.28/SkpViewportViewer.exe",
-  "sha256": "2c145a28d8004e52d0d5e9fdd59db119177ef214bee68aa5fafd64cc28e8a376",
-  "size": 13686784,
-  "notes": "곡면·입체 UV 선택과 핸들, 선택 전체 표시를 수정했습니다. 확인/취소 버튼과 창 하단 고정을 추가하고 UV 좌표만 갱신하도록 최적화했습니다."
+  "sha256": "67fbc0cc41f021de7525b8466d544862dd1759b88949852cec09ea5e798f783c",
+  "size": 13836288,
+  "notes": "공통 Undo/Redo의 누락·중복 기록과 복원 오류를 수정하고, 변경 항목만 복원하도록 최적화했습니다."
 }
