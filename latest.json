@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.23",
-  "file": "1.23/SkpViewportViewer.exe",
-  "sha256": "1997c91576a902476290afd155b95c08f22c59860783e94fd933f03cfb6a85a6",
-  "size": 13402624,
-  "notes": "SketchUp 네이티브 복사·붙여넣기 복구: 플러그인 의존성 제거. 동적구성요소 회전·이동·숨김과 복수 선택·우클릭 초기화 복구. 일반 숨김과 동적 숨김 분리 유지."
+  "version": "1.24",
+  "file": "1.24/SkpViewportViewer.exe",
+  "sha256": "ec71586a8b8802861e236b8af2a1f76aa66dcc3b1521ca5da734d2f1a8bbeff2",
+  "size": 13404160,
+  "notes": "화면 조작 중 바닥 텍스처가 파래지는 프록시 색상 수정. 이미지 대표색을 미리 보관해 사용하며, 정지 화면·재질 RGB·내보내기 품질과 기존 프록시 단계는 유지합니다."
 }
