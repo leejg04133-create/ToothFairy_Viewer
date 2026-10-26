@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.28",
   "file": "1.28/SkpViewportViewer.exe",
-  "sha256": "67fbc0cc41f021de7525b8466d544862dd1759b88949852cec09ea5e798f783c",
-  "size": 13836288,
-  "notes": "공통 Undo/Redo의 누락·중복 기록과 복원 오류를 수정하고, 변경 항목만 복원하도록 최적화했습니다."
+  "sha256": "fe69c9a23bc587f66a73be6fd0cca3da70525ec5e6a71d3035f765359fbde433",
+  "size": 13843968,
+  "notes": "새 재질 버튼 추가, UV Alt·Shift 조작과 이미지 교체 후 갱신 비용 개선, 동적 구성요소의 다중 선택 방향·숨김 연결 수정."
 }
