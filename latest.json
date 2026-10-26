@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.28",
   "file": "1.28/SkpViewportViewer.exe",
-  "sha256": "915d5f2e3e3f7f31c5df125340c3716b06d6c4f95e0d9ed62955a9c9fc0160cf",
-  "size": 13645824,
-  "notes": "UV 면 클릭 즉시 핸들과 슬라이더를 표시합니다. 우클릭 해제·휠클릭 회전·Enter 최종 확정·Esc 취소와 그룹 없는 면/닫힌 표면 선택을 수정했습니다."
+  "sha256": "2c145a28d8004e52d0d5e9fdd59db119177ef214bee68aa5fafd64cc28e8a376",
+  "size": 13686784,
+  "notes": "곡면·입체 UV 선택과 핸들, 선택 전체 표시를 수정했습니다. 확인/취소 버튼과 창 하단 고정을 추가하고 UV 좌표만 갱신하도록 최적화했습니다."
 }
