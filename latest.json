@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.25",
-  "file": "1.25/SkpViewportViewer.exe",
-  "sha256": "19c2b839ab39c32ff1429917fdf23ad3826924a45ae0fe59386c79c96935a036",
-  "size": 13433856,
-  "notes": "서브메뉴 얇은 스크롤바, 통합 단축키 목록·검색과 중앙 기능 안내 추가. 긴 안내 글자 잘림 수정. 음영 방향 조작 시 음영 패스 미리보기와 완료 후 이전 화면 복귀 연결."
+  "version": "1.26",
+  "file": "1.26/SkpViewportViewer.exe",
+  "sha256": "e48a4d127584c669350c767f0a07cea270e14376780687e6273e0c098f1ca76a",
+  "size": 13452800,
+  "notes": "복사·붙여넣기·이동·회전의 전체 재계산/배경 스냅 검색 비용 감소. Ctrl을 미리 누른 이동·회전 복사 수정. SketchUp·팔레트 배치의 기존 GPU/검색 데이터 재사용. 다중 선택·실행 취소와 패스 이미지 검사 완료."
 }
