@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.31",
-  "file": "1.31/SkpViewportViewer.exe",
-  "sha256": "771775ce07efc2414b818f901c43ac79d5ab26538eed68d0a61d2442478f7e99",
-  "size": 13983744,
-  "notes": "1.31 수정본: 궤도·화면 이동·둘러보기 조작 후 원래 M/Q 도구와 커서를 실제 복구. 호버·십자 클릭·회전 조작을 바로 이어갈 수 있습니다."
+  "version": "1.32",
+  "file": "1.32/SkpViewportViewer.exe",
+  "sha256": "d80e8ac3de39fa05d3d54316e287a779dac5a0abf1e5c2760ece517bd3e55304",
+  "size": 14306304,
+  "notes": "1.32: 작업 자동 저장·이어하기와 최근 파일 시작창. 크랙·파괴·조명·재질·레이어·장면 복원. 목록 삭제 시 저장된 뷰어 작업도 삭제하며 원본 SKP는 유지합니다."
 }
