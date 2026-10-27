@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.29",
-  "file": "1.29/SkpViewportViewer.exe",
-  "sha256": "ebea1c2dda4bb56528b7988ad19bdc9ec580988c45c076a405a0dfeca8b4d979",
+  "version": "1.30",
+  "file": "1.30/SkpViewportViewer.exe",
+  "sha256": "3172c5143d4cef9aa65a810782ffdd2ac1fa006cb34c79b77c2726279ddc8582",
   "size": 13967872,
-  "notes": "1.29 수정본: 선택 후 입력 씹힘, 패스/2점 투시 단축키, 장면 투영 복원 수정. 그림자·음영 방향 Undo 제외. 추가 메뉴 +/− 접기. Koki 레이어 전환의 중복 준비 비용 개선."
+  "notes": "1.30: 선택 후 입력 씹힘, 패스·2점 투시 단축키, 장면 투영 복원 수정. 그림자·음영 방향 Undo 제외, 추가 메뉴 +/− 접기, Koki 레이어 전환 최적화."
 }
