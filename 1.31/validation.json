@@ -1,13 +1,13 @@
 {
   "version": "1.31",
-  "buildIdentifier": "20261027-navigation-hover-grips-1.31",
-  "sha256": "436c53c64ab0755f3facb4424fbb651360f4e4e048be459d588b91c704070870",
-  "size": 13983232,
-  "builtAtKST": "2026-10-27T12:19:33.266690+09:00",
-  "validatedAtKST": "2026-10-27T12:24:19.266659+09:00",
+  "buildIdentifier": "20261027-navigation-tool-resume-1.31",
+  "sha256": "771775ce07efc2414b818f901c43ac79d5ab26538eed68d0a61d2442478f7e99",
+  "size": 13983744,
+  "builtAtKST": "2026-10-27T12:41:47.840445+09:00",
+  "validatedAtKST": "2026-10-27T12:44:55.609163+09:00",
   "sourceSha256": {
     "src/ActionIcons.inc": "f24a6d086a8fd23d6b66fe8c34cca14660a51454443357ee7d5309218e404bec",
-    "src/App.cpp": "17a9efe355b88382199dadf0207957c2a0e257223d9e65a6ca670154e301b9ee",
+    "src/App.cpp": "083415355746420a590c90356e5a74022f19435a91249856fba7a671c8981117",
     "src/App.hpp": "d6ed34c68ad53a6075c76165d59094b0defc28427e5393f88392e86e7594f108",
     "src/app.manifest": "3c041c4f9dca9fdac90e402a1afa36f36c2c3ae8998bb321c01f690a98abd906",
     "src/app.rc": "b7566173b5b21dfee3911d278daf1b7794e4fddd2533d4b39769a18cf0c827b7",
@@ -109,7 +109,7 @@
     "src/DisplayFrameCadence.hpp": "b008c48c14120403e4ce31bc48983c826f30c0df5f4d5fe47ea8cda1ed7781ca",
     "src/DynamicHistory132.inc": "267983e464ac3d131f41b3ccd3bdeb2a561b06e7cafb5b29aa14416cc0c07320",
     "src/EdgeDrawBatch.hpp": "c46319eb2f5f3861c15c47919d8336fdbab920cd80fa40d2d33906a2f4781463",
-    "src/EditTools.cpp": "4ec0e9d306ba8deba16036aeface30ad2bc208d89b576727bd1b0f75a2605d29",
+    "src/EditTools.cpp": "45f65f31b61cdce7d9b01066be0f292bb394be56e300aef6eb085396aba9db3d",
     "src/EditTools.hpp": "aea794de80d0d90ad2365940266dab8f0873dbfd4fa6b07c2507ed6877e5cfb3",
     "src/EffectLighting.hpp": "10d096fee95a0a787689211de2593b0e84708c761a30181ccc2f186833807fe9",
     "src/EmissionGlow.hpp": "f354898d0ab7a8244cfdf98c0fb3c65574c4e046a7b12e6aa69793036bb0e12c",
@@ -200,7 +200,7 @@
     "src/PencilEdgeSpread.hpp": "f0174d3e3bb5b3f676d7d434788fe751bfb89dd4a8e35e53e809cc4aceb60de5",
     "src/PencilTonalAsset.hpp": "1d78088d78b23f127e03af64ad50a8356b61090c2d224e0999e809d9e4a52bfa",
     "src/PencilTonalTexture.hpp": "d8ad5e58da6ccebc88899e40b8ddfe1bf415a7c0afa6b34dfa9a53496d2661b6",
-    "src/PerfDiagnostics.hpp": "08fa9217ee73b24174d7934cd0c7db299c8b41036db0c0975480c4a837b822d9",
+    "src/PerfDiagnostics.hpp": "485616bccc9591133dd1c4373811fa23daf4394dacb13a8992adc2dcab8135f8",
     "src/Placement.hpp": "ef142c1da3d092e805d45c33e76d5984801e195fcdb4c86427a43c90fa2fee09",
     "src/Platform.cpp": "7aa6e37234c8b44700a30692c98167ff2928709a7c86ec289cc2c6a7ee06c2e0",
     "src/Platform.hpp": "23f5aee40068bb7f7db5d5c95de64ca358535fa7a21e6cd8d5ddafdd9021f041",
@@ -285,12 +285,10 @@
   "changedSource": [
     "src/App.cpp",
     "src/EditTools.cpp",
-    "src/EditTools.hpp",
-    "src/PerfDiagnostics.hpp",
-    "src/UiPanel.cpp"
+    "src/PerfDiagnostics.hpp"
   ],
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.31_navigation_grips_20261027_122419\\source-and-tests.zip",
-  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation149-before.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.31_navigation_resume_20261027_124455\\source-and-tests.zip",
+  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation150-before.zip",
   "testEvidenceSha256": {
     "shortcut144-ui-100.log": "0f5a12d93bc3ab2c850dca8445aec5a051b13d06d748b9861cdd6c8b4fa96636",
     "shortcut144-ui-150.log": "0f5a12d93bc3ab2c850dca8445aec5a051b13d06d748b9861cdd6c8b4fa96636",
@@ -336,13 +334,20 @@
     "navigation149-input-regression.log": "0927fc8d936453836e1218eae6f2c172e00de468cb49397627731e2a15aeb6cd",
     "navigation149-updater.log": "54dba2068274666adfa02dd606e5265ed76f40296124ed5751edb75693603832",
     "navigation149-baseline.log": "c64b9960a41a62b2ab8c224da340007b62b8f5a18fb6032f565df6298b9ff626",
-    "navigation149-build-final.log": "07b9d82666d67e35c8a0340c767e81d498a43a0b2ff12555e6d9bf8630f61da4"
+    "navigation149-build-final.log": "07b9d82666d67e35c8a0340c767e81d498a43a0b2ff12555e6d9bf8630f61da4",
+    "navigation150-test.log": "897c70be6845bea4c7eeec6039a8baf7f6b5fa8701f70cf8e5ab2cb8298654e5",
+    "navigation150-protractor-regression.log": "382d10f6827b5938989c53988565b52429ad147f3ea5bf422e361bcefac03f9c",
+    "navigation150-move-regression.log": "26b3c350761fa694729ee652681bb9bc864dd403520b64be55731b8b51a3960b",
+    "navigation150-input-regression.log": "2ce8ff22cdf2bb29bcec1690e6b9123e2d4c4b91a23b10fe94f6df5fb82e965f",
+    "navigation150-updater.log": "54dba2068274666adfa02dd606e5265ed76f40296124ed5751edb75693603832",
+    "navigation150-baseline.log": "9a80bb04c599f1988e1d80b4540dccd7cfd8a86c66434f10371b9fe6c7a3092d",
+    "navigation150-build-final.log": "41e22a388b78592a12ce2a1e7cee120a4708f76224af8f164bceed8d167e15e1"
   },
-  "previousValidationSha256": "98a5e7272b5c8651b545b1efb712b7dd8f30becf0d19242aa658b9f04c6e270b",
-  "testScope": "Actual user-image state with visible Move face grips and armed local protractor, both selected and preselected closed cube. Native orbit/pan/look drag and release, >3sec idle, direct grip click resume after middle-mouse orbit. Real GL circle/cross pixels before/after navigation; export exclusion. Actual unfinished object transform still cancels for camera input. Prior native snapping/idle/selection/numeric/Undo regression suites pass. Old edit renderer/input linked to same fixture fails 46 checks; corrected build fails zero.",
-  "limitations": "Version remains 1.31: users already on 1.31 must close the prior window and replace the EXE. Permanent E/R/T camera modes keep camera input priority; a temporary middle-mouse camera gesture allows direct resumption by clicking a retained grip. This fixes the omitted selected-object protractor case in the earlier 1.31 build.",
+  "previousValidationSha256": "0f6a9583c50d7b69a811da2986583379beb99aaf5e54be9762e03476a9aab639",
+  "testScope": "Real M and Q input lifecycle: orbit/pan/look temporarily suspend object input, button release restores the original WorkTool, Win32 class cursor and actual current cursor, axes/copy setting, selected object, hover response and subsequent transform clicks. Middle-button orbit/Shift pan/Ctrl orbit, MMB+LMB release ordering, wheel, joystick, Escape, explicit new Q, Space and unselected hover. Unfinished previews are cancelled and never reapplied. Before-fix App routing fails 108 checks; fixed build fails zero. Protractor GL pixels/export, ordinary Move snapping, numeric input/Undo and update hash regressions passed.",
+  "limitations": "Version remains 1.31, so already-1.31 users must close the old window and replace the EXE. Camera tools entered from ordinary Select retain their prior persistent behavior; those entered from M/Q restore M/Q at the gesture end. No peer PC remote session was used.",
   "beforeBackups": [
-    "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation149-before.zip"
+    "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation150-before.zip"
   ],
   "officialReference": "https://help.sketchup.com/en/sketchup/moving-entities-around"
 }
