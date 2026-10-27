@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.33",
-  "file": "1.33/SkpViewportViewer.exe",
-  "sha256": "e3310df92ae4032bc784b5e7f5f1b15d2e9a3525c84688534865f5198cb05cd3",
-  "size": 14389248,
-  "notes": "1.33: 태양 설정을 그림자 메뉴 하단으로 이동. 상세·효과 접기 디자인 통일. 라이트의 스케치업 그림자 중복 항목 제거. 최근 파일·열기 창의 중앙 배치·최대화 유지·취소 복귀 수정."
+  "version": "1.34",
+  "file": "1.34/SkpViewportViewer.exe",
+  "sha256": "308c6f0e13c29ef41967ccd9384d650875210ee3ef0d63f8c4acc33b66bc4ae8",
+  "size": 14401024,
+  "notes": "1.34: 선택 미니 HUD에 크랙·파괴 아이콘과 조절 팝업 추가. 오른쪽 크랙 메뉴는 레이어 관리로 정리. 메뉴 열림 조건 제거."
 }

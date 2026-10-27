@@ -1,0 +1,37 @@
+{
+  "version": "1.34",
+  "createdAt": "2026-10-28T06:30:23.923294+09:00",
+  "binarySha256": "308c6f0e13c29ef41967ccd9384d650875210ee3ef0d63f8c4acc33b66bc4ae8",
+  "binarySize": 14401024,
+  "sourceTreeSha256": "d0f0e722e14a6ea64ae46b8934df61d2fe4b24599391c79b37c93635d345a397",
+  "tests": [
+    {
+      "log": "crack156-ui-100.log",
+      "checks": 60,
+      "result": "passed"
+    },
+    {
+      "log": "crack156-ui-150.log",
+      "checks": 60,
+      "result": "passed"
+    },
+    {
+      "log": "crack156-app.log",
+      "checks": 33,
+      "result": "passed"
+    },
+    {
+      "log": "input140-crack156.log",
+      "checks": 135,
+      "result": "passed"
+    },
+    {
+      "log": "sun155-crack156.log",
+      "checks": 66,
+      "result": "passed"
+    }
+  ],
+  "scope": "Crack/fracture creation controls moved into the owned selection HUD; layer-only sidebar. Creation input no longer depends on right-menu visibility. The existing geometry and export pipelines are reused. Character changes remain a separate design proposal.",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.33_before_crack_minihud_20261028_061305.zip",
+  "sourceBackupSha256": "f0fba8fa4f5380bb5711b46fecb785d3e9e63648c632df2e7e44190afff85f57"
+}
