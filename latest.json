@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.30",
   "file": "1.30/SkpViewportViewer.exe",
-  "sha256": "d6ffbf6f91202baeaef9c86bb3a8f9009d1249d1b6e0cea54f17449f7efaac84",
-  "size": 13967872,
-  "notes": "1.30 수정본: 카메라 기본값 버튼 복구. 화면 조작 시작 시 이동·회전 기즈모 종료, 오브젝트 선택과 미니 HUD 유지. 키보드·마우스·화면 조작 슬라이드 공통 처리."
+  "sha256": "407627d43792054b7922856f9fec4cba40e1d2dc073612ecebfaff34068bea9e",
+  "size": 13969408,
+  "notes": "1.30 수정본: 궤도·화면 이동·둘러보기에서 M 이동/Q 회전으로 즉시 전환. 변경한 단축키와 미니 HUD 연결. M 이동 도구의 그룹·구성요소 호버 박스 표시."
 }

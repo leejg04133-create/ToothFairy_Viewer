@@ -1,13 +1,13 @@
 {
   "version": "1.30",
-  "buildIdentifier": "20261027-navigation-tool-handoff-reset-1.30",
-  "sha256": "d6ffbf6f91202baeaef9c86bb3a8f9009d1249d1b6e0cea54f17449f7efaac84",
-  "size": 13967872,
-  "builtAtKST": "2026-10-27T11:09:51.343749+09:00",
-  "validatedAtKST": "2026-10-27T11:14:40.371031+09:00",
+  "buildIdentifier": "20261027-object-navigation-hover-1.30",
+  "sha256": "407627d43792054b7922856f9fec4cba40e1d2dc073612ecebfaff34068bea9e",
+  "size": 13969408,
+  "builtAtKST": "2026-10-27T11:33:05.902177+09:00",
+  "validatedAtKST": "2026-10-27T11:35:19.364369+09:00",
   "sourceSha256": {
     "src/ActionIcons.inc": "f24a6d086a8fd23d6b66fe8c34cca14660a51454443357ee7d5309218e404bec",
-    "src/App.cpp": "b6d628bf7929e2d821e68e4cb26ff6632714ba5ad4ed18cf0da40de846f3975b",
+    "src/App.cpp": "e5cbe6043d375fb8c29c32c6228ce0583d6fead0647db40a6a2e497f75d5ac27",
     "src/App.hpp": "d6ed34c68ad53a6075c76165d59094b0defc28427e5393f88392e86e7594f108",
     "src/app.manifest": "3c041c4f9dca9fdac90e402a1afa36f36c2c3ae8998bb321c01f690a98abd906",
     "src/app.rc": "76cc7806a3389d1570943dbe2a69f6a13b5fac8b443c6e969a7b86156d25575f",
@@ -109,8 +109,8 @@
     "src/DisplayFrameCadence.hpp": "b008c48c14120403e4ce31bc48983c826f30c0df5f4d5fe47ea8cda1ed7781ca",
     "src/DynamicHistory132.inc": "267983e464ac3d131f41b3ccd3bdeb2a561b06e7cafb5b29aa14416cc0c07320",
     "src/EdgeDrawBatch.hpp": "c46319eb2f5f3861c15c47919d8336fdbab920cd80fa40d2d33906a2f4781463",
-    "src/EditTools.cpp": "5dc9141a92bd2c67e40a512fc3b0ab92b99e93f87970efef4be39819397f06c6",
-    "src/EditTools.hpp": "0a1576977f053796babf57aea2c063ffe1f60f5febe60a7cb161f9f84f39161d",
+    "src/EditTools.cpp": "744700db6608a7de17bb301974338d4b2771b755247b5e8804fc5d2824648acd",
+    "src/EditTools.hpp": "c261ab636df666747a2b636027548a94a1fc48ca4e475605e2f3a0847d99bdec",
     "src/EffectLighting.hpp": "10d096fee95a0a787689211de2593b0e84708c761a30181ccc2f186833807fe9",
     "src/EmissionGlow.hpp": "f354898d0ab7a8244cfdf98c0fb3c65574c4e046a7b12e6aa69793036bb0e12c",
     "src/EmissionGlowDraw.inc": "3eb8c093004a2d4b0f8a93bb80e38480cf561e9bcce197646c83d9671d41ce40",
@@ -200,7 +200,7 @@
     "src/PencilEdgeSpread.hpp": "f0174d3e3bb5b3f676d7d434788fe751bfb89dd4a8e35e53e809cc4aceb60de5",
     "src/PencilTonalAsset.hpp": "1d78088d78b23f127e03af64ad50a8356b61090c2d224e0999e809d9e4a52bfa",
     "src/PencilTonalTexture.hpp": "d8ad5e58da6ccebc88899e40b8ddfe1bf415a7c0afa6b34dfa9a53496d2661b6",
-    "src/PerfDiagnostics.hpp": "e691611924d56b5fe4ab84f0753c015d0f80b1ec41331c37778e7c13444bdb3b",
+    "src/PerfDiagnostics.hpp": "e52e932c4bd014d93b7d9e0223d2329567b00869672b3bd3049dbf1dc7275e62",
     "src/Placement.hpp": "ef142c1da3d092e805d45c33e76d5984801e195fcdb4c86427a43c90fa2fee09",
     "src/Platform.cpp": "7aa6e37234c8b44700a30692c98167ff2928709a7c86ec289cc2c6a7ee06c2e0",
     "src/Platform.hpp": "23f5aee40068bb7f7db5d5c95de64ca358535fa7a21e6cd8d5ddafdd9021f041",
@@ -210,10 +210,10 @@
     "src/RayShadow.hpp": "d531bde225bc754e6b01daa99f39ebdee84c9d66da592a89f7466dcbbc51b66c",
     "src/RenderBusyIndicator.hpp": "b6b8d182fa772a91d39e0a3d82b78349743b1f437c18dc41fb5c49fdef64a9c3",
     "src/RenderBusyTiming.hpp": "50a2b53fc097bab6b74377d2ca170213e42c661cd81a0ac0c09149ffc9e7175a",
-    "src/Renderer.cpp": "433b3af1308b2476f9de510d30670e7173d7ddec1c9121248bf8141e2ee4ad13",
-    "src/Renderer.hpp": "0394932d803e11a4379e4fd9f9447cf165706f68ac5084ddf2a8838d5d820962",
+    "src/Renderer.cpp": "eae44cf442a38371d752241e87d357d456621cf9c6a83ae64cee4be273d237bb",
+    "src/Renderer.hpp": "3c859a01848e8e7f0916fe5a8bdf5160d1f5efe67df8a02620d730a0095386c5",
     "src/Renderer_uniLoc_fix.patch": "2d0335b1620bf93d8b430778246458fe6a385646f0048831a2849fd813c9b5bb",
-    "src/RenderWakeState.hpp": "c0fc421a4cf3b5b9e663eeca15c915f4d91e75977be67cef3ebac55ce6807bfa",
+    "src/RenderWakeState.hpp": "bdf6ca17438309a256373d1b8b8db1a87ed1c74240fd265ca2c96a6e03f4303f",
     "src/resource.h": "25b131c370cc85c9502cac1c725b6a87241768894a40756132108e314bcbc111",
     "src/RetainedFrame.hpp": "d27b9d75dd4603fa4c218e8260e612e9c6123891e3a91871b614322a4bccaf66",
     "src/RevisionVector.hpp": "9d8ec7af1ec4ba94bd9c2cff982ea2e4e7f6d611d3af1f46a4e1d88ae3602140",
@@ -285,12 +285,15 @@
   },
   "changedSource": [
     "src/App.cpp",
-    "src/CameraMenu142.inc",
+    "src/EditTools.cpp",
+    "src/EditTools.hpp",
     "src/PerfDiagnostics.hpp",
-    "src/UiPanel.cpp"
+    "src/Renderer.cpp",
+    "src/Renderer.hpp",
+    "src/RenderWakeState.hpp"
   ],
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.30_navigation_reset_20261027_111438\\source-and-tests.zip",
-  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation145-before.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.30_object_navigation_hover_20261027_113517\\source-and-tests.zip",
+  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation146-before.zip",
   "testEvidenceSha256": {
     "shortcut144-ui-100.log": "0f5a12d93bc3ab2c850dca8445aec5a051b13d06d748b9861cdd6c8b4fa96636",
     "shortcut144-ui-150.log": "0f5a12d93bc3ab2c850dca8445aec5a051b13d06d748b9861cdd6c8b4fa96636",
@@ -311,9 +314,19 @@
     "navigation145-axis.log": "3a4107d1bff82b7c3e981a1b1bf2220e9efb8e9261bc5efac562ee817d41c910",
     "navigation145-transform.log": "0de40cf7a1bcf9ac105a13f1a0a73826037b3d842ed3398141dcb0406a01f2b3",
     "navigation145-build.log": "adfbe2a15f423b265fa4875095245f054d28388ab684e1d7254d9cb067418a3d",
-    "navigation145-before.log": "976962f0f85d4cbca126e3c10916125f9731dbb3b6435be1a7c68acafe22c4a1"
+    "navigation145-before.log": "976962f0f85d4cbca126e3c10916125f9731dbb3b6435be1a7c68acafe22c4a1",
+    "navigation146-after.log": "44d7a11b28868c79ec13aaa5d5321829013d788accab1b97ed758cae77435a22",
+    "navigation146-forward-regression.log": "c2f622d36d3f5f014c9e99c2e215ff476301d40d742a7ccc17f6baeed518b0e1",
+    "navigation146-transform-regression.log": "178c574fe7b717c881d949fd1836dbcfb2496326b9015c4808609f18ac1caf60",
+    "navigation146-axis-regression.log": "3a4107d1bff82b7c3e981a1b1bf2220e9efb8e9261bc5efac562ee817d41c910",
+    "navigation146-build.log": "73cef5629dc78bcdc26c8e3399b1e058f13baaf016e406aec7b50013f5e0de78",
+    "navigation146-before.log": "76374ab780404416d194ab7fa57f6f65cabea1c0f69cb3d81dd2e3415abc23f1"
   },
-  "previousValidationSha256": "98c6859617a1ca00de52560f5f98faf3120ed864f5509a05bb5f354bf254273b",
-  "testScope": "Actual Win32 key/mouse/wheel and navigation-pad callback handoffs using production App plus real GL. Prior code reproduced 21 failures, fixed code 0 failures. Renderer gizmo data, selected-object HUD, committed transforms and history preserved. Native reset placement/click/right-click at 100/150 percent. Transform and axis-priority regressions passed. Geometry, renderer and updater code unchanged.",
-  "limitations": "Version remains 1.30: existing 1.30 users must replace the EXE manually. Previous Koki renderer evidence retained; renderer not changed in this patch."
+  "previousValidationSha256": "16b9925b2c99a9c6c3d41ea62b93acad26f4c47f607209db57c5158941be340c",
+  "testScope": "Production native key/mouse camera-to-object transitions before polling, custom bindings, active-camera drag release, transform execution and Undo. Actual GL transient hover box pixels and export exclusion, hierarchy/context/hidden/layer behavior and stationary acceleration reuse. Original object-to-camera, transform numeric and axis-priority regressions passed.",
+  "limitations": "Version remains 1.30; existing 1.30 installations require manual EXE replacement. Hover feedback follows standalone viewer picking over imported SDK geometry; it does not embed the SketchUp Ruby tool engine.",
+  "beforeBackups": [
+    "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation146-before.zip",
+    "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\hover146-before.zip"
+  ]
 }
