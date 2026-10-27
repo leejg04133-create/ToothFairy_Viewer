@@ -1,24 +1,24 @@
 {
   "version": "1.35",
   "revision": "20261028-hud-center-sliders-esc-1.35",
-  "createdAt": "2026-10-28T08:32:47.964624+09:00",
-  "binarySha256": "687bf652e3a468de535618d6c24fb582bc88d42fded7c91046d97ee07ecda5bb",
-  "binarySize": 14447616,
-  "sourceTreeSha256": "c4cfa2a2a828d98d10003ba4802b0db92ccac7634ae85e4e07319aa2ba374b31",
+  "createdAt": "2026-10-28T08:43:46.837621+09:00",
+  "binarySha256": "8af104a91aa3edab472af9a574249f2368fb58bda19c8fd614e62392a0ec298f",
+  "binarySize": 14451712,
+  "sourceTreeSha256": "7338b9fb68ba25db85da2abf716d0eb2269a55a46887c5354e1d393e135e3d87",
   "tests": [
     {
       "log": "hud160-ui-100.log",
-      "checks": 203,
+      "checks": 216,
       "result": "passed"
     },
     {
       "log": "hud160-ui-150.log",
-      "checks": 203,
+      "checks": 216,
       "result": "passed"
     },
     {
       "log": "hud160-app.log",
-      "checks": 86,
+      "checks": 88,
       "result": "passed"
     },
     {
@@ -32,7 +32,7 @@
       "result": "passed"
     }
   ],
-  "scope": "Stable viewer-centered capsules; compact 1000-wide destruction with optional one-at-a-time details and 220x48 tools; original four Light sliders; character direction idle protection and two separate Escape presses.",
+  "scope": "Stable viewer-centered capsules; compact 960-wide destruction with distinct detail icons, vertical radius popup, separate pause/rewind and 220x48 tools; original four Light sliders; cached hue-ring Light/material colors preserving material footer actions; character direction idle protection and two separate Escape presses.",
   "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_hud_alignment_20261028_082304.zip",
   "sourceBackupSha256": "5fdcc4a1d34cc6b74e01c1424bfdfb6a29569a89ba3be6e2cff9cb92e5d225ad"
 }

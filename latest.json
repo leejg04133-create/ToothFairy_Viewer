@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.35",
   "file": "1.35/SkpViewportViewer.exe",
-  "sha256": "687bf652e3a468de535618d6c24fb582bc88d42fded7c91046d97ee07ecda5bb",
-  "size": 14447616,
-  "notes": "1.35 수정본: HUD 중앙 정렬, 조명 슬라이더 복원, 파괴·도구 팝업 축소, 캐릭터 방향 Esc 단계 분리."
+  "sha256": "8af104a91aa3edab472af9a574249f2368fb58bda19c8fd614e62392a0ec298f",
+  "size": 14451712,
+  "notes": "1.35 수정본: HUD 중앙 정렬, 조명 슬라이더·링 색상창, 파괴 아이콘·세로 크기 조절·처음으로, 캐릭터 Esc 단계 분리."
 }
