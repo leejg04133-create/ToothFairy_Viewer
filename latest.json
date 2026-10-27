@@ -1,8 +1,8 @@
-﻿{
+{
   "product": "ToothFairy_Viewer",
-  "version": "1.30",
-  "file": "1.30/SkpViewportViewer.exe",
-  "sha256": "361425a8559da789e5f9b8e5e952c4b4a78ef00084802b653b1e6bd04c844c32",
+  "version": "1.31",
+  "file": "1.31/SkpViewportViewer.exe",
+  "sha256": "64d1b27ca6c549c8be61341ed2cee112ea85a55955e90934ba2d78b22b5aaf5e",
   "size": 13982208,
-  "notes": "1.30 수정본: M 호버의 가려진 뒤쪽 선 스냅 차단, 박스 면 중앙 로컬 회전 십자 복구, 오브젝트 위 호버 중 3초 자동 종료 방지."
+  "notes": "1.31: 궤도·화면 이동·둘러보기 중 M 호버 박스 유지. 카메라 입력 우선권과 기즈모 종료는 유지합니다."
 }
