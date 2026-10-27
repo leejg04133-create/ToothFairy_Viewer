@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.29",
   "file": "1.29/SkpViewportViewer.exe",
-  "sha256": "4ace192c5bf93891b81dae8f92cd7386df4bed142dcf9da3bdaafd191ce68770",
-  "size": 13928960,
-  "notes": "1.29 수정본: 이동·회전 미니 HUD의 Z/사용자 지정 축 키를 화각보다 우선 처리. 키 메시지·프레임 검사 양쪽 적용."
+  "sha256": "41fb4b370251413b793e09f116aeeb5bfa8d6ac1b6111a087b9617743e0e234c",
+  "size": 13963264,
+  "notes": "1.29 수정본: 우측 메뉴 통합, 카메라/단축키/수치 UI 정리, 하단 내보내기 4개 복구. 업데이트 보조 파일·백업·로그를 전용 폴더에서 관리하고 성공 후 정리."
 }
