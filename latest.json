@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.32",
-  "file": "1.32/SkpViewportViewer.exe",
-  "sha256": "d80e8ac3de39fa05d3d54316e287a779dac5a0abf1e5c2760ece517bd3e55304",
-  "size": 14306304,
-  "notes": "1.32: 작업 자동 저장·이어하기와 최근 파일 시작창. 크랙·파괴·조명·재질·레이어·장면 복원. 목록 삭제 시 저장된 뷰어 작업도 삭제하며 원본 SKP는 유지합니다."
+  "version": "1.33",
+  "file": "1.33/SkpViewportViewer.exe",
+  "sha256": "e3310df92ae4032bc784b5e7f5f1b15d2e9a3525c84688534865f5198cb05cd3",
+  "size": 14389248,
+  "notes": "1.33: 태양 설정을 그림자 메뉴 하단으로 이동. 상세·효과 접기 디자인 통일. 라이트의 스케치업 그림자 중복 항목 제거. 최근 파일·열기 창의 중앙 배치·최대화 유지·취소 복귀 수정."
 }
