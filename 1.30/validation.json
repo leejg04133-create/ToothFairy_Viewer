@@ -1,13 +1,13 @@
-{
+﻿{
   "version": "1.30",
-  "buildIdentifier": "20261027-object-navigation-hover-1.30",
-  "sha256": "407627d43792054b7922856f9fec4cba40e1d2dc073612ecebfaff34068bea9e",
-  "size": 13969408,
-  "builtAtKST": "2026-10-27T11:33:05.902177+09:00",
-  "validatedAtKST": "2026-10-27T11:35:19.364369+09:00",
+  "buildIdentifier": "20261027-move-visible-grips-1.30",
+  "sha256": "361425a8559da789e5f9b8e5e952c4b4a78ef00084802b653b1e6bd04c844c32",
+  "size": 13982208,
+  "builtAtKST": "2026-10-27T11:56:03.156053+09:00",
+  "validatedAtKST": "2026-10-27T11:59:02.658497+09:00",
   "sourceSha256": {
     "src/ActionIcons.inc": "f24a6d086a8fd23d6b66fe8c34cca14660a51454443357ee7d5309218e404bec",
-    "src/App.cpp": "e5cbe6043d375fb8c29c32c6228ce0583d6fead0647db40a6a2e497f75d5ac27",
+    "src/App.cpp": "d26d41826164d543f3acc94547c032a781f035051d975f6299471c0f6373a32d",
     "src/App.hpp": "d6ed34c68ad53a6075c76165d59094b0defc28427e5393f88392e86e7594f108",
     "src/app.manifest": "3c041c4f9dca9fdac90e402a1afa36f36c2c3ae8998bb321c01f690a98abd906",
     "src/app.rc": "76cc7806a3389d1570943dbe2a69f6a13b5fac8b443c6e969a7b86156d25575f",
@@ -109,7 +109,7 @@
     "src/DisplayFrameCadence.hpp": "b008c48c14120403e4ce31bc48983c826f30c0df5f4d5fe47ea8cda1ed7781ca",
     "src/DynamicHistory132.inc": "267983e464ac3d131f41b3ccd3bdeb2a561b06e7cafb5b29aa14416cc0c07320",
     "src/EdgeDrawBatch.hpp": "c46319eb2f5f3861c15c47919d8336fdbab920cd80fa40d2d33906a2f4781463",
-    "src/EditTools.cpp": "744700db6608a7de17bb301974338d4b2771b755247b5e8804fc5d2824648acd",
+    "src/EditTools.cpp": "17c32ead9c84cffe8679b0dd5cf69d160b9fce77acb2bb5043610eb4b43f353a",
     "src/EditTools.hpp": "c261ab636df666747a2b636027548a94a1fc48ca4e475605e2f3a0847d99bdec",
     "src/EffectLighting.hpp": "10d096fee95a0a787689211de2593b0e84708c761a30181ccc2f186833807fe9",
     "src/EmissionGlow.hpp": "f354898d0ab7a8244cfdf98c0fb3c65574c4e046a7b12e6aa69793036bb0e12c",
@@ -179,7 +179,7 @@
     "src/MenuBarDrag.inc": "d08f919d9915de644d1869e2d7946201f7de73600b9fb33e3707f132e5e3f5dc",
     "src/MenuIcons142.inc": "e769f56fd873b672a3de7557c05175854af71b5270901814c55e9649066082e5",
     "src/MeshEditSelection.inc": "a0e590f5c608e9c5d7f99ee5230f40b45d497ab87fe7a25824557160ba33c3b8",
-    "src/MiniHudLifecycle.inc": "62c16fee0c817c73c99ede4d86a3b8a68a91fe0a6905e21b49ae27d4712b7db8",
+    "src/MiniHudLifecycle.inc": "d78dd52e713acb7f6cfccb1a18841319e00b1951de2e27c395cd467ace3d6a11",
     "src/MiniHudState.hpp": "4d01be9f474421f6276a30d3f3bcda376678122cb14afda6973078285f15ad75",
     "src/NativeMeshMove.hpp": "fab55e6443b614c40dc3bdcf8ff3299c3a6715fc687ec363910433602fccff68",
     "src/NativeMeshMove.inc": "ff344ab6dc9809e40997f2632628a1c1935821e64eb0d2772e43c4362c8d9148",
@@ -200,7 +200,7 @@
     "src/PencilEdgeSpread.hpp": "f0174d3e3bb5b3f676d7d434788fe751bfb89dd4a8e35e53e809cc4aceb60de5",
     "src/PencilTonalAsset.hpp": "1d78088d78b23f127e03af64ad50a8356b61090c2d224e0999e809d9e4a52bfa",
     "src/PencilTonalTexture.hpp": "d8ad5e58da6ccebc88899e40b8ddfe1bf415a7c0afa6b34dfa9a53496d2661b6",
-    "src/PerfDiagnostics.hpp": "e52e932c4bd014d93b7d9e0223d2329567b00869672b3bd3049dbf1dc7275e62",
+    "src/PerfDiagnostics.hpp": "3a56e1e644e81e12acbe28c4c9b7af24f1ad3198461eaa9267a7fffb10b183e4",
     "src/Placement.hpp": "ef142c1da3d092e805d45c33e76d5984801e195fcdb4c86427a43c90fa2fee09",
     "src/Platform.cpp": "7aa6e37234c8b44700a30692c98167ff2928709a7c86ec289cc2c6a7ee06c2e0",
     "src/Platform.hpp": "23f5aee40068bb7f7db5d5c95de64ca358535fa7a21e6cd8d5ddafdd9021f041",
@@ -210,7 +210,7 @@
     "src/RayShadow.hpp": "d531bde225bc754e6b01daa99f39ebdee84c9d66da592a89f7466dcbbc51b66c",
     "src/RenderBusyIndicator.hpp": "b6b8d182fa772a91d39e0a3d82b78349743b1f437c18dc41fb5c49fdef64a9c3",
     "src/RenderBusyTiming.hpp": "50a2b53fc097bab6b74377d2ca170213e42c661cd81a0ac0c09149ffc9e7175a",
-    "src/Renderer.cpp": "eae44cf442a38371d752241e87d357d456621cf9c6a83ae64cee4be273d237bb",
+    "src/Renderer.cpp": "e3ebc80d39bb62fdaf317ddd377c0bbe09be0a412756ef853da215d47405ebb8",
     "src/Renderer.hpp": "3c859a01848e8e7f0916fe5a8bdf5160d1f5efe67df8a02620d730a0095386c5",
     "src/Renderer_uniLoc_fix.patch": "2d0335b1620bf93d8b430778246458fe6a385646f0048831a2849fd813c9b5bb",
     "src/RenderWakeState.hpp": "bdf6ca17438309a256373d1b8b8db1a87ed1c74240fd265ca2c96a6e03f4303f",
@@ -272,7 +272,7 @@
     "src/TfPopup.hpp": "e2f2aecf375d912c4f5764a9c1a35b17a834850f1f9537a7375c120b1d54225d",
     "src/Theme.hpp": "fece00b1c1996de22903602573b429e9fb8c81f7607784f4d02daf61e5a35e50",
     "src/UiPanel.cpp": "5421191084b6e0dd0bea1ef8e4fb2f9581f2f58dea1e69dfae0cffc64a7552f0",
-    "src/UiPanel.hpp": "9dc9152ed0b3093e8e93cc67ffc52d6a6e7f88b47d238f5f4c39e369bbe4b4dc",
+    "src/UiPanel.hpp": "266e84cc8e650ccd3fa488cfdbbfd6866bd5de8dd72fd2eece4c1049e9de79d5",
     "src/UpdateUiSmoke.inc": "c60c54bc6979634e356ae2da995ce81c0cd9aeb091a5820fd64a482001a0b2cf",
     "src/ViewerChildOverlay.hpp": "8c931818474a389980ffac397b1d9bf9fe1b8d6153b61f69432a71a4ea328a70",
     "src/ViewerStorage.hpp": "cc1cbfeb1efdcdbfcbb3ea99f743b2c2bc73a959c2f7eca41224af04dc6a83a6",
@@ -280,20 +280,18 @@
     "src/ViewerUpdate.hpp": "f5a6c6cca31e991c2889694abee0e1be499f99d475fd5c20c36cf41b0bec04e7",
     "src/ViewerUpdateStorage143.inc": "631023c0735f88ae565976e54bc7ce1cc264cf833cdafa82bd5538ac20cb752c",
     "src/ViewSettings.hpp": "a351f0f4a853e66788410ddf2b5912c342b79b906fd7c860ee1ee7d464c5db75",
-    "src/ViewSettingsHistory.hpp": "008f68a8d157fd9c837f77570f392fca97b610d4d7b9e6f6331090dab300aad7",
-    "CMakeLists.txt": "734d228bf55c0c4be92431ce78a59f7877ac4df5054ea48ebf5a38e64487c227"
+    "src/ViewSettingsHistory.hpp": "008f68a8d157fd9c837f77570f392fca97b610d4d7b9e6f6331090dab300aad7"
   },
   "changedSource": [
     "src/App.cpp",
     "src/EditTools.cpp",
-    "src/EditTools.hpp",
+    "src/MiniHudLifecycle.inc",
     "src/PerfDiagnostics.hpp",
     "src/Renderer.cpp",
-    "src/Renderer.hpp",
-    "src/RenderWakeState.hpp"
+    "src/UiPanel.hpp"
   ],
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.30_object_navigation_hover_20261027_113517\\source-and-tests.zip",
-  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation146-before.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.30_move_grips_20261027_115902\\source-and-tests.zip",
+  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\move147-before.zip",
   "testEvidenceSha256": {
     "shortcut144-ui-100.log": "0f5a12d93bc3ab2c850dca8445aec5a051b13d06d748b9861cdd6c8b4fa96636",
     "shortcut144-ui-150.log": "0f5a12d93bc3ab2c850dca8445aec5a051b13d06d748b9861cdd6c8b4fa96636",
@@ -320,13 +318,19 @@
     "navigation146-transform-regression.log": "178c574fe7b717c881d949fd1836dbcfb2496326b9015c4808609f18ac1caf60",
     "navigation146-axis-regression.log": "3a4107d1bff82b7c3e981a1b1bf2220e9efb8e9261bc5efac562ee817d41c910",
     "navigation146-build.log": "73cef5629dc78bcdc26c8e3399b1e058f13baaf016e406aec7b50013f5e0de78",
-    "navigation146-before.log": "76374ab780404416d194ab7fa57f6f65cabea1c0f69cb3d81dd2e3415abc23f1"
+    "navigation146-before.log": "76374ab780404416d194ab7fa57f6f65cabea1c0f69cb3d81dd2e3415abc23f1",
+    "move147-test.log": "26b3c350761fa694729ee652681bb9bc864dd403520b64be55731b8b51a3960b",
+    "move147-navigation-regression.log": "44d7a11b28868c79ec13aaa5d5321829013d788accab1b97ed758cae77435a22",
+    "move147-forward-regression.log": "c2f622d36d3f5f014c9e99c2e215ff476301d40d742a7ccc17f6baeed518b0e1",
+    "move147-transform-regression.log": "064e0a4cb2776325fe1d572cf288758f05573bf7cee6e72a58b2b754ff906c43",
+    "move147-baseline.log": "cef593a63254093cf3b22b4f2cc0af6343be855ec9410d3b7549511cb84a0098",
+    "move147-build-final.log": "e71d337be643926d5e66ddbc26c78abf5d02927e4f0294ca126500aa6b616140"
   },
-  "previousValidationSha256": "16b9925b2c99a9c6c3d41ea62b93acad26f4c47f607209db57c5158941be340c",
-  "testScope": "Production native key/mouse camera-to-object transitions before polling, custom bindings, active-camera drag release, transform execution and Undo. Actual GL transient hover box pixels and export exclusion, hierarchy/context/hidden/layer behavior and stationary acceleration reuse. Original object-to-camera, transform numeric and axis-priority regressions passed.",
-  "limitations": "Version remains 1.30; existing 1.30 installations require manual EXE replacement. Hover feedback follows standalone viewer picking over imported SDK geometry; it does not embed the SketchUp Ruby tool engine.",
+  "previousValidationSha256": "0283cef889309b5ddefc32b218700764cf2f22c9ad0e54c307dc4e7f9323d8ea",
+  "testScope": "Closed cube occlusion of vertices, edges and selection handles in perspective, orthographic and two-point projection; unselected Move hover grips; all three visible local axes click, actual drag and cancel; actual OpenGL crosses and export exclusion; hover-aware idle vs true idle/Escape. Existing camera/object handoff and transform/Undo regression suites passed.",
+  "limitations": "Version stays 1.30: already-1.30 users must replace the EXE after closing the old window. The visual/input behavior is implemented over SDK model geometry, without embedding SketchUp native tool engine. No claim of benchmarking unrelated large-model performance in this patch.",
   "beforeBackups": [
-    "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation146-before.zip",
-    "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\hover146-before.zip"
-  ]
+    "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\move147-before.zip"
+  ],
+  "officialReference": "https://help.sketchup.com/en/sketchup/moving-entities-around"
 }

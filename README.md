@@ -1,6 +1,6 @@
-# ToothFairy Viewer
+﻿# ToothFairy Viewer
 
-현재 배포: **1.30 수정본 — M/Q 도구 전환·이동 호버 박스**
+현재 배포: **1.30 수정본 — 이동 가림 판정·로컬 회전 십자·호버 유지**
 
 - [실행 파일](1.30/SkpViewportViewer.exe)
 - [변경 내역](1.30/notes.txt)
