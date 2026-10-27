@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.35",
   "file": "1.35/SkpViewportViewer.exe",
-  "sha256": "0bc9c755cef0e058f1ac71d604818bbf04b6385f71c7786a2bb7e1e60ac6e077",
+  "sha256": "687bf652e3a468de535618d6c24fb582bc88d42fded7c91046d97ee07ecda5bb",
   "size": 14447616,
-  "notes": "1.35 수정본: 라이트·파괴 전용 캡슐, 브러시 도구 펼침과 재생 슬라이드, 캐릭터 목록·방향·흩뿌리기 수정."
+  "notes": "1.35 수정본: HUD 중앙 정렬, 조명 슬라이더 복원, 파괴·도구 팝업 축소, 캐릭터 방향 Esc 단계 분리."
 }

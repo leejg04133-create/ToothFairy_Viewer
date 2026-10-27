@@ -1,28 +1,28 @@
 {
   "version": "1.35",
-  "revision": "20261028-owned-creation-hud-1.35",
-  "createdAt": "2026-10-28T08:06:51.135381+09:00",
-  "binarySha256": "0bc9c755cef0e058f1ac71d604818bbf04b6385f71c7786a2bb7e1e60ac6e077",
+  "revision": "20261028-hud-center-sliders-esc-1.35",
+  "createdAt": "2026-10-28T08:32:47.964624+09:00",
+  "binarySha256": "687bf652e3a468de535618d6c24fb582bc88d42fded7c91046d97ee07ecda5bb",
   "binarySize": 14447616,
-  "sourceTreeSha256": "afad266b5d317a4e80cc8446f5dd54c5034353bbf1c4614bf774c03caba8275a",
+  "sourceTreeSha256": "c4cfa2a2a828d98d10003ba4802b0db92ccac7634ae85e4e07319aa2ba374b31",
   "tests": [
     {
-      "log": "feature159-ui-100.log",
-      "checks": 193,
+      "log": "hud160-ui-100.log",
+      "checks": 203,
       "result": "passed"
     },
     {
-      "log": "feature159-ui-150.log",
-      "checks": 193,
+      "log": "hud160-ui-150.log",
+      "checks": 203,
       "result": "passed"
     },
     {
-      "log": "feature159-app.log",
-      "checks": 82,
+      "log": "hud160-app.log",
+      "checks": 86,
       "result": "passed"
     },
     {
-      "log": "input140-feature159.log",
+      "log": "input140-hud160.log",
       "checks": 135,
       "result": "passed"
     },
@@ -32,7 +32,7 @@
       "result": "passed"
     }
   ],
-  "scope": "Owned Light/destruction capsules; collapsible tools and wide scrubber; flat menus and real layer selection; signed Crack ghost; Character floor hold/outside-click/Escape and stable native popup geometry.",
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.35_before_character_gesture_fix_20261028_072136.zip",
-  "sourceBackupSha256": "2e8e91d07156799ba3b039a9842c5882e54381c9ce301f33b80de04d8d1bdc19"
+  "scope": "Stable viewer-centered capsules; compact 1000-wide destruction with optional one-at-a-time details and 220x48 tools; original four Light sliders; character direction idle protection and two separate Escape presses.",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_hud_alignment_20261028_082304.zip",
+  "sourceBackupSha256": "5fdcc4a1d34cc6b74e01c1424bfdfb6a29569a89ba3be6e2cff9cb92e5d225ad"
 }
