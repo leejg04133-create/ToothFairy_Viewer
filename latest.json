@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.29",
   "file": "1.29/SkpViewportViewer.exe",
-  "sha256": "41fb4b370251413b793e09f116aeeb5bfa8d6ac1b6111a087b9617743e0e234c",
-  "size": 13963264,
-  "notes": "1.29 수정본: 우측 메뉴 통합, 카메라/단축키/수치 UI 정리, 하단 내보내기 4개 복구. 업데이트 보조 파일·백업·로그를 전용 폴더에서 관리하고 성공 후 정리."
+  "sha256": "ebea1c2dda4bb56528b7988ad19bdc9ec580988c45c076a405a0dfeca8b4d979",
+  "size": 13967872,
+  "notes": "1.29 수정본: 선택 후 입력 씹힘, 패스/2점 투시 단축키, 장면 투영 복원 수정. 그림자·음영 방향 Undo 제외. 추가 메뉴 +/− 접기. Koki 레이어 전환의 중복 준비 비용 개선."
 }
