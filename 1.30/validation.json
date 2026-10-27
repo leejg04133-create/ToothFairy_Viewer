@@ -1,13 +1,13 @@
 {
   "version": "1.30",
-  "buildIdentifier": "20261027-input-layer-scene-menu-1.30",
-  "sha256": "3172c5143d4cef9aa65a810782ffdd2ac1fa006cb34c79b77c2726279ddc8582",
+  "buildIdentifier": "20261027-navigation-tool-handoff-reset-1.30",
+  "sha256": "d6ffbf6f91202baeaef9c86bb3a8f9009d1249d1b6e0cea54f17449f7efaac84",
   "size": 13967872,
-  "builtAtKST": "2026-10-27T10:47:36.209337+09:00",
-  "validatedAtKST": "2026-10-27T10:48:48.307611+09:00",
+  "builtAtKST": "2026-10-27T11:09:51.343749+09:00",
+  "validatedAtKST": "2026-10-27T11:14:40.371031+09:00",
   "sourceSha256": {
     "src/ActionIcons.inc": "f24a6d086a8fd23d6b66fe8c34cca14660a51454443357ee7d5309218e404bec",
-    "src/App.cpp": "38a48a5382233eee41c32e247c09d5c5526db7e3c2819c65e772e64a71f01cfe",
+    "src/App.cpp": "b6d628bf7929e2d821e68e4cb26ff6632714ba5ad4ed18cf0da40de846f3975b",
     "src/App.hpp": "d6ed34c68ad53a6075c76165d59094b0defc28427e5393f88392e86e7594f108",
     "src/app.manifest": "3c041c4f9dca9fdac90e402a1afa36f36c2c3ae8998bb321c01f690a98abd906",
     "src/app.rc": "76cc7806a3389d1570943dbe2a69f6a13b5fac8b443c6e969a7b86156d25575f",
@@ -18,7 +18,7 @@
     "src/CameraComp.hpp": "f804cc76a708ff02f9d8b331ba5a1bfecee966053fe6f06f97e041ba43755be5",
     "src/CameraFocal.hpp": "70fa42e20c009370f876612243c757b9359dbdc1304920df29c85bf54bfc5f24",
     "src/CameraKeyTimeline.hpp": "5b49cc445ad72943d613fbf3b4387343868ee86993fc9fe13d9a29028f20e393",
-    "src/CameraMenu142.inc": "f5e1788c3dde33b1f59530b246490d07ce22cdb8fa47da08047f9a21aa0f48b7",
+    "src/CameraMenu142.inc": "497353e0690504efa26fb38496abcfe12009b0a1b24eeae3373ae52516110500",
     "src/CameraNavigationPad.hpp": "763791d57f565baa35547c611e3c55c02b6bb657f2994286d2f5b4fba5e88fe3",
     "src/CameraNavigationPadState.hpp": "a022089fee29765bb7033f74a7771611703aefd7f31429b2839eb1896c39837b",
     "src/CameraSettings.hpp": "cd58fc2de78a45fa3c6a76f81e2c205a81621e99c605f7bf108023446ded9ae9",
@@ -200,7 +200,7 @@
     "src/PencilEdgeSpread.hpp": "f0174d3e3bb5b3f676d7d434788fe751bfb89dd4a8e35e53e809cc4aceb60de5",
     "src/PencilTonalAsset.hpp": "1d78088d78b23f127e03af64ad50a8356b61090c2d224e0999e809d9e4a52bfa",
     "src/PencilTonalTexture.hpp": "d8ad5e58da6ccebc88899e40b8ddfe1bf415a7c0afa6b34dfa9a53496d2661b6",
-    "src/PerfDiagnostics.hpp": "501fa0083a324d8fafc7d03c5e1f5786d381b0c47d154ca8fb0ba450187af294",
+    "src/PerfDiagnostics.hpp": "e691611924d56b5fe4ab84f0753c015d0f80b1ec41331c37778e7c13444bdb3b",
     "src/Placement.hpp": "ef142c1da3d092e805d45c33e76d5984801e195fcdb4c86427a43c90fa2fee09",
     "src/Platform.cpp": "7aa6e37234c8b44700a30692c98167ff2928709a7c86ec289cc2c6a7ee06c2e0",
     "src/Platform.hpp": "23f5aee40068bb7f7db5d5c95de64ca358535fa7a21e6cd8d5ddafdd9021f041",
@@ -271,7 +271,7 @@
     "src/TfPopup.cpp": "0221143635d6a53c1b8a800f2c34bc5038dd79e34d5f7403ac2cce7ef814b522",
     "src/TfPopup.hpp": "e2f2aecf375d912c4f5764a9c1a35b17a834850f1f9537a7375c120b1d54225d",
     "src/Theme.hpp": "fece00b1c1996de22903602573b429e9fb8c81f7607784f4d02daf61e5a35e50",
-    "src/UiPanel.cpp": "6cde358178be9710210dac53d2dda5e1d059497fdd7e65ab0c570600e132bc84",
+    "src/UiPanel.cpp": "5421191084b6e0dd0bea1ef8e4fb2f9581f2f58dea1e69dfae0cffc64a7552f0",
     "src/UiPanel.hpp": "9dc9152ed0b3093e8e93cc67ffc52d6a6e7f88b47d238f5f4c39e369bbe4b4dc",
     "src/UpdateUiSmoke.inc": "c60c54bc6979634e356ae2da995ce81c0cd9aeb091a5820fd64a482001a0b2cf",
     "src/ViewerChildOverlay.hpp": "8c931818474a389980ffac397b1d9bf9fe1b8d6153b61f69432a71a4ea328a70",
@@ -284,12 +284,13 @@
     "CMakeLists.txt": "734d228bf55c0c4be92431ce78a59f7877ac4df5054ea48ebf5a38e64487c227"
   },
   "changedSource": [
-    "src/app.rc",
+    "src/App.cpp",
+    "src/CameraMenu142.inc",
     "src/PerfDiagnostics.hpp",
-    "src/ViewerUpdate.hpp"
+    "src/UiPanel.cpp"
   ],
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.30_release_20261027_104846\\source-and-tests.zip",
-  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\version130-before.zip",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.30_navigation_reset_20261027_111438\\source-and-tests.zip",
+  "beforeBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\navigation145-before.zip",
   "testEvidenceSha256": {
     "shortcut144-ui-100.log": "0f5a12d93bc3ab2c850dca8445aec5a051b13d06d748b9861cdd6c8b4fa96636",
     "shortcut144-ui-150.log": "0f5a12d93bc3ab2c850dca8445aec5a051b13d06d748b9861cdd6c8b4fa96636",
@@ -303,9 +304,16 @@
     "release144-build.log": "935e805d86de8730192b91414c37477144cf1716412942ec8d09b151f76eb0ca",
     "layer144-summary.json": "9411caf8317c0d9d7ef06321edc22057de0161147ac0ac604fdfb47ca5503fbb",
     "version130-local.log": "a9e7f2c4fc6a5e7fab171d94ab91d16adcfd789a663a606b6c24e83817fac18b",
-    "release130-build.log": "e8397f75de5cb246259294d2872e99d8f8c840d946721c7440fc31da0f9260ed"
+    "release130-build.log": "e8397f75de5cb246259294d2872e99d8f8c840d946721c7440fc31da0f9260ed",
+    "navigation145-after.log": "c2f622d36d3f5f014c9e99c2e215ff476301d40d742a7ccc17f6baeed518b0e1",
+    "navigation145-ui-100.log": "2832625b0a25262f44db339cbdb81a23f7ce5f1611de486ad9f562645262ddcd",
+    "navigation145-ui-150.log": "2832625b0a25262f44db339cbdb81a23f7ce5f1611de486ad9f562645262ddcd",
+    "navigation145-axis.log": "3a4107d1bff82b7c3e981a1b1bf2220e9efb8e9261bc5efac562ee817d41c910",
+    "navigation145-transform.log": "0de40cf7a1bcf9ac105a13f1a0a73826037b3d842ed3398141dcb0406a01f2b3",
+    "navigation145-build.log": "adfbe2a15f423b265fa4875095245f054d28388ab684e1d7254d9cb067418a3d",
+    "navigation145-before.log": "976962f0f85d4cbca126e3c10916125f9731dbb3b6435be1a7c68acafe22c4a1"
   },
-  "previousValidationSha256": "c4af222489bb012235f35d8a5920907e5c39cf5ae2c6e387c9cf1f4563b93b0b",
-  "testScope": "Only app version constant, diagnostic identifier and Windows version resource changed since fully tested 1.29 input/layer/scene/menu build. Prior feature, Koki and pixel regression evidence retained. Full 1.30 rebuild, Windows file/product version inspection and production 1.29 updater offer/download/SHA256 validation passed using an isolated local feed.",
-  "limitations": "Recipient hardware and Smart App Control acceptance cannot be guaranteed by local tests."
+  "previousValidationSha256": "98c6859617a1ca00de52560f5f98faf3120ed864f5509a05bb5f354bf254273b",
+  "testScope": "Actual Win32 key/mouse/wheel and navigation-pad callback handoffs using production App plus real GL. Prior code reproduced 21 failures, fixed code 0 failures. Renderer gizmo data, selected-object HUD, committed transforms and history preserved. Native reset placement/click/right-click at 100/150 percent. Transform and axis-priority regressions passed. Geometry, renderer and updater code unchanged.",
+  "limitations": "Version remains 1.30: existing 1.30 users must replace the EXE manually. Previous Koki renderer evidence retained; renderer not changed in this patch."
 }

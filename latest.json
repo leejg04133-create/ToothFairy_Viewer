@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.30",
   "file": "1.30/SkpViewportViewer.exe",
-  "sha256": "3172c5143d4cef9aa65a810782ffdd2ac1fa006cb34c79b77c2726279ddc8582",
+  "sha256": "d6ffbf6f91202baeaef9c86bb3a8f9009d1249d1b6e0cea54f17449f7efaac84",
   "size": 13967872,
-  "notes": "1.30: 선택 후 입력 씹힘, 패스·2점 투시 단축키, 장면 투영 복원 수정. 그림자·음영 방향 Undo 제외, 추가 메뉴 +/− 접기, Koki 레이어 전환 최적화."
+  "notes": "1.30 수정본: 카메라 기본값 버튼 복구. 화면 조작 시작 시 이동·회전 기즈모 종료, 오브젝트 선택과 미니 HUD 유지. 키보드·마우스·화면 조작 슬라이드 공통 처리."
 }
