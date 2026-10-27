@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.35",
   "file": "1.35/SkpViewportViewer.exe",
-  "sha256": "a7752ac271dad02095e8bc092a8f85efb1fe508c4b0610ad9cd1077c6e1b0b74",
-  "size": 14434304,
-  "notes": "1.35: 캐릭터 전용 가로 HUD, 조작 설정 HUD, 크랙·파괴 창 정리, 방향 조작 분리, 최근 파일 창 호버 비용 개선."
+  "sha256": "0bc9c755cef0e058f1ac71d604818bbf04b6385f71c7786a2bb7e1e60ac6e077",
+  "size": 14447616,
+  "notes": "1.35 수정본: 라이트·파괴 전용 캡슐, 브러시 도구 펼침과 재생 슬라이드, 캐릭터 목록·방향·흩뿌리기 수정."
 }

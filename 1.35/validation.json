@@ -1,44 +1,38 @@
 {
   "version": "1.35",
-  "createdAt": "2026-10-28T07:17:09.745616+09:00",
-  "binarySha256": "a7752ac271dad02095e8bc092a8f85efb1fe508c4b0610ad9cd1077c6e1b0b74",
-  "binarySize": 14434304,
-  "sourceTreeSha256": "9c04614b481efb20fbd079f4e551546799a29d9e547925f275e2cd5c19c28f73",
+  "revision": "20261028-owned-creation-hud-1.35",
+  "createdAt": "2026-10-28T08:06:51.135381+09:00",
+  "binarySha256": "0bc9c755cef0e058f1ac71d604818bbf04b6385f71c7786a2bb7e1e60ac6e077",
+  "binarySize": 14447616,
+  "sourceTreeSha256": "afad266b5d317a4e80cc8446f5dd54c5034353bbf1c4614bf774c03caba8275a",
   "tests": [
     {
-      "log": "character157-ui-100.log",
+      "log": "feature159-ui-100.log",
+      "checks": 193,
+      "result": "passed"
+    },
+    {
+      "log": "feature159-ui-150.log",
+      "checks": 193,
+      "result": "passed"
+    },
+    {
+      "log": "feature159-app.log",
+      "checks": 82,
+      "result": "passed"
+    },
+    {
+      "log": "input140-feature159.log",
       "checks": 135,
       "result": "passed"
     },
     {
-      "log": "character157-ui-150.log",
-      "checks": 135,
-      "result": "passed"
-    },
-    {
-      "log": "character157-app.log",
-      "checks": 51,
-      "result": "passed"
-    },
-    {
-      "log": "input140-character157.log",
-      "checks": 135,
-      "result": "passed"
-    },
-    {
-      "log": "startup154-character157.log",
+      "log": "startup154-feature159.log",
       "checks": 42,
       "result": "passed"
     }
   ],
-  "performance": {
-    "operation": "1920x1080 recent file hover repaint, 40 measured samples after 4 warmups",
-    "baselineMedianMs": 35.9584,
-    "currentMedianMs": 1.6416,
-    "pixelParity": "exact match to full redraw",
-    "limits": "This measures this UI operation on the local PC; it is not a scene-rendering or all-PC performance guarantee."
-  },
-  "scope": "Dedicated character capsule; viewer-owned operation and fracture direction HUDs; compact Crack/fracture controls; brush color isolation; legacy Crack branches removed; recent file UI retained partial paint.",
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.34_before_character_hud_20261028_063601.zip",
-  "sourceBackupSha256": "7b2e1f2f9a9e59ba01c304680873fdb2e5c866a4bf624b4601ea6a020da86068"
+  "scope": "Owned Light/destruction capsules; collapsible tools and wide scrubber; flat menus and real layer selection; signed Crack ghost; Character floor hold/outside-click/Escape and stable native popup geometry.",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\rollback_backups\\v1.35_before_character_gesture_fix_20261028_072136.zip",
+  "sourceBackupSha256": "2e8e91d07156799ba3b039a9842c5882e54381c9ce301f33b80de04d8d1bdc19"
 }
