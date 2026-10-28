@@ -1,43 +1,44 @@
 {
   "version": "1.35",
-  "revision": "20261028-shadow-escape-skp-watermark-1.35",
-  "createdAt": "2026-10-28T11:01:24.728705+09:00",
-  "binaryBuiltAt": "2026-10-28T10:58:55.221032+09:00",
-  "binarySha256": "71f2185c068e242064896afd372f5dfd85c8334254c2b264c123b9f7c90dddc4",
-  "binarySize": 14535168,
-  "sourceTreeSha256": "e01a9c87de51133c2f415d657f5fbee872f37750d665d86ae31dd187d06302c7",
+  "revision": "20261028-shadow-poll-workspace-compat167-1.35",
+  "createdAt": "2026-10-28T12:07:22.741792+09:00",
+  "binaryBuiltAt": "2026-10-28T12:03:32.371010+09:00",
+  "binarySha256": "e357dad6e8b95a56a79acbba33529079739304d93bf4fec5b5fa4395508777cd",
+  "binarySize": 14541312,
+  "sourceTreeSha256": "2e8921a19df4d57ad6ff67b8d13c74fafdb9130c929ff15944fecddf28d3caf3",
   "tests": [
     {
-      "log": "watermark166-ui-100.log",
-      "checks": 365,
+      "log": "shadow167-final.log",
+      "checks": 13,
       "result": "passed"
     },
     {
-      "log": "watermark166-ui-150.log",
-      "checks": 365,
+      "log": "workspace167-probe.log",
+      "checks": 18,
       "result": "passed"
     },
     {
-      "log": "watermark166-app.log",
+      "log": "popup167.log",
+      "checks": 14,
+      "result": "passed"
+    },
+    {
+      "log": "compat167-app-final.log",
       "checks": 199,
       "result": "passed"
     },
     {
-      "log": "input140-watermark166.log",
+      "log": "compat167-input.log",
       "checks": 135,
       "result": "passed"
     },
     {
-      "log": "startup154-watermark166.log",
-      "checks": 45,
-      "result": "passed"
+      "log": "workspace167-guard.log",
+      "checks": 1,
+      "result": "expected compile rejection passed"
     }
   ],
-  "scope": "Physical-key Escape retirement for shadow and shade direction, mouse-release tool retention; official SDK active style and embedded image loading; GPU Sky-pass composition and Original pass gate; stretched/aspect/positioned/tiled images, hidden/absent fallback and document switching; original bundled SketchUp style images; native workspace rehydration; retained uploads across repeated exports and resizing.",
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_shadow_esc_watermark_20261028_103850.zip",
-  "sourceBackupSha256": "6451b83ca5677373c3253cbf4adb6717d8d758570af57bb978275942c534daed",
-  "officialReferences": [
-    "https://extensions.sketchup.com/developers/sketchup_c_api/sketchup/struct_s_u_styles_ref.html",
-    "https://help.sketchup.com/en/sketchup/watermarking-model"
-  ]
+  "scope": "Real legacy saved workspaces with and without polarity flags; schema 4 full content-hash round trips; reviewed aggregate compile guard with deliberate rejection; async key-polling before queued native keydown reproduction; first/second Shadow and Shade Escape; open-original warning and cancel preserving saved work; texture browser exclusion; three-choice hit tests at native DPI; existing actual App, watermark, and keyboard regressions.",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_esc_workspace167_20261028_113423.zip",
+  "sourceBackupSha256": "08f5b55055abfdf63389830217fe1c58e1a2e51cf58999c08012cfc3033799c2"
 }

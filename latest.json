@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.35",
   "file": "1.35/SkpViewportViewer.exe",
-  "sha256": "71f2185c068e242064896afd372f5dfd85c8334254c2b264c123b9f7c90dddc4",
-  "size": 14535168,
-  "notes": "1.35 수정본: 그림자·음영 첫 Esc는 조작만 종료, 다음 누름에 HUD 닫기. 공식 SDK 현재 스타일의 SKP 워터마크를 하늘 패스와 내보내기에 표시, 없거나 표시 OFF이면 기존 하늘 유지."
+  "sha256": "e357dad6e8b95a56a79acbba33529079739304d93bf4fec5b5fa4395508777cd",
+  "size": 14541312,
+  "notes": "1.35 수정본: 이전 작업 저장본 복원 호환 오류 수정, 그림자·음영 Esc 중복 처리 수정, 파일 열기의 원본/이어 열기 선택과 작업 기록 교체 경고."
 }
