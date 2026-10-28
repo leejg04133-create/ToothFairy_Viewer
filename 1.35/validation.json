@@ -1,38 +1,39 @@
 {
   "version": "1.35",
-  "revision": "20261028-hud-center-sliders-esc-1.35",
-  "createdAt": "2026-10-28T08:43:46.837621+09:00",
-  "binarySha256": "8af104a91aa3edab472af9a574249f2368fb58bda19c8fd614e62392a0ec298f",
-  "binarySize": 14451712,
-  "sourceTreeSha256": "7338b9fb68ba25db85da2abf716d0eb2269a55a46887c5354e1d393e135e3d87",
+  "revision": "20261028-crack-reference-shadow-hud-1.35",
+  "createdAt": "2026-10-28T09:23:05.076357+09:00",
+  "binaryBuiltAt": "2026-10-28T09:21:42.779256+09:00",
+  "binarySha256": "0f40046873ae12d6c05594305e71e444c6c0ffda35e3353989076e5327ec9e24",
+  "binarySize": 14485504,
+  "sourceTreeSha256": "3bd72367d63eebbe6539ab08cf9a61eb4159da5a7ce441febeb08a25a823eaee",
   "tests": [
     {
-      "log": "hud160-ui-100.log",
-      "checks": 216,
+      "log": "shadow162-ui-100.log",
+      "checks": 324,
       "result": "passed"
     },
     {
-      "log": "hud160-ui-150.log",
-      "checks": 216,
+      "log": "shadow162-ui-150.log",
+      "checks": 324,
       "result": "passed"
     },
     {
-      "log": "hud160-app.log",
-      "checks": 88,
+      "log": "shadow162-app.log",
+      "checks": 97,
       "result": "passed"
     },
     {
-      "log": "input140-hud160.log",
+      "log": "input140-shadow162.log",
       "checks": 135,
       "result": "passed"
     },
     {
-      "log": "startup154-feature159.log",
+      "log": "startup154-shadow162.log",
       "checks": 42,
       "result": "passed"
     }
   ],
-  "scope": "Stable viewer-centered capsules; compact 960-wide destruction with distinct detail icons, vertical radius popup, separate pause/rewind and 220x48 tools; original four Light sliders; cached hue-ring Light/material colors preserving material footer actions; character direction idle protection and two separate Escape presses.",
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_hud_alignment_20261028_082304.zip",
-  "sourceBackupSha256": "5fdcc4a1d34cc6b74e01c1424bfdfb6a29569a89ba3be6e2cff9cb92e5d225ad"
+  "scope": "Approved Crack popup proportions/left rail and icon anchoring; shared Add card sizing and real hover/click; logarithmic radius input preserving range; owned retained Shadow HUD with existing Sun controls, native direction double-click and Escape/Undo behavior.",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_crack_anchor_20261028_085305.zip",
+  "sourceBackupSha256": "0c0185237acf005d7dc43e1cbb28023b546b53ea86d9da508c5d22a8fd76da91"
 }
