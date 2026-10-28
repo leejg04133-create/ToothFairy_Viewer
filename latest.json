@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.35",
   "file": "1.35/SkpViewportViewer.exe",
-  "sha256": "4ed4dbddb163c1c12d9715fa6afcf5e131014397168ade480256e2c33716f623",
-  "size": 14488064,
-  "notes": "1.35 수정본: 그림자 메뉴 복구, 실제 그림자 0.5초 호버·청록 강조·드래그, Esc 단계 유지, 그리는 중 축 숨김, 브러시 1~100cm, Ctrl 음각·양각 단일 토글, 말풍선 꼬리 제거."
+  "sha256": "fc32b8df0d0a1cb7c5e3c36aac1408bcb57a29b65a401ac88ef9538f62fa107a",
+  "size": 14507008,
+  "notes": "1.35 수정본: 실제 입력 기준 2초 미니 HUD 종료, 공통 기능·현재 단축키 도움말, 그림자 안/밖 우클릭으로 어두움/밝음 조절, 음영 활성 색상, 그림자 HUD 이름·닫기 통일."
 }

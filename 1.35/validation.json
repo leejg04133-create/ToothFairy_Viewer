@@ -1,39 +1,49 @@
 {
   "version": "1.35",
-  "revision": "20261028-shadow-dwell-brush-ctrl-1.35",
-  "createdAt": "2026-10-28T09:45:35.584164+09:00",
-  "binaryBuiltAt": "2026-10-28T09:43:33.344435+09:00",
-  "binarySha256": "4ed4dbddb163c1c12d9715fa6afcf5e131014397168ade480256e2c33716f623",
-  "binarySize": 14488064,
-  "sourceTreeSha256": "d2fac58607f0f0f552168a20d7e9e585353b3d327c6353b83cc971ec16fcf881",
+  "revision": "20261028-mini-idle-help-shadow-tone-1.35",
+  "createdAt": "2026-10-28T10:12:51.467976+09:00",
+  "binaryBuiltAt": "2026-10-28T10:03:55.597562+09:00",
+  "binarySha256": "fc32b8df0d0a1cb7c5e3c36aac1408bcb57a29b65a401ac88ef9538f62fa107a",
+  "binarySize": 14507008,
+  "sourceTreeSha256": "c9b2fa1fee6ac1cbc111176527e903439a1b153b5272fd6d04c3d69fbaed2bfa",
   "tests": [
     {
-      "log": "shadow164-ui-100.log",
-      "checks": 327,
+      "log": "mini165-ui-100.log",
+      "checks": 356,
       "result": "passed"
     },
     {
-      "log": "shadow164-ui-150.log",
-      "checks": 327,
+      "log": "mini165-ui-150.log",
+      "checks": 356,
       "result": "passed"
     },
     {
-      "log": "shadow164-app.log",
-      "checks": 131,
+      "log": "mini165-app.log",
+      "checks": 146,
       "result": "passed"
     },
     {
-      "log": "input140-shadow164.log",
+      "log": "input140-mini165.log",
       "checks": 135,
       "result": "passed"
     },
     {
-      "log": "startup154-shadow164.log",
+      "log": "input140-ui-mini165.log",
+      "checks": 106,
+      "result": "passed"
+    },
+    {
+      "log": "input140-ui-mini165-150.log",
+      "checks": 106,
+      "result": "passed"
+    },
+    {
+      "log": "startup154-mini165.log",
       "checks": 42,
       "result": "passed"
     }
   ],
-  "scope": "Approved Crack popup proportions/left rail and icon anchoring; shared Add card sizing and real hover/click; linear 1..100 cm brush input and transient painting-axis suppression; restored original sidebar and half-second strict shadow dwell with GPU-verified cyan highlight and real drag; owned retained Shadow HUD with existing Sun controls, native direction double-click and Escape/Undo behavior.",
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_shadow_menu_restore_20261028_092617.zip",
-  "sourceBackupSha256": "fa0e86ed7108f87f756c36f4b7028f9ffdbc7162942f259af5ef59af47b65b98"
+  "scope": "Two-second logical mini-HUD termination with actual activity protection and reversible retained fade; native shared current-key tooltips; actual GL shadow geometry and right-drag inside/outside tone adjustment; zero-darkness/manual-mode HUD reacquisition; direct shade activation and amber feedback; named Shadow capsule with only right close.",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_idle_hints_20261028_095349.zip",
+  "sourceBackupSha256": "2f6eda3127c1c7ed9c95030b6781f4f42e90d3bd15a72214bdf21cb22fad29a6"
 }
