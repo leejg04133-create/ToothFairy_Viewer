@@ -1,0 +1,76 @@
+{
+  "version": "1.38",
+  "revision": "20261029-Lprogress176-1.38",
+  "createdAt": "2026-10-29T01:32:40.937405+09:00",
+  "binaryBuiltAt": "2026-10-29T01:24:37.097052+09:00",
+  "binarySha256": "15ef16edf836e211bf0a87dc1ed8058f6694e12905ba7ea95871240f0dc64d90",
+  "binarySize": 14626816,
+  "sourceTreeSha256": "d45ea868b009124dccadd4ca96fc86b3e3dfbad35662e6845cc6fabea68f510b",
+  "tests": [
+    {
+      "name": "navigation138-100",
+      "passLines": 149,
+      "logSha256": "06cfdb919b85493b723302df225bbb3c7c6faba2fdc4b1645cbdaeacf7b6afce"
+    },
+    {
+      "name": "navigation138-150",
+      "passLines": 149,
+      "logSha256": "afe70fbf6ebb50a8193dae2923420c9bf72566885492265fc285e54a7a311db3"
+    },
+    {
+      "name": "ui138-100",
+      "passLines": 403,
+      "logSha256": "00d80d28966b556892599cfab0d17abaac6af396550611606af7c3fdff953118"
+    },
+    {
+      "name": "ui138-150",
+      "passLines": 403,
+      "logSha256": "67f529c18e061604e83710fee8b20ff31a769ce874eda378b0dcd8bf57d606cb"
+    },
+    {
+      "name": "app138",
+      "passLines": 197,
+      "logSha256": "33e11faf13fd77120729852d3ebb0068e050b9cbe53ae78dd52dcb20b6fb5fc5"
+    },
+    {
+      "name": "whole138",
+      "passLines": 36,
+      "logSha256": "fa77810ac3b8dc64ac79689ec8b7c1918b4f8200ef76fb32b34a53b858030973"
+    },
+    {
+      "name": "pencil138",
+      "passLines": 11,
+      "logSha256": "6e5d0ecf37a656ced2dddd7acc0e0ad671bbddbedec91bea8e38b7b0a41b0f63"
+    },
+    {
+      "name": "gpu138",
+      "passLines": 11,
+      "logSha256": "9fd42557d1a9289fea49e828a841c3fc86131ccc4cb38920aef08eb0f94a2fbf"
+    },
+    {
+      "name": "startup138",
+      "passLines": 48,
+      "logSha256": "e93e162b1afc622fb1c1dd27595238f67c01179e4efa4b06784a3b511d51c350"
+    },
+    {
+      "name": "navigation176",
+      "passLines": 93,
+      "logSha256": "86c2c03e5526d3b9d760ed0622f3d2d677244ed0abdb9cea783942643019cd11"
+    },
+    {
+      "name": "bulk138",
+      "passLines": 1,
+      "logSha256": "15968d1ae3433cb1e9a523d979d68c3979d1a8c0b1c328451efd6db249966ca0"
+    },
+    {
+      "name": "workspace138-probe",
+      "passLines": 18,
+      "logSha256": "960fd69a15709e704106216ed897164db6a8a9444121df4e26e0a717dde960a3"
+    }
+  ],
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.37_before_Lprogress138_20261029_005853.zip",
+  "sourceBackupSha256": "313b2a487909ff1775cbbc0dfe1cbd2698023f38ae3ca0e3f0b49a9f7364878e",
+  "scope": "Uniform slim control rail heights/gaps, joined L outline, equal visible margins and light/dark themes. All export hover entries fold right HUD. Actual worker progress in playback track. Exact incremental frustum cache and idle async shader preparation; full scene GPU render cost is not eliminated. Model appearance/export/workspace wire format unchanged.",
+  "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\15ef16edf836e211bf0a87dc1ed8058f6694e12905ba7ea95871240f0dc64d90\\SkpViewportViewer.map",
+  "symbolMapSha256": "80a960b11f375df76ccf73e9fd1707397149db62953f3fae16d5fe116f546d79"
+}

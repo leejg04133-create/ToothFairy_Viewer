@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.37",
-  "file": "1.37/SkpViewportViewer.exe",
-  "sha256": "6e686bdaa7f09fa4af2e6ecf27832c25afef303fc48fb3ea236fb672d7cd202f",
-  "size": 14618624,
-  "notes": "1.37: 승인한 B안 조작기 적용 — 가는 캡슐 레일·분리된 값 표시, 아이콘 연결 곡선 제거. 파괴 완료·마스크 유지, 색연필 중복 그리기 감소, 카드 호버·스크롤바·이름 잘림 수정 포함."
+  "version": "1.38",
+  "file": "1.38/SkpViewportViewer.exe",
+  "sha256": "15ef16edf836e211bf0a87dc1ed8058f6694e12905ba7ea95871240f0dc64d90",
+  "size": 14626816,
+  "notes": "1.38 — 조작기 높이·간격·테마 통일, 파괴 진행바와 반복 계산 개선"
 }
