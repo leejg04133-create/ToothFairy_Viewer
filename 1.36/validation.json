@@ -1,17 +1,23 @@
 {
   "version": "1.36",
   "revision": "20261028-recompute170-1.36",
-  "createdAt": "2026-10-28T13:26:27.102131+09:00",
-  "binaryBuiltAt": "2026-10-28T13:21:18.527660+09:00",
-  "binarySha256": "0232ab96b57a3c277088bff03944c067cbd2dbcdfd3c96fe599ef55bd08c7030",
-  "binarySize": 14566400,
-  "sourceTreeSha256": "74daea7b6acceaddcf26e2fbe332465b825f8a333c937dd1e612652e6a2e054d",
+  "createdAt": "2026-10-28T13:43:27.875016+09:00",
+  "binaryBuiltAt": "2026-10-28T13:40:54.435227+09:00",
+  "binarySha256": "18a5e354d2067bc3979935f942fad4b5c4f177e38fd7f12625a35c7dd5334aa4",
+  "binarySize": 14568960,
+  "sourceTreeSha256": "a853a9a6736d992ff641a2b9c95553a6c81e5d4613283879ecea9ce5adb58202",
   "tests": [
     {
       "name": "recompute170-all",
       "marker": "RECOMPUTE170 PASS",
       "passLines": 7,
       "logSha256": "6d88398cd34595cb4371e2bbb395fa41877bfeae7ac707dda52df31c223e96e3"
+    },
+    {
+      "name": "gpu170-after",
+      "marker": "PASS all ten Koki passes draw",
+      "passLines": 10,
+      "logSha256": "7ead6d523674483c636dfa32198d7dd76db879286d2224719bbd97f6ad9276e7"
     },
     {
       "name": "selection170",
@@ -77,7 +83,7 @@
       "name": "startup170",
       "marker": "STARTUP154 WINDOW TRANSITIONS ACTUAL RUNAPP PASS",
       "passLines": 42,
-      "logSha256": "961a18dbc065f71d2918e23acdf50121a6c6e786b9e532f4843e6626e15ab395"
+      "logSha256": "a9e3be581cc353a95620c88be9c624c2d38b50bc049ddef7fd4c67424e9a6625"
     }
   ],
   "measurements": {
@@ -89,9 +95,16 @@
     ],
     "selection170": [
       "SELECTION170 selected=12002 actors=128 legacyMs=4.18886 firstMs=0.8785 cachedMs=0.0004505 checksum=4080"
+    ],
+    "gpu170-after": [
+      "GPU170 pass=9 frame=0 wallMs=547.297 geometryRevision=1",
+      "GPU170 pass=9 frame=1 wallMs=0.1395 geometryRevision=1",
+      "GPU170 pass=9 frame=2 wallMs=0.1401 geometryRevision=1",
+      "SHADER_CACHE170 builds=9 hits=9 pixels=3686400",
+      "STAGE170 render.shader-preview-reuse count=9 totalMs=0.0184 maxMs=0.0088"
     ]
   },
   "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.36_before_recompute170_20261028_125743.zip",
   "sourceBackupSha256": "86a15a8be60fe2c05932067c09f53d76c633879a5e664623b71b1cd0a3cb3600",
-  "scope": "Preserve renderer/output appearance and schema; fix original-open modal stacking/cancel; bound large CPU capture work; eliminate second fracture-history geometry copy; share frozen material caches; cache character selection and avoid actors*selection scans; distinguish hover from persisted gestures; remove repeated HUD placement."
+  "scope": "Preserve renderer/output appearance and schema; fix original-open modal stacking/cancel; bound large CPU capture work; eliminate second fracture-history geometry copy; share frozen material caches; cache character selection and avoid actors*selection scans; distinguish hover from persisted gestures; remove repeated HUD placement; reuse identical shader intermediate images, compare full RGB outputs and five exported layers, verify camera/material/visibility invalidation."
 }
