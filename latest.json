@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.35",
-  "file": "1.35/SkpViewportViewer.exe",
-  "sha256": "e357dad6e8b95a56a79acbba33529079739304d93bf4fec5b5fa4395508777cd",
-  "size": 14541312,
-  "notes": "1.35 수정본: 이전 작업 저장본 복원 호환 오류 수정, 그림자·음영 Esc 중복 처리 수정, 파일 열기의 원본/이어 열기 선택과 작업 기록 교체 경고."
+  "version": "1.36",
+  "file": "1.36/SkpViewportViewer.exe",
+  "sha256": "7b563895e7e5a5534e36ef3609640b595b64c55b76d854afa13d298856a7167b",
+  "size": 14551552,
+  "notes": "1.36: 최근 작업·파일 열기 휴지통 제거, 저장된 작업 표시와 원본 열기 버튼 통일. 원본 열기 교체 경고 유지. 조작·단축키 HUD 바깥 클릭 종료."
 }

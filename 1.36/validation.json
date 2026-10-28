@@ -1,0 +1,49 @@
+{
+  "version": "1.36",
+  "revision": "20261028-recent-original-actions169-1.36",
+  "createdAt": "2026-10-28T12:43:45.463128+09:00",
+  "binaryBuiltAt": "2026-10-28T12:37:17.092264+09:00",
+  "binarySha256": "7b563895e7e5a5534e36ef3609640b595b64c55b76d854afa13d298856a7167b",
+  "binarySize": 14551552,
+  "sourceTreeSha256": "c42777069eda55a57a271e6f5c2f26c5f09315738fad5a89348449d582264ef7",
+  "tests": [
+    {
+      "log": "recent169-100-final.log",
+      "checks": 39,
+      "result": "passed"
+    },
+    {
+      "log": "recent169-150-final.log",
+      "checks": 39,
+      "result": "passed"
+    },
+    {
+      "log": "recent169-ui-100.log",
+      "checks": 374,
+      "result": "passed"
+    },
+    {
+      "log": "recent169-ui-150.log",
+      "checks": 374,
+      "result": "passed"
+    },
+    {
+      "log": "recent169-native.log",
+      "checks": 15,
+      "result": "passed"
+    },
+    {
+      "log": "recent169-workspace.log",
+      "checks": 18,
+      "result": "passed"
+    },
+    {
+      "log": "recent169-startup.log",
+      "checks": 45,
+      "result": "passed"
+    }
+  ],
+  "scope": "Native recent-work and SKP browser actions at 100/150 percent; no destructive UI or delete callbacks on either surface; saved/unsaved states, grid/list/filter/resize and image browser; direct original warning cancel routes; native queued pointer outside/inside operation and shortcut windows; startup/maximize/restore/file/image open; legacy workspace full-content round trips and shadow Escape regression.",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_recent_open169_20261028_122422.zip",
+  "sourceBackupSha256": "052d8db1c5cee734deb7d276de2ba3ddb7c807b44e6cadcd7fd6cfaeed0484f2"
+}
