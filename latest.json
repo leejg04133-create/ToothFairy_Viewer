@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.38",
-  "file": "1.38/SkpViewportViewer.exe",
-  "sha256": "15ef16edf836e211bf0a87dc1ed8058f6694e12905ba7ea95871240f0dc64d90",
-  "size": 14626816,
-  "notes": "1.38 — 조작기 높이·간격·테마 통일, 파괴 진행바와 반복 계산 개선"
+  "version": "1.39",
+  "file": "1.39/SkpViewportViewer.exe",
+  "sha256": "d13a0705645f148f1c48e4a4bb5452ad57df95e0bb9f9f353b72b612ff36a92a",
+  "size": 14642688,
+  "notes": "1.39 — 파괴 재베이크 메모리 폭증 수정 및 마스크 조작 개선"
 }

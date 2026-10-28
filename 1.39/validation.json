@@ -1,0 +1,56 @@
+{
+  "version": "1.39",
+  "revision": "20261029-shader-rebake139-1.39",
+  "createdAt": "2026-10-29T02:27:39.354289+09:00",
+  "binaryBuiltAt": "2026-10-29T02:21:47.542719+09:00",
+  "binarySha256": "d13a0705645f148f1c48e4a4bb5452ad57df95e0bb9f9f353b72b612ff36a92a",
+  "binarySize": 14642688,
+  "sourceTreeSha256": "e42f0f131615760ca15fb638ac959265c9fecdd8a7e4233d9aed48ed1de154fe",
+  "tests": [
+    {
+      "name": "ui139-100",
+      "passLines": 404,
+      "logSha256": "cbccb8bf2363c919b7ffbb6fcb7ce3a5b21dad2bf9bde19dc09b55b2084732eb"
+    },
+    {
+      "name": "ui139-150",
+      "passLines": 404,
+      "logSha256": "56388aedbdabba7da295159c655c3cca83ddf75bfc6ee01036f6e3bae8cf7702"
+    },
+    {
+      "name": "app139",
+      "passLines": 208,
+      "logSha256": "8f976f827df84bc986fdc4006f7ae54a3d14a781ba0a9b67e86a77c1e19ea3b3"
+    },
+    {
+      "name": "whole139",
+      "passLines": 35,
+      "logSha256": "c67e0495d8442028bbe51ec008cd40d2158937b90f2ea96b7860d7e7615e16f5"
+    },
+    {
+      "name": "shader139",
+      "passLines": 17,
+      "logSha256": "c2f8c676a870dd837be020943140ffbad3e5a8fbe214c48da28983efa00266bd"
+    },
+    {
+      "name": "gpu139",
+      "passLines": 13,
+      "logSha256": "4c20734e779c3c4c717e06d13f1e11d76c64927b2c72f8268e553e9307b742bd"
+    },
+    {
+      "name": "startup139",
+      "passLines": 48,
+      "logSha256": "a20d5950f5dbae8bf7445a29b20d3fc609468eaae9251a31fbc0738b493f600c"
+    },
+    {
+      "name": "workspace139-probe",
+      "passLines": 18,
+      "logSha256": "960fd69a15709e704106216ed897164db6a8a9444121df4e26e0a717dde960a3"
+    }
+  ],
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.38_before_shader139_20261029_014508.zip",
+  "sourceBackupSha256": "59656727aaf44ab012b59e41fdbbba4868b4baac4f669f06c391a0c7b430cf35",
+  "scope": "Fix confirmed quadratic placement-array copies in direction/force rebake; collect compact environment snapshots in 4 ms / 256-placement chunks; preserve exact generated geometry, show pending completion/loading, and retain draft on cancel. Separate brush/object mask modes and visible-only/through authored-view masks. Prevent automatic shadow dwell with selected objects. Remove identity fullscreen shader copies only for known matching RGBA8 targets; exact moving/export pixels verified, no universal frame-rate improvement claimed. Persistent workspace wire format unchanged.",
+  "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\d13a0705645f148f1c48e4a4bb5452ad57df95e0bb9f9f353b72b612ff36a92a\\SkpViewportViewer.map",
+  "symbolMapSha256": "0c309dab697a20513c13f6ca437548d987c1fcf63d89a5d3a91dadfdbc9b633a"
+}
