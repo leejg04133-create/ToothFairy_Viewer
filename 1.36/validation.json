@@ -1,49 +1,97 @@
 {
   "version": "1.36",
-  "revision": "20261028-recent-original-actions169-1.36",
-  "createdAt": "2026-10-28T12:43:45.463128+09:00",
-  "binaryBuiltAt": "2026-10-28T12:37:17.092264+09:00",
-  "binarySha256": "7b563895e7e5a5534e36ef3609640b595b64c55b76d854afa13d298856a7167b",
-  "binarySize": 14551552,
-  "sourceTreeSha256": "c42777069eda55a57a271e6f5c2f26c5f09315738fad5a89348449d582264ef7",
+  "revision": "20261028-recompute170-1.36",
+  "createdAt": "2026-10-28T13:26:27.102131+09:00",
+  "binaryBuiltAt": "2026-10-28T13:21:18.527660+09:00",
+  "binarySha256": "0232ab96b57a3c277088bff03944c067cbd2dbcdfd3c96fe599ef55bd08c7030",
+  "binarySize": 14566400,
+  "sourceTreeSha256": "74daea7b6acceaddcf26e2fbe332465b825f8a333c937dd1e612652e6a2e054d",
   "tests": [
     {
-      "log": "recent169-100-final.log",
-      "checks": 39,
-      "result": "passed"
+      "name": "recompute170-all",
+      "marker": "RECOMPUTE170 PASS",
+      "passLines": 7,
+      "logSha256": "6d88398cd34595cb4371e2bbb395fa41877bfeae7ac707dda52df31c223e96e3"
     },
     {
-      "log": "recent169-150-final.log",
-      "checks": 39,
-      "result": "passed"
+      "name": "selection170",
+      "marker": "SELECTION170",
+      "passLines": 11,
+      "logSha256": "9ce19aa836260c18ee6300f1692945bd8b10538746668d5ea0ca60b05e37b658"
     },
     {
-      "log": "recent169-ui-100.log",
-      "checks": 374,
-      "result": "passed"
+      "name": "activity170",
+      "marker": "ACTIVITY170 PASS",
+      "passLines": 8,
+      "logSha256": "15d8fafe31c74260ef94bebeb30b57f2cd8ef887a25ce9754b09ac25ebc407fc"
     },
     {
-      "log": "recent169-ui-150.log",
-      "checks": 374,
-      "result": "passed"
+      "name": "popup170",
+      "marker": "POPUP170 PASS",
+      "passLines": 12,
+      "logSha256": "2e2dac457d25ebf815faac810f004f42027cdcc081217202b8ef0ab6ce823b7e"
     },
     {
-      "log": "recent169-native.log",
-      "checks": 15,
-      "result": "passed"
+      "name": "recent170-100",
+      "marker": "RECENT169 PASS",
+      "passLines": 38,
+      "logSha256": "3ea245a49b92d035ee20a976989a532f379090cba04a6410543ecaaeb910d787"
     },
     {
-      "log": "recent169-workspace.log",
-      "checks": 18,
-      "result": "passed"
+      "name": "recent170-150",
+      "marker": "RECENT169 PASS",
+      "passLines": 38,
+      "logSha256": "1664e92c4581d1d544af092592c25fa9b7921c5cb50a95d4677d25c7a4316856"
     },
     {
-      "log": "recent169-startup.log",
-      "checks": 45,
-      "result": "passed"
+      "name": "ui170-100",
+      "marker": "FEATURE159 UI PASS",
+      "passLines": 373,
+      "logSha256": "4508002a98342717af3d23fd4655a6107fb5079cb6266e2731191ee5f58bf7a4"
+    },
+    {
+      "name": "ui170-150",
+      "marker": "FEATURE159 UI PASS",
+      "passLines": 373,
+      "logSha256": "a4f2c4e7cc8554b5fb13f447199403ddc9b4d5a10a1781820f7a0d0bb3e11906"
+    },
+    {
+      "name": "app170",
+      "marker": "FEATURE159 ACTUAL APP PASS",
+      "passLines": 192,
+      "logSha256": "2bc6c2e27e70fed4319397141cbad72f6dc4502d5dd7e364272144d54ccfee7a"
+    },
+    {
+      "name": "workspace170",
+      "marker": "WORKSPACE167 PASS",
+      "passLines": 18,
+      "logSha256": "960fd69a15709e704106216ed897164db6a8a9444121df4e26e0a717dde960a3"
+    },
+    {
+      "name": "shadow170",
+      "marker": "SHADOW167 NATIVE MAIN LOOP PASS",
+      "passLines": 17,
+      "logSha256": "464efd7d2dae542b0e28597bda3582d5ec35abd70e12df10d1cbd523b83c1971"
+    },
+    {
+      "name": "startup170",
+      "marker": "STARTUP154 WINDOW TRANSITIONS ACTUAL RUNAPP PASS",
+      "passLines": 42,
+      "logSha256": "961a18dbc065f71d2918e23acdf50121a6c6e786b9e532f4843e6626e15ab395"
     }
   ],
-  "scope": "Native recent-work and SKP browser actions at 100/150 percent; no destructive UI or delete callbacks on either surface; saved/unsaved states, grid/list/filter/resize and image browser; direct original warning cancel routes; native queued pointer outside/inside operation and shortcut windows; startup/maximize/restore/file/image open; legacy workspace full-content round trips and shadow Escape regression.",
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.35_before_recent_open169_20261028_122422.zip",
-  "sourceBackupSha256": "052d8db1c5cee734deb7d276de2ba3ddb7c807b44e6cadcd7fd6cfaeed0484f2"
+  "measurements": {
+    "recompute170-all": [
+      "CAPTURE170 label=large-edit parts=1 oldPartCopyPeakMs=21.4085 oldPartCopyTotalMs=21.4108 sliceMaxMs=2.0055 totalMs=41.5716 slices=21",
+      "HISTORY170 oldDoubleCopyMs=49.8508 singleCopyMs=21.4834",
+      "ACTUAL170 nodes=604554 triangles=5703308",
+      "CAPTURE170 label=Koki parts=15387 oldPartCopyPeakMs=1.4959 oldPartCopyTotalMs=101.56 sliceMaxMs=2.0228 totalMs=256.62 slices=129"
+    ],
+    "selection170": [
+      "SELECTION170 selected=12002 actors=128 legacyMs=4.18886 firstMs=0.8785 cachedMs=0.0004505 checksum=4080"
+    ]
+  },
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.36_before_recompute170_20261028_125743.zip",
+  "sourceBackupSha256": "86a15a8be60fe2c05932067c09f53d76c633879a5e664623b71b1cd0a3cb3600",
+  "scope": "Preserve renderer/output appearance and schema; fix original-open modal stacking/cancel; bound large CPU capture work; eliminate second fracture-history geometry copy; share frozen material caches; cache character selection and avoid actors*selection scans; distinguish hover from persisted gestures; remove repeated HUD placement."
 }
