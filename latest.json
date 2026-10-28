@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.39",
-  "file": "1.39/SkpViewportViewer.exe",
-  "sha256": "d13a0705645f148f1c48e4a4bb5452ad57df95e0bb9f9f353b72b612ff36a92a",
-  "size": 14642688,
-  "notes": "1.39 — 파괴 재베이크 메모리 폭증 수정 및 마스크 조작 개선"
+  "version": "1.40",
+  "file": "1.40/SkpViewportViewer.exe",
+  "sha256": "36b3c93c63c9700f0fa5d9b1af8a250528c4d060a2ee3cc9a2b40efe5e8ea29e",
+  "size": 14645760,
+  "notes": "1.40 — 무협 배경 셰이더 그리기 병목 개선·수치 Enter 중복 실행 수정"
 }
