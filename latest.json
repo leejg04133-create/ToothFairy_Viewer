@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.40",
   "file": "1.40/SkpViewportViewer.exe",
-  "sha256": "36b3c93c63c9700f0fa5d9b1af8a250528c4d060a2ee3cc9a2b40efe5e8ea29e",
-  "size": 14645760,
-  "notes": "1.40 — 무협 배경 셰이더 그리기 병목 개선·수치 Enter 중복 실행 수정"
+  "sha256": "2df7a0e9470d0f4b5904710008850d2ae41492cb4722e475abeb8e78afbe36e2",
+  "size": 14646272,
+  "notes": "1.40 동일 버전 추가 최적화: 변경 없는 오브젝트 배치 데이터의 중복 검사를 줄였습니다."
 }

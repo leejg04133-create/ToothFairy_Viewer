@@ -1,96 +1,183 @@
 {
   "version": "1.40",
-  "revision": "20261029-wuxia-batch140-1.40",
-  "createdAt": "2026-10-29T02:54:43.049481+09:00",
-  "binaryBuiltAt": "2026-10-29T02:44:28.824626+09:00",
-  "binarySha256": "36b3c93c63c9700f0fa5d9b1af8a250528c4d060a2ee3cc9a2b40efe5e8ea29e",
-  "binarySize": 14645760,
-  "sourceTreeSha256": "d1f0022642f4ebcdf43c1c8079d0eb37f9e82c68963d3b4d5ba4f3bd187c5ad2",
+  "revision": "20261029-matrix-proof140b-1.40",
+  "createdAt": "2026-10-29T03:29:59.344079+09:00",
+  "binaryBuiltAt": "2026-10-29T03:29:22.627064+09:00",
+  "binarySha256": "2df7a0e9470d0f4b5904710008850d2ae41492cb4722e475abeb8e78afbe36e2",
+  "binarySize": 14646272,
+  "sourceTreeSha256": "b2edeab7cfc7d9fd2d49788b8a7dc7391a1811cff94d1e99facb8bb1501efd28",
   "tests": [
     {
-      "name": "numeric140-after",
+      "name": "refine140-numeric",
       "passLines": 7,
       "logSha256": "ce0ee104ca381670f650808cad81d5f40eaa8c51dca60247bcd2aed2a68775eb"
     },
     {
-      "name": "ui140-100",
-      "passLines": 404,
-      "logSha256": "cbccb8bf2363c919b7ffbb6fcb7ce3a5b21dad2bf9bde19dc09b55b2084732eb"
-    },
-    {
-      "name": "ui140-150",
-      "passLines": 404,
-      "logSha256": "56388aedbdabba7da295159c655c3cca83ddf75bfc6ee01036f6e3bae8cf7702"
-    },
-    {
-      "name": "app140",
+      "name": "refine140-app",
       "passLines": 208,
-      "logSha256": "be1f30d265249a1eeabb59f8957c2caadf176d81fddf36850dee1483529908de"
+      "logSha256": "30c2996705ded46f56fe061002ff3987b91b795543d712c1bc1a273b8d9485d0"
     },
     {
-      "name": "whole140",
+      "name": "refine140-whole",
       "passLines": 35,
-      "logSha256": "60b6f7153a4cdb02a1017660eba3c97774424ab43f4cd22f9cd0a239b1329a5d"
+      "logSha256": "f5e3e69bd352e64907910c381ea38cd6870cf37034617d24746d1f9dddffe7ac"
     },
     {
-      "name": "wuxia140-final",
+      "name": "refine140-wuxia",
       "passLines": 0,
-      "logSha256": "2ed5f077915c8ad574f6de0d72bbd741736a7a04c0c47293842a9db62b560f5f"
+      "logSha256": "67444135ab0f63f01ad60da0a2b3fd2ba12b27d32e828a4ed6a833c61d294632"
     },
     {
-      "name": "shader140",
-      "passLines": 17,
-      "logSha256": "fa3426de71f1c6253f17472b26a3249d5ade783590dc7ca327a9ec343aed7887"
+      "name": "refine140-koki-rerun",
+      "passLines": 35,
+      "logSha256": "162853cc23a69c60564cd7f1c96912bc9da7036fd0b6f0ccabbab76950bee58b"
     },
     {
-      "name": "gpu140",
+      "name": "refine140-gpu",
       "passLines": 13,
       "logSha256": "4c20734e779c3c4c717e06d13f1e11d76c64927b2c72f8268e553e9307b742bd"
     },
     {
-      "name": "startup140",
-      "passLines": 48,
-      "logSha256": "c3039e2e5d0517078a18e21ae3b66cd12e7dc7b4a7f0ba0baaa8359c8688b59b"
+      "name": "refine140-navigation",
+      "passLines": 93,
+      "logSha256": "7c3d34d6a97b02835a9b9dfa015a1d5bb810f72fa1a817695190902b7ec8e9bf"
     },
     {
-      "name": "workspace140-probe",
-      "passLines": 18,
-      "logSha256": "960fd69a15709e704106216ed897164db6a8a9444121df4e26e0a717dde960a3"
+      "name": "refine140-intern",
+      "passLines": 2,
+      "logSha256": "cc4f56bec0bf527f25ae4c6cebdfd1bb7715c73c1073d2515501cbc83d7b45ad"
     }
   ],
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.39_before_wuxia_shader_20261029_023252.zip",
-  "sourceBackupSha256": "979af23de20202b2feab1ee80abe0484da9318d36252140ce83e602c9c663faa",
-  "scope": "Connect styled Original passes and pencil coordinate capture to existing order-preserving indexed indirect batches, replacing repeated per-object driver submissions without reducing pass quality. Exact Wuxia and Koki pixel/export parity. Fix mini HUD numeric Enter repeat/focus-forwarding and polled-hotkey leakage; a separate released Enter still enters group. Preserve rebake memory fix, masks and workspace wire format.",
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.40_before_shader_refine_20261029_025852.zip",
+  "sourceBackupSha256": "c7896ad181eb314b876617db480f6e70cad145b85e054565d7e2327086dd104c",
+  "scope": "Same-version 1.40 replacement. Reuse globally tracked source/visibility revisions to avoid repeated matrix byte validation and repeated identical-list comparisons. Untracked scratch buffers retain exact byte validation; edits, slot overwrites, partition invalidation and list-size changes reject stale proofs. No artistic parameters, sampling, shader kernels or workspace format changes.",
+  "previousReleaseValidation": {
+    "version": "1.40",
+    "revision": "20261029-wuxia-batch140-1.40",
+    "createdAt": "2026-10-29T02:54:43.049481+09:00",
+    "binaryBuiltAt": "2026-10-29T02:44:28.824626+09:00",
+    "binarySha256": "36b3c93c63c9700f0fa5d9b1af8a250528c4d060a2ee3cc9a2b40efe5e8ea29e",
+    "binarySize": 14645760,
+    "sourceTreeSha256": "d1f0022642f4ebcdf43c1c8079d0eb37f9e82c68963d3b4d5ba4f3bd187c5ad2",
+    "tests": [
+      {
+        "name": "numeric140-after",
+        "passLines": 7,
+        "logSha256": "ce0ee104ca381670f650808cad81d5f40eaa8c51dca60247bcd2aed2a68775eb"
+      },
+      {
+        "name": "ui140-100",
+        "passLines": 404,
+        "logSha256": "cbccb8bf2363c919b7ffbb6fcb7ce3a5b21dad2bf9bde19dc09b55b2084732eb"
+      },
+      {
+        "name": "ui140-150",
+        "passLines": 404,
+        "logSha256": "56388aedbdabba7da295159c655c3cca83ddf75bfc6ee01036f6e3bae8cf7702"
+      },
+      {
+        "name": "app140",
+        "passLines": 208,
+        "logSha256": "be1f30d265249a1eeabb59f8957c2caadf176d81fddf36850dee1483529908de"
+      },
+      {
+        "name": "whole140",
+        "passLines": 35,
+        "logSha256": "60b6f7153a4cdb02a1017660eba3c97774424ab43f4cd22f9cd0a239b1329a5d"
+      },
+      {
+        "name": "wuxia140-final",
+        "passLines": 0,
+        "logSha256": "2ed5f077915c8ad574f6de0d72bbd741736a7a04c0c47293842a9db62b560f5f"
+      },
+      {
+        "name": "shader140",
+        "passLines": 17,
+        "logSha256": "fa3426de71f1c6253f17472b26a3249d5ade783590dc7ca327a9ec343aed7887"
+      },
+      {
+        "name": "gpu140",
+        "passLines": 13,
+        "logSha256": "4c20734e779c3c4c717e06d13f1e11d76c64927b2c72f8268e553e9307b742bd"
+      },
+      {
+        "name": "startup140",
+        "passLines": 48,
+        "logSha256": "c3039e2e5d0517078a18e21ae3b66cd12e7dc7b4a7f0ba0baaa8359c8688b59b"
+      },
+      {
+        "name": "workspace140-probe",
+        "passLines": 18,
+        "logSha256": "960fd69a15709e704106216ed897164db6a8a9444121df4e26e0a717dde960a3"
+      }
+    ],
+    "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.39_before_wuxia_shader_20261029_023252.zip",
+    "sourceBackupSha256": "979af23de20202b2feab1ee80abe0484da9318d36252140ce83e602c9c663faa",
+    "scope": "Connect styled Original passes and pencil coordinate capture to existing order-preserving indexed indirect batches, replacing repeated per-object driver submissions without reducing pass quality. Exact Wuxia and Koki pixel/export parity. Fix mini HUD numeric Enter repeat/focus-forwarding and polled-hotkey leakage; a separate released Enter still enters group. Preserve rebake memory fix, masks and workspace wire format.",
+    "wuxiaComparison": {
+      "width": 1280,
+      "height": 720,
+      "msaa": 8,
+      "camera": "actual Wuxia incident camera",
+      "measurement": "default presets; warmed alternating original/optimized path; 3 moving views; render and readback wall time on this PC",
+      "exactPixels": true,
+      "measurements": [
+        {
+          "mode": 2,
+          "beforeMs": 102.004,
+          "afterMs": 37.8467
+        },
+        {
+          "mode": 3,
+          "beforeMs": 39.1932,
+          "afterMs": 21.1438
+        },
+        {
+          "mode": 4,
+          "beforeMs": 88.2564,
+          "afterMs": 47.9685
+        }
+      ]
+    },
+    "numericEnterRegression": {
+      "reproducedBefore": true,
+      "beforeLogSha256": "e18c067f379a96b0dcd536147c2e3e6b441eaa3400b6cd3589b9168f16fffac3",
+      "afterVerified": true
+    },
+    "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\36b3c93c63c9700f0fa5d9b1af8a250528c4d060a2ee3cc9a2b40efe5e8ea29e\\SkpViewportViewer.map",
+    "symbolMapSha256": "87ebbade5be6de9fca0ac9e7a9fa27b0fd7de2e08513fc9d36b6a250cca39fc7"
+  },
   "wuxiaComparison": {
     "width": 1280,
     "height": 720,
     "msaa": 8,
-    "camera": "actual Wuxia incident camera",
-    "measurement": "default presets; warmed alternating original/optimized path; 3 moving views; render and readback wall time on this PC",
+    "measurement": "Prior 1.40 vs matrix-proof reuse, alternating order, 2 discarded warm pairs and 7 measured moving views, render+readback wall time on this PC",
     "exactPixels": true,
     "measurements": [
       {
         "mode": 2,
-        "beforeMs": 102.004,
-        "afterMs": 37.8467
+        "beforeMs": 39.4217,
+        "afterMs": 39.6881
       },
       {
         "mode": 3,
-        "beforeMs": 39.1932,
-        "afterMs": 21.1438
+        "beforeMs": 25.1477,
+        "afterMs": 24.9156
       },
       {
         "mode": 4,
-        "beforeMs": 88.2564,
-        "afterMs": 47.9685
+        "beforeMs": 48.23,
+        "afterMs": 48.8741
       }
-    ]
+    ],
+    "conclusion": "No substantial whole-frame improvement established; CPU preparation reduction is measured separately."
   },
-  "numericEnterRegression": {
-    "reproducedBefore": true,
-    "beforeLogSha256": "e18c067f379a96b0dcd536147c2e3e6b441eaa3400b6cd3589b9168f16fffac3",
-    "afterVerified": true
+  "matrixPreparationComparison": {
+    "placements": 479001,
+    "beforeMs": 1.25094,
+    "afterMs": 0.0167825,
+    "scope": "Only frame-list registration/interning on unchanged transforms; excludes rendering; 40 warmed alternating iterations"
   },
-  "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\36b3c93c63c9700f0fa5d9b1af8a250528c4d060a2ee3cc9a2b40efe5e8ea29e\\SkpViewportViewer.map",
-  "symbolMapSha256": "87ebbade5be6de9fca0ac9e7a9fa27b0fd7de2e08513fc9d36b6a250cca39fc7"
+  "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\2df7a0e9470d0f4b5904710008850d2ae41492cb4722e475abeb8e78afbe36e2\\SkpViewportViewer.map",
+  "symbolMapSha256": "2b3c19f5ca6bbcb896566a8172e813ed203fd0ea1b809a74f9046b5e3e4a2c5d"
 }
