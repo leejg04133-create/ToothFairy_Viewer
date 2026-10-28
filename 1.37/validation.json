@@ -1,11 +1,11 @@
 {
   "version": "1.37",
-  "revision": "20261028-hover174-fracture-1.37",
-  "createdAt": "2026-10-28T22:13:32.767731+09:00",
-  "binaryBuiltAt": "2026-10-28T22:12:23.871486+09:00",
-  "binarySha256": "6c7a1008d9a7091e836e2a97f1e03b7d2a4ec3d696b71f50554f5588c3a9007b",
-  "binarySize": 14617600,
-  "sourceTreeSha256": "63582e3a23b12528ceb0fda6a2cd1d6925d7dc5a3ed79392ed0eb587fc5e92e9",
+  "revision": "20261028-designB175-1.37",
+  "createdAt": "2026-10-28T22:25:28.164731+09:00",
+  "binaryBuiltAt": "2026-10-28T22:23:36.635313+09:00",
+  "binarySha256": "6e686bdaa7f09fa4af2e6ecf27832c25afef303fc48fb3ea236fb672d7cd202f",
+  "binarySize": 14618624,
+  "sourceTreeSha256": "901934770a7ecb3f796cdbd10b7523ee8a5adb4efec42c0d455a69254a307b65",
   "tests": [
     {
       "name": "recent174-100",
@@ -18,12 +18,12 @@
       "logSha256": "109e9da9d2cbfbfa2d722b0b8b5d38b02fc00bbb34709bfc01acb758af764102"
     },
     {
-      "name": "navigation174-100",
+      "name": "navigation175-100",
       "passLines": 137,
       "logSha256": "df393a78d912acff3560c2228719c152921d939f9b94bee7ddaef0d8239ac437"
     },
     {
-      "name": "navigation174-150",
+      "name": "navigation175-150",
       "passLines": 137,
       "logSha256": "99205631979737aa96f68b062c538ddc704e970fc90674959d24bdd7997b40a4"
     },
@@ -58,9 +58,9 @@
       "logSha256": "9fd42557d1a9289fea49e828a841c3fc86131ccc4cb38920aef08eb0f94a2fbf"
     },
     {
-      "name": "startup174",
+      "name": "startup175",
       "passLines": 48,
-      "logSha256": "a404dbbfb61d61e9e96d8dd57c40303e3c01fb4a15d256f9db492fa7a1949cc9"
+      "logSha256": "45551386b920eb6deab8aca48da9093a4fe65a4c83934a9ed95eba42e9b602f4"
     },
     {
       "name": "snapshot174",
@@ -78,9 +78,9 @@
       "logSha256": "abb7e6374d7e73d30adef9cc1056dafa01570062c6660811428bd206798453b5"
     }
   ],
-  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.36_before_hover174_20261028_211800.zip",
-  "sourceBackupSha256": "34730912baaf6bd3d8484344744510cc1266d984a42ad07b8589d1b339ba3c78",
-  "scope": "Instanced fracture apply, persistent draft mask, incremental immutable environment preparation, exact pencil coordinate reuse, cached spring hover, scrollbar gutter, outlined symmetric controls, short name glyph padding. Appearance/export/schema unchanged.",
-  "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\6c7a1008d9a7091e836e2a97f1e03b7d2a4ec3d696b71f50554f5588c3a9007b\\SkpViewportViewer.map",
-  "symbolMapSha256": "30d345c14154a4f6b7b628525d17bcd020feb51422749e805051bfc28fc50623"
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.37_before_designB_20261028_222136.zip",
+  "sourceBackupSha256": "16a71c2d1413b4cde64b97f5c94de7c93a84c83a7711b0ecbe9af55526724274",
+  "scope": "Approved design B narrow capsules, separate value chips and circular headers, no connecting arc. Fresh navigation and startup regression; unaffected fracture, pixel/export and workspace checks retained from the prior 1.37 validation. Model appearance/export/schema unchanged.",
+  "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\6e686bdaa7f09fa4af2e6ecf27832c25afef303fc48fb3ea236fb672d7cd202f\\SkpViewportViewer.map",
+  "symbolMapSha256": "a92cb88ccbc2d5979a6d529abdc4dda772fdfe7aad129a1100ce61e64262adec"
 }
