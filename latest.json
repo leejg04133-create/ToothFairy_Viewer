@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.40",
   "file": "1.40/SkpViewportViewer.exe",
-  "sha256": "881562771e802773b208ce0d1163dda81f5199eb41198ad6870e06e5022adee7",
+  "sha256": "cec8090ef7e60c8b340b388e9f3eda3ae967cdc6bc182dc99565e79dfafc086f",
   "size": 14652416,
-  "notes": "1.40 수정: 느린 프레임의 캐릭터 슬로모션 수정·투명면 그림자 가속·조작 HUD 복구"
+  "notes": "1.40 수정: 왼쪽 슬라이더와 화면 조작 범위 확대"
 }
