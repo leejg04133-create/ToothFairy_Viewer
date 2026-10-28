@@ -1,11 +1,11 @@
 {
   "version": "1.36",
-  "revision": "20261028-fracture-mask171-1.36",
-  "createdAt": "2026-10-28T20:12:10.175023+09:00",
-  "binaryBuiltAt": "2026-10-28T20:08:48.401921+09:00",
-  "binarySha256": "0e038abe877dd433a8268cf286787f67d726ca8a145129a15d6108517c82ee4d",
-  "binarySize": 14587392,
-  "sourceTreeSha256": "c0904d789d0be3f656dee902c567c043e79bfa0793d6ce7766b7144eb9e8966f",
+  "revision": "20261028-cursor173-snapshot172-1.36",
+  "createdAt": "2026-10-28T21:08:08.051850+09:00",
+  "binaryBuiltAt": "2026-10-28T21:05:51.000878+09:00",
+  "binarySha256": "047ef972707667dc80a99077e7e8d43d8bfa81dddfc4c908a6bd76c8f5e96c65",
+  "binarySize": 14598144,
+  "sourceTreeSha256": "bb09392bf5a3f9e6f1b4f3f0c4b59af35de2882dd2281d1a049691d7a6ab230d",
   "tests": [
     {
       "name": "mask171",
@@ -18,9 +18,9 @@
       "logSha256": "14fca01ab76ef02a681870b93c8bfbd8fe811c3381c5b155e5e889695f07dca5"
     },
     {
-      "name": "gpu171",
-      "passLines": 9,
-      "logSha256": "41147ad8330168b98cd294a1e0a57e917f3dc899cce953a0c3cb0d229d22122a"
+      "name": "gpu173",
+      "passLines": 11,
+      "logSha256": "9fd42557d1a9289fea49e828a841c3fc86131ccc4cb38920aef08eb0f94a2fbf"
     },
     {
       "name": "ui171-100",
@@ -38,12 +38,12 @@
       "logSha256": "2bc6c2e27e70fed4319397141cbad72f6dc4502d5dd7e364272144d54ccfee7a"
     },
     {
-      "name": "workspace171",
+      "name": "workspace172",
       "passLines": 18,
       "logSha256": "960fd69a15709e704106216ed897164db6a8a9444121df4e26e0a717dde960a3"
     },
     {
-      "name": "geometry171-mask",
+      "name": "geometry172-mask",
       "passLines": 1,
       "logSha256": "8d1064474a2ce9ef37f60543620dd32dfe7c4a7fcbe4920718c1662d3a91d8ec"
     },
@@ -56,10 +56,52 @@
       "name": "koki171",
       "passLines": 10,
       "logSha256": "cb6912b1bdd1b00296a1c5d42ae81fcacf7d69f3e355af21c493e4a9567cd8d0"
+    },
+    {
+      "name": "startup173",
+      "passLines": 48,
+      "logSha256": "3744e528e85c7741608ec46a52460fd95f499f856ae26768be3ae15741675da2"
+    },
+    {
+      "name": "snapshot172",
+      "passLines": 6,
+      "logSha256": "9560fb6e1d29e9a740d09d6c48c4e126104953a45d8b7d9b6a539f8270482877"
+    },
+    {
+      "name": "geometry172-snapshot",
+      "passLines": 0,
+      "logSha256": "abb7e6374d7e73d30adef9cc1056dafa01570062c6660811428bd206798453b5"
+    },
+    {
+      "name": "actual172",
+      "passLines": 196,
+      "logSha256": "5b40d76b073e321cc11a13c9f05c2d3adcd42282967ac04533d48959c1a5e756"
+    },
+    {
+      "name": "recent173-100",
+      "passLines": 50,
+      "logSha256": "fd46f33d40e517c660f90a2abce5394d82ce67a86448a4fc7fed1c9ff73cb7a8"
+    },
+    {
+      "name": "recent173-150",
+      "passLines": 50,
+      "logSha256": "ff17da216379db378d0c78dd79a0deca20b653811275a0dfa80d9019ebebfb9b"
+    },
+    {
+      "name": "navigation173-100",
+      "passLines": 135,
+      "logSha256": "df3a57a7170da4d690787ee3fe030ca1749e98b20bda63236f698d9c61aad034"
+    },
+    {
+      "name": "navigation173-150",
+      "passLines": 135,
+      "logSha256": "e1a4ace259151416c7c0f165794ca1e6a5fc5b0f38bf1037fc9ecc7005aab36a"
     }
   ],
   "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.36_before_crash171_20261028_193600.zip",
   "sourceBackupSha256": "86e7e95c098775b1a6aa13f4fde7f2b6bb7e1469ceb7d4c922f65247f181a12e",
-  "incident": "bad allocation; original log did not capture allocation site; bounded test reproduces old unbounded row allocation, not claimed as exclusive cause of incident",
-  "scope": "Bound exact edge lookup and optional legacy row cache; avoid no-op mask revisions; native character/light name lists; preserve appearance, export and schema. Real GPU old/new lookup pixel parity and legacy workspaces tested."
+  "incident": "New allocation-request stack traced to CpuPart copying full transform batches for every collision environment instance; 5 MiB system commit remaining at failure. Compact immutable definition snapshots tested on actual incident model and bounded legacy/new comparison.",
+  "scope": "Recent/browser native cursor ownership, retained mask color and in-place exact depth, compact fracture snapshots, native light/character name lists, hover zoom and shared left controls; preserve appearance, export and schema.",
+  "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\047ef972707667dc80a99077e7e8d43d8bfa81dddfc4c908a6bd76c8f5e96c65\\SkpViewportViewer.map",
+  "symbolMapSha256": "a635226bd4ae4bef9f5f09504c4f6dda374a2794df7a3d56990a1e725da6e47f"
 }
