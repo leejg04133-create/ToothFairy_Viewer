@@ -1,0 +1,86 @@
+{
+  "version": "1.37",
+  "revision": "20261028-hover174-fracture-1.37",
+  "createdAt": "2026-10-28T22:13:32.767731+09:00",
+  "binaryBuiltAt": "2026-10-28T22:12:23.871486+09:00",
+  "binarySha256": "6c7a1008d9a7091e836e2a97f1e03b7d2a4ec3d696b71f50554f5588c3a9007b",
+  "binarySize": 14617600,
+  "sourceTreeSha256": "63582e3a23b12528ceb0fda6a2cd1d6925d7dc5a3ed79392ed0eb587fc5e92e9",
+  "tests": [
+    {
+      "name": "recent174-100",
+      "passLines": 60,
+      "logSha256": "16e1190b6dc3bd115c02fbaf7c6d2564ced29b6d6fc22ce1b7c02bce28ee273e"
+    },
+    {
+      "name": "recent174-150",
+      "passLines": 60,
+      "logSha256": "109e9da9d2cbfbfa2d722b0b8b5d38b02fc00bbb34709bfc01acb758af764102"
+    },
+    {
+      "name": "navigation174-100",
+      "passLines": 137,
+      "logSha256": "df393a78d912acff3560c2228719c152921d939f9b94bee7ddaef0d8239ac437"
+    },
+    {
+      "name": "navigation174-150",
+      "passLines": 137,
+      "logSha256": "99205631979737aa96f68b062c538ddc704e970fc90674959d24bdd7997b40a4"
+    },
+    {
+      "name": "ui174-100",
+      "passLines": 390,
+      "logSha256": "4d0aa8ada8ea7954883f0512d1cdf536f15dd45678f8eb4bfe19cd80266ac171"
+    },
+    {
+      "name": "ui174-150",
+      "passLines": 390,
+      "logSha256": "82cf39b9fd739eb4ccbbe1bacc58d8fca40bf4ae058a7e841d91d379d0a7d2fb"
+    },
+    {
+      "name": "app174",
+      "passLines": 202,
+      "logSha256": "f9ef15a106f69f4c5510937cdca88ede8d40dd14ee531d56ac51e0a338e37c66"
+    },
+    {
+      "name": "whole174",
+      "passLines": 36,
+      "logSha256": "fa77810ac3b8dc64ac79689ec8b7c1918b4f8200ef76fb32b34a53b858030973"
+    },
+    {
+      "name": "pencil174",
+      "passLines": 7,
+      "logSha256": "4d2af313e70dd787239425bca39f3f0a825fb6f3dffe1c83fa715e448d43cd2f"
+    },
+    {
+      "name": "gpu174",
+      "passLines": 11,
+      "logSha256": "9fd42557d1a9289fea49e828a841c3fc86131ccc4cb38920aef08eb0f94a2fbf"
+    },
+    {
+      "name": "startup174",
+      "passLines": 48,
+      "logSha256": "a404dbbfb61d61e9e96d8dd57c40303e3c01fb4a15d256f9db492fa7a1949cc9"
+    },
+    {
+      "name": "snapshot174",
+      "passLines": 9,
+      "logSha256": "d98371afdcdbb7f5c2281643925b6e3fa0fb1b31a813e3160ce37cf4002920a8"
+    },
+    {
+      "name": "workspace172",
+      "passLines": 18,
+      "logSha256": "960fd69a15709e704106216ed897164db6a8a9444121df4e26e0a717dde960a3"
+    },
+    {
+      "name": "geometry172-snapshot",
+      "passLines": 0,
+      "logSha256": "abb7e6374d7e73d30adef9cc1056dafa01570062c6660811428bd206798453b5"
+    }
+  ],
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.36_before_hover174_20261028_211800.zip",
+  "sourceBackupSha256": "34730912baaf6bd3d8484344744510cc1266d984a42ad07b8589d1b339ba3c78",
+  "scope": "Instanced fracture apply, persistent draft mask, incremental immutable environment preparation, exact pencil coordinate reuse, cached spring hover, scrollbar gutter, outlined symmetric controls, short name glyph padding. Appearance/export/schema unchanged.",
+  "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\6c7a1008d9a7091e836e2a97f1e03b7d2a4ec3d696b71f50554f5588c3a9007b\\SkpViewportViewer.map",
+  "symbolMapSha256": "30d345c14154a4f6b7b628525d17bcd020feb51422749e805051bfc28fc50623"
+}
