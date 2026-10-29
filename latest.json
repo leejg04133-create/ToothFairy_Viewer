@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.40",
-  "file": "1.40/SkpViewportViewer.exe",
-  "sha256": "cfe663fe33ca118c5e798119a5660c9788c44857b805fafd924e78a4a877af07",
-  "size": 14696960,
-  "notes": "1.40 수정: 동적 문 저장·재열기 후 누적 회전"
+  "version": "1.41",
+  "file": "1.41/SkpViewportViewer.exe",
+  "sha256": "0b5fd5b253899771ca34bb719ea461f98e24303389e5a5582ab5503ec4fa5933",
+  "size": 14703104,
+  "notes": "1.41: 시작 대기 응답 개선 · 고배율 팔레트 크기 수정"
 }
