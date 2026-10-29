@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.41",
-  "file": "1.41/SkpViewportViewer.exe",
-  "sha256": "53fd5c92c9881b83834fc89cc494233c70eb726201a2a2df39fc6f2fad20d989",
+  "version": "1.42",
+  "file": "1.42/SkpViewportViewer.exe",
+  "sha256": "5bd8f9b04209f10a928acd5e3370a0a9e082bb118b604700ac56b83fd3ea8992",
   "size": 14705664,
-  "notes": "1.41 수정본: 현재 작업 자동 저장 후 업데이트 적용"
+  "notes": "1.42: 현재 작업 자동 저장 후 업데이트"
 }
