@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.44",
-  "file": "1.44/SkpViewportViewer.exe",
-  "sha256": "85b47338838f869ee1bc53dd5770dbba346f76efb71b1cc19ab1a0ad1e48f1bb",
-  "size": 14654976,
-  "notes": "1.44: 뷰어 팔레트 등록·저장 제거"
+  "version": "1.45",
+  "file": "1.45/SkpViewportViewer.exe",
+  "sha256": "eb574a65eb118ef186254f3919ebb2ba1cf799763a45a4725a7593134b5438f6",
+  "size": 14664192,
+  "notes": "1.45: 삭제 병목 개선"
 }

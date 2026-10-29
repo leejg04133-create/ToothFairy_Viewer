@@ -1,0 +1,109 @@
+{
+  "version": "1.45",
+  "revision": "20261029-delete-sparse145-1.45",
+  "binaryBuiltAt": "2026-10-29T21:58:35.843484+09:00",
+  "binarySha256": "eb574a65eb118ef186254f3919ebb2ba1cf799763a45a4725a7593134b5438f6",
+  "binarySize": 14664192,
+  "tests": [
+    {
+      "name": "delete145-native",
+      "logSha256": "9366c9b89167ced046bf54f86c30ec518a3ba6c6bf1022282a130371d3d51021",
+      "passes": 40
+    },
+    {
+      "name": "delete145-koki-after",
+      "logSha256": "414beac929738b9987eeb79ff6f0c1ed0fe342e0b7b4bd35402237626c89915f",
+      "passes": 39
+    },
+    {
+      "name": "delete145-crack-history",
+      "logSha256": "be484ddd020eb723b9e9a7b2bd7c8d04de155c2a661f07c05ddd11a7a8212f0f",
+      "passes": 28
+    },
+    {
+      "name": "delete145-gpu-regression",
+      "logSha256": "2a65362f7e991763d9764e8365fccb7ecf87d1599294be6f68c65c6e99f740f9",
+      "passes": 72
+    },
+    {
+      "name": "delete145-transactions",
+      "logSha256": "81a4848a9801178b3b3a3c60acfd2e7703924b46581fd4d2f8ecf2ef3ff6c133",
+      "passes": 99
+    },
+    {
+      "name": "delete145-dynamic",
+      "logSha256": "79ff26fd50f38dedcd15a6d56b4a0d6768cdf2a313059d9569b218f2f52c0c44",
+      "passes": 29
+    },
+    {
+      "name": "delete145-update",
+      "logSha256": "147b4230f4f37568d59b8348771480d7f33c6693341e7f2ba7d6a1095e7921ab",
+      "passes": 18
+    }
+  ],
+  "sourceBackup": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\rollback_backups\\v1.44_before_delete_optimization_20261029_212636.zip",
+  "sourceBackupSha256": "233c5633ce91493dfe4b7ae9a3f824d9b459e42c966c5178341a324bdcef7bd5",
+  "changedSources": [
+    {
+      "path": "src/App.cpp",
+      "sha256": "17018a752507e0a24f55b6b1a04c47086656a82af62e39fcebd8859f0c1c8b68"
+    },
+    {
+      "path": "src/app.rc",
+      "sha256": "9747d86b032a474122aeaf8df7ee2abcee4366a9f17d93b9b796238f62f0d898"
+    },
+    {
+      "path": "src/CharacterApp.inc",
+      "sha256": "45a8a787b2736b017e1d8bb0348875dfafcd2f7f92aed20fc978e75ed7d628ac"
+    },
+    {
+      "path": "src/CrackApp.inc",
+      "sha256": "afc33487540a079b1a02c29dd9e767480110710f1d18eb76c54f2d0b88558758"
+    },
+    {
+      "path": "src/PerfDiagnostics.hpp",
+      "sha256": "17c175b2509d0b5ba44ba398022f5b8a7acb08ab98f44b1e95a22fed27f21d2a"
+    },
+    {
+      "path": "src/Renderer.cpp",
+      "sha256": "564800967d9209923167fb785a851ecf4bb9bada6a0061ba3fad62834fd19e95"
+    },
+    {
+      "path": "src/Renderer.hpp",
+      "sha256": "3fe1bac545b19239efd34a7688a65619176993f10f5da30d0c7cc85f02c4318b"
+    },
+    {
+      "path": "src/SceneEditActions.inc",
+      "sha256": "ae52dcf2e2b45e0b2adb5d29ebf46c2f46027e5c60d551f155f1e8c9e87d4ec5"
+    },
+    {
+      "path": "src/UiPanel.cpp",
+      "sha256": "24e5688acf56b3d94db48179f6d575584db4788e38c3a6eb91a6d02cb4199253"
+    },
+    {
+      "path": "src/ViewerUpdate.hpp",
+      "sha256": "0a13f0c690a7a6f7f1e87b524d1b456d26fad28c04bc7521ab7c3d245f9ef6b3"
+    }
+  ],
+  "symbolMap": "C:\\Users\\leejg\\Documents\\GitHub\\SkpViewportViewer\\SkpViewportViewer\\SkpViewportViewer_최신본\\build_crack\\symbols\\eb574a65eb118ef186254f3919ebb2ba1cf799763a45a4725a7593134b5438f6\\SkpViewportViewer.map",
+  "symbolMapSha256": "a61df2f30e4c546731a0a296835c8d405d69e6324c3b75977d65c780fc6db45c",
+  "workspaceSchema": 6,
+  "benchBefore": [
+    "MODEL nodes=604554 parts=15387",
+    "BENCH character delete+query ms=581.845 indexRebuilds=1 geometryInvalidations=1",
+    "BENCH layer delete ms=20.2207 indexRebuilds=0 geometryInvalidations=0 uploads=0 paintSyncs=0",
+    "BENCH light delete ms=1.9624 geometryInvalidations=0 lightResolves=1",
+    "BENCH scene delete ms=0.1915",
+    "BENCH destruction delete ms=4.368 partVisits=15387 touched=1 meshUploads=1 indexRebuilds=0"
+  ],
+  "benchAfter": [
+    "MODEL nodes=604554 parts=15387",
+    "BENCH character delete+query ms=0.0238 indexRebuilds=0 geometryInvalidations=0",
+    "BENCH layer delete ms=11.5915 indexRebuilds=0 geometryInvalidations=0 uploads=0 paintSyncs=0",
+    "BENCH light delete ms=0.7781 geometryInvalidations=0 lightResolves=1",
+    "BENCH scene delete ms=0.1307",
+    "BENCH destruction delete ms=0.1603 partVisits=1 touched=1 meshUploads=1 indexRebuilds=0"
+  ],
+  "benchmarkScope": "Single deletion and spatial-query preparation on this PC, not full-frame rendering time or a hardware-independent FPS guarantee.",
+  "previousReleaseValidationSha256": "9c5c6953b105647b551397b9db194466c915f26529820d980870217240fe03c9"
+}
