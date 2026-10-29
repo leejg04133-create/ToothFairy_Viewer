@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.43",
-  "file": "1.43/SkpViewportViewer.exe",
-  "sha256": "e866f9dcb8f3284a1b3acc8a16030378b5f14b8c57e2118192d8b89591481eae",
-  "size": 14713344,
-  "notes": "1.43: 저장된 동적 문을 다시 조작할 때 각도가 추가되는 문제 수정"
+  "version": "1.44",
+  "file": "1.44/SkpViewportViewer.exe",
+  "sha256": "85b47338838f869ee1bc53dd5770dbba346f76efb71b1cc19ab1a0ad1e48f1bb",
+  "size": 14654976,
+  "notes": "1.44: 뷰어 팔레트 등록·저장 제거"
 }
