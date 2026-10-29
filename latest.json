@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.40",
   "file": "1.40/SkpViewportViewer.exe",
-  "sha256": "fe905cc937d5ce54c5eca09b403368f1dd15dc3c871bda004d89e9be793125ba",
-  "size": 14652416,
-  "notes": "1.40 수정: 롤 좌우 조작 방향 반전"
+  "sha256": "bcdfa1e2d1c12afd9dd1e9d53e2fd2040a1a985e788b77e6cd5fdd2bc34f1cd2",
+  "size": 14653952,
+  "notes": "1.40 수정: 라이트 바닥 원 그랩 이동의 커서 추적 수정"
 }
