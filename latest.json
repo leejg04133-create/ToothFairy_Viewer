@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.40",
   "file": "1.40/SkpViewportViewer.exe",
-  "sha256": "bcdfa1e2d1c12afd9dd1e9d53e2fd2040a1a985e788b77e6cd5fdd2bc34f1cd2",
-  "size": 14653952,
-  "notes": "1.40 수정: 라이트 바닥 원 그랩 이동의 커서 추적 수정"
+  "sha256": "0f129be80cf6e18d34588a3c9a101de47092c39748fc1134c86d3bc471eb9b2a",
+  "size": 14651392,
+  "notes": "1.40 수정: 파괴 백페이스 컬링·최대 깊이 입력·숨긴 선택 가이드"
 }
