@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.41",
   "file": "1.41/SkpViewportViewer.exe",
-  "sha256": "0b5fd5b253899771ca34bb719ea461f98e24303389e5a5582ab5503ec4fa5933",
-  "size": 14703104,
-  "notes": "1.41: 시작 대기 응답 개선 · 고배율 팔레트 크기 수정"
+  "sha256": "53fd5c92c9881b83834fc89cc494233c70eb726201a2a2df39fc6f2fad20d989",
+  "size": 14705664,
+  "notes": "1.41 수정본: 현재 작업 자동 저장 후 업데이트 적용"
 }
