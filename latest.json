@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.40",
   "file": "1.40/SkpViewportViewer.exe",
-  "sha256": "adbd39786e42eba3423c8a244295fabf78f8632cb2796577f5fe318f76db8bca",
-  "size": 14673920,
-  "notes": "1.40 수정: 파괴 후 남는 막·관통 형상"
+  "sha256": "cfe663fe33ca118c5e798119a5660c9788c44857b805fafd924e78a4a877af07",
+  "size": 14696960,
+  "notes": "1.40 수정: 동적 문 저장·재열기 후 누적 회전"
 }
