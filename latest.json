@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.40",
   "file": "1.40/SkpViewportViewer.exe",
-  "sha256": "cec8090ef7e60c8b340b388e9f3eda3ae967cdc6bc182dc99565e79dfafc086f",
+  "sha256": "fe905cc937d5ce54c5eca09b403368f1dd15dc3c871bda004d89e9be793125ba",
   "size": 14652416,
-  "notes": "1.40 수정: 왼쪽 슬라이더와 화면 조작 범위 확대"
+  "notes": "1.40 수정: 롤 좌우 조작 방향 반전"
 }
