@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.45",
-  "file": "1.45/SkpViewportViewer.exe",
-  "sha256": "eb574a65eb118ef186254f3919ebb2ba1cf799763a45a4725a7593134b5438f6",
-  "size": 14664192,
-  "notes": "1.45: 삭제 병목 개선"
+  "version": "1.46",
+  "file": "1.46/SkpViewportViewer.exe",
+  "sha256": "61b643e940ada397a2e244834aca90ffefe254128b21381f5d71dc2fb0f51b56",
+  "size": 39429120,
+  "notes": "1.46: 메뉴를 꺼내 나만의 HUD로, 섬이 매번 새로 만들어져요, 스컬핑이 빨라졌어요, 초원에 어울리는 나무와 풀, 휴지통이 꿀꺽, 출력 기본값 버튼, HUD에 올린 항목이 사라지지 않아요, Esc 한 번으로 선택 취소, 캔버스를 돌리면 하늘도 같이, 덩어리가 살아난 나무와 풀"
 }

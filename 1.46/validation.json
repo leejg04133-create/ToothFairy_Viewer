@@ -1,0 +1,158 @@
+{
+  "version": "1.46",
+  "revision": "20261124-hud-island146-1.46",
+  "binaryBuiltAt": "2026-11-24T12:32:40.802669+09:00",
+  "binarySha256": "61b643e940ada397a2e244834aca90ffefe254128b21381f5d71dc2fb0f51b56",
+  "binarySize": 39429120,
+  "tests": [
+    {
+      "name": "news",
+      "logSha256": "b3cd7eeafec63a349c6a32d412925cbb32e828676698d326cababc22d8e5c493",
+      "passes": 11
+    },
+    {
+      "name": "news2",
+      "logSha256": "b3cd7eeafec63a349c6a32d412925cbb32e828676698d326cababc22d8e5c493",
+      "passes": 11
+    },
+    {
+      "name": "cover",
+      "logSha256": "7fb0638146a27c5a413d4f9c9fcad51bdd5b1ceed551863ac60dbc2959b61dad",
+      "passes": 2
+    },
+    {
+      "name": "sections",
+      "logSha256": "85a68a18b73dbd000b94d8249844300d075786c2310b72f6c88ba42e452b9bff",
+      "passes": 2
+    },
+    {
+      "name": "display",
+      "logSha256": "bc50839190da4e3bc3e283d638f76b892497d24d19d3389977183e4749a8ba6f",
+      "passes": 2
+    },
+    {
+      "name": "hud",
+      "logSha256": "5fef0a74282fe1bcf7503f39a4c2ee007726d4f868e2d612b146bd99d7f8e193",
+      "passes": 107
+    },
+    {
+      "name": "object",
+      "logSha256": "1dee83fc22a1961a4fce3b8f611f55a086f34cc5d007c48cda28d71caaeb425f",
+      "passes": 64
+    },
+    {
+      "name": "settings",
+      "logSha256": "fefdb3308bc4ce706ec8cf38ed4e4f821b3c87817baf96897b35c7d465cbcb68",
+      "passes": 47
+    },
+    {
+      "name": "grab",
+      "logSha256": "78dc5ef653d61f9fce915d822981b6aef442dff6bff1da5cc3a7a9440c885a76",
+      "passes": 37
+    },
+    {
+      "name": "layer",
+      "logSha256": "cb2db850f0e81a014e46fda9387bbdf65d477008350658bfb49beee5479293a0",
+      "passes": 20
+    },
+    {
+      "name": "masses",
+      "logSha256": "3880b9fbe9dbb05a85e1ae3977938dc0c078959dfebff0a2521638aae4a8522e",
+      "passes": 31
+    },
+    {
+      "name": "pick",
+      "logSha256": "dedbce9193ca904d442ebb1f7fcbef024ad5a14756710bcd2149d6b8140a144a",
+      "passes": 4
+    },
+    {
+      "name": "hover",
+      "logSha256": "2739e18cc01bde422b8df044456f188f063953a6bd0d40fa86f44a88399ce347",
+      "passes": 30
+    },
+    {
+      "name": "pointer",
+      "logSha256": "afd64855f59a67bb53d6911b105ff3a0d3bfa17269268ef77981ffbe6cb1b58a",
+      "passes": 106
+    },
+    {
+      "name": "clock",
+      "logSha256": "57c84f26237eb76ce102b6d4f0a93ce34223636131beea1533409bdb36f024bf",
+      "passes": 98
+    },
+    {
+      "name": "fly",
+      "logSha256": "1e4844907033606cd80c25a3e200495f61a6c72cd3cb15f246eb66b64181cfb3",
+      "passes": 9
+    },
+    {
+      "name": "corona",
+      "logSha256": "f7d759d0e9274622e42eb2e59b689f05bf8b096fa0b8df873fd68a9a5a578003",
+      "passes": 22
+    },
+    {
+      "name": "disc",
+      "logSha256": "4f1914778d86b8d0f5b091b224dc45ffca3bc1e584ac895afa0914c437717833",
+      "passes": 29
+    },
+    {
+      "name": "moon",
+      "logSha256": "e42e1730ce9f991c9a7148be8bfe432a24a9598783047b038259800a05992b9d",
+      "passes": 27
+    },
+    {
+      "name": "forms",
+      "logSha256": "324e42c69db00897735fd412fffc6229be70e4b8c57cb39c42e9fc35d4cf7098",
+      "passes": 32
+    },
+    {
+      "name": "ocean",
+      "logSha256": "e029700a4b7a91daa42050162f7182cad1cd71e423c2d74eab3c659feb6bf692",
+      "passes": 4
+    },
+    {
+      "name": "curve",
+      "logSha256": "3aad5bac9b17add251010d04c50b4ab675c2ba4d59bbb24717fa623d707a0c52",
+      "passes": 13
+    },
+    {
+      "name": "cam55",
+      "logSha256": "fea09c476ef52a8fe79465a1faba7b0aa873e2502c9c005a7b055b48df28b1a5",
+      "passes": 63
+    },
+    {
+      "name": "opacity",
+      "logSha256": "6b62a4ff6e8b13e931fb20c852386380ee29981c438f187eddfeb15526d39345",
+      "passes": 71
+    },
+    {
+      "name": "brush",
+      "logSha256": "1dee83fc22a1961a4fce3b8f611f55a086f34cc5d007c48cda28d71caaeb425f",
+      "passes": 64
+    },
+    {
+      "name": "manual",
+      "logSha256": "1dee83fc22a1961a4fce3b8f611f55a086f34cc5d007c48cda28d71caaeb425f",
+      "passes": 64
+    },
+    {
+      "name": "sculptsea",
+      "logSha256": "daa1eb4a104f776debf6f54f327bdb6d84d05c94373c8ed1416d52f53e9394e7",
+      "passes": 3
+    },
+    {
+      "name": "esc",
+      "logSha256": "1dbfca2934e5ef07201c543c9986540bbdc76d7021af307cfc4e6bfc1ad711e5",
+      "passes": 22
+    },
+    {
+      "name": "skyturn",
+      "logSha256": "b2f1d8bf78874769405bf506bd0ee4525f218e15e7db34ad49b4ae9261080c4d",
+      "passes": 17
+    },
+    {
+      "name": "viewer-tools",
+      "passes": 562
+    }
+  ]
+}
