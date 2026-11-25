@@ -2,7 +2,7 @@
   "product": "ToothFairy_Viewer",
   "version": "1.48",
   "file": "1.48/SkpViewportViewer.exe",
-  "sha256": "e91534bf3db35a4c5bed2d5eeeb9e6d1f09a1ead49d177c8ebcc22ff0ceb5324",
+  "sha256": "7000b8eae9795cfde05084ed4e6a766378bfb4409685090a43810aa645146e43",
   "size": 41491456,
   "notes": "1.48: 최근 업데이트를 화살표와 점으로 보기, HUD와 오른쪽 메뉴 열림 효과, 수면 반사와 PSD 내보내기 개선"
 }

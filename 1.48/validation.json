@@ -1,10 +1,15 @@
 {
   "version": "1.48",
-  "revision": "20261125-1.48",
-  "binaryBuiltAt": "2026-11-25T10:04:17.914937+09:00",
-  "binarySha256": "e91534bf3db35a4c5bed2d5eeeb9e6d1f09a1ead49d177c8ebcc22ff0ceb5324",
+  "revision": "20261125-1.48-material-precedence",
+  "binaryBuiltAt": "2026-11-25T10:23:36.094589+09:00",
+  "binarySha256": "7000b8eae9795cfde05084ed4e6a766378bfb4409685090a43810aa645146e43",
   "binarySize": 41491456,
   "tests": [
+    {
+      "name": "material-precedence-sdk-fixture",
+      "logSha256": "63e84446ce04776632915ed8cbc30cc98f1c937bce455de5bd89d5120cd51238",
+      "passes": 5
+    },
     {
       "name": "update-history",
       "logSha256": "8f6b6599067951d3c05c3e1823697d5db8758756fc94dd8d9018a8bf699ca44d",
@@ -16,28 +21,8 @@
       "passes": 28
     },
     {
-      "name": "menus",
-      "logSha256": "892a75bdde0c98577d1464ed64458504bd3d9d181f480fb18debaf77273e7e08",
-      "passes": 45
-    },
-    {
-      "name": "hotkeys",
-      "logSha256": "33475b81865e8f6d578140c9152b16ae65e89c40963fedacdb2baa1e46ce7b49",
-      "passes": 43
-    },
-    {
-      "name": "opaque-house",
-      "logSha256": "fd745bdfabf31fae8df0c9a827b4c7ce0b95c595ef62fa77897732ff36406871",
-      "passes": 21
-    },
-    {
-      "name": "sunlight-psd",
-      "logSha256": "02b4bebd8aedde471517452246752d1191d2f3cd27c36a2c630d6d9cd17d626a",
-      "passes": 12
-    },
-    {
       "name": "viewer-tools",
-      "logSha256": "e0564ed95857cea6853c9b3326e6c10367329995985971631b72c76571a5b62b",
+      "logSha256": "7b4122d698dd3aaba0a446e7f8df151d1be39f54d42dd50f7af9621d51f768f2",
       "passes": 574
     }
   ]
