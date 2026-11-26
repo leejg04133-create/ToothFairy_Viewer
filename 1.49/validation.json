@@ -1,0 +1,27 @@
+{
+  "version": "1.49",
+  "base": "1.48 material fix (8ab65cf)",
+  "sha256": "01ec871f79f735ebd57c9e18f1a724ddd0ebb58c51f65a97432c76e147b565d5",
+  "size": 40402432,
+  "build": "MSVC x64, release resources rebuilt with the verified default HTTPS endpoint",
+  "viewerToolChecksPassed": 574,
+  "hotkeyUpdateProbe": "passed",
+  "loader": {
+    "browserInteraction": "passed",
+    "nativeReadyResizeParentClose": "passed",
+    "packagedCubismResources": 0
+  },
+  "license": {
+    "policyAndCacheChecksPassed": 13,
+    "existingLocalAuthorityRegistration": "7-day and permanent passed with synthetic credentials",
+    "differentDevice": "second registration rejected with HTTP 409",
+    "offlineStartup": "passed with an isolated PC-bound DPAPI receipt",
+    "unlicensedStartup": "blocked before renderer initialization",
+    "productionService": "Cloudflare Workers Free with D1; public HTTPS validated",
+    "productionEndpoint": "https://toothfairy-license.maual.workers.dev/activate",
+    "externalRegistration": "1-day, 7-day and permanent, repeat receipt, rejection on another PC",
+    "nativeClient": "WinHTTP default endpoint with no local sidecar and DPAPI offline receipt",
+    "legacyRecordsPreserved": 3,
+    "productionRowsWrittenPerRegistration": 2
+  }
+}
