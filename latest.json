@@ -1,8 +1,8 @@
 {
   "product": "ToothFairy_Viewer",
-  "version": "1.49",
-  "file": "1.49/SkpViewportViewer.exe",
-  "sha256": "01ec871f79f735ebd57c9e18f1a724ddd0ebb58c51f65a97432c76e147b565d5",
-  "size": 40402432,
-  "notes": "1.49: 로딩 중 이빨요정의 시선, 7일권과 영구권 인증"
+  "version": "1.50",
+  "file": "1.50/SkpViewportViewer.exe",
+  "sha256": "7307c55113aeac2574a3f40134df8d32143a21927337dd07f5a4e279597bb774",
+  "size": 40516608,
+  "notes": "1.50: 선택 내보내기 레이어 순서 수정, 창 투명도 단계점, Tab으로 하단 HUD 접기, 태양 HUD에서 날짜 조정, 바다 없이 태양 조작, 캐릭터 HUD를 짧게 정리, 시작 화면에서 대기 팝업 정리, 크랙과 캐릭터 재생 HUD 통일, 시리얼키 인증 화면 입력 정리, 뷰어에서 캐릭터 계속 표시"
 }

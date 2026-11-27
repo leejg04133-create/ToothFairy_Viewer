@@ -1,0 +1,34 @@
+{
+  "version": "1.50",
+  "base": "1.49 (bbce6e7)",
+  "build": "MSVC x64 including 1.50 Win32 version resources",
+  "sha256": "7307c55113aeac2574a3f40134df8d32143a21927337dd07f5a4e279597bb774",
+  "size": 40516608,
+  "selectionPsd": {
+    "stackTopDown": [
+      "그림자_선택",
+      "선_선택",
+      "텍스처_선택",
+      "그림자",
+      "선",
+      "텍스처"
+    ],
+    "shadowMode": "Multiply",
+    "shadowOpacityByte": 128,
+    "soloLineWithOriginalCheckboxOff": "passed"
+  },
+  "filamentSelectionPsd": {
+    "translucentSky": {
+      "pixelsAbove3ChannelLevels": 373,
+      "pixels": 80240,
+      "maxChannelDifference": 19
+    },
+    "opaqueSky": {
+      "pixelsAbove3ChannelLevels": 0,
+      "pixels": 80240,
+      "maxChannelDifference": 3
+    }
+  },
+  "layeredLightPsdProbe": "passed",
+  "hotkeyUpdateProbe": "passed"
+}
